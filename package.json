@@ -1,7 +1,7 @@
 {
   "name": "root",
   "private": true,
-  "workspaces": ["nl-backlink-component"],
+  "workspaces": ["nl-backlink-component", "nl-status-badge-component"],
   "devDependencies": {
     "lerna": "^3.22.1"
   }

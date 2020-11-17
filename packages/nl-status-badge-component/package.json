@@ -1,0 +1,7 @@
+{
+  "name": "nl-status-badge-component",
+  "version": "0.0.1",
+  "main": "index.js",
+  "module": "index.js",
+  "license": "MIT"
+}
