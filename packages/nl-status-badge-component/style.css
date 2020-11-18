@@ -1,66 +1,31 @@
 .nl-status-badge {
-	--nl-status-badge-success-background-color: var(--nl-status-fill-success-color, #008000);
-	--nl-status-badge-success-color: var(--nl-status-fill-success-contrast-color, white);
-	--nl-status-badge-success-border-color: var(--nl-status-badge-success-background-color);
-
-	--nl-status-badge-warning-background-color: var(--nl-status-fill-warning-color, #FFA500);
-	--nl-status-badge-warning-color: var(--nl-status-fill-warning-contrast-color, black);
-	--nl-status-badge-warning-border-color: var(--nl-status-badge-warning-background-color);
-
-	--nl-status-badge-error-background-color: var(--nl-status-fill-error-color, #DC143C);
-	--nl-status-badge-error-color: var(--nl-status-fill-error-contrast-color, white);
-	--nl-status-badge-error-border-color: var(--nl-status-badge-error-background-color);
-
-	--nl-status-badge-border-radius: 100px;
-	--nl-status-badge-text-transform: uppercase;
-	--nl-status-badge-padding-block: 1ch;
-	--nl-status-badge-padding-inline: 2ch;
-	--nl-status-badge-font-family: var(--nl-badge-font-family, Arial);
-	--nl-status-badge-font-weight: var(--nl-badge-font-weight, 700);
-	--nl-status-badge-font-size: var(--nl-badge-font-size, 0.75rem);
+	--nl-status-badge-background-color: lightgrey;
+	--nl-status-badge-color: black;
 
 	box-sizing: border-box;
-	padding-block-start: var(--nl-status-badge-padding-block);
-	padding-block-end: var(--nl-status-badge-padding-block);
-	padding-inline-start: var(--nl-status-badge-padding-inline);
-	padding-inline-end: var(--nl-status-badge-padding-inline);
-	border-radius: var(--nl-status-badge-border-radius);
-	text-transform: var(--nl-status-badge-text-transform);
-	font-family: var(--nl-status-badge-font-family);
-	font-weight: var(--nl-status-badge-font-weight);
-	font-size: var(--nl-status-badge-font-size);
-	border: 1px solid transparent;
+	padding-block-start: var(--nl-status-badge-padding-block, 0);
+	padding-block-end: var(--nl-status-badge-padding-block, 0);
+	padding-inline-start: var(--nl-status-badge-padding-inline, 0);
+	padding-inline-end: var(--nl-status-badge-padding-inline, 0);
+	border-radius: var(--nl-status-badge-border-radius, 0);
+	text-transform: var(--nl-status-badge-text-transform, inherit);
+	font-family: var(--nl-status-badge-font-family, inherit);
+	font-weight: var(--nl-status-badge-font-weight, inherit);
+	font-size: var(--nl-status-badge-font-size, 0.75rem);
 	vertical-align: middle;
 }
 
-.nl-status-badge--outline {
-	--nl-status-badge-success-background-color: var(--nl-status-text-success-contrast-color, khaki);
-	--nl-status-badge-success-color: var(--nl-status-text-success-color, green);
-	--nl-status-badge-success-border-color: var(--nl-status-badge-success-color);
-
-	--nl-status-badge-warning-background-color: var(--nl-status-text-warning-contrast-color, lightyellow);
-	--nl-status-badge-warning-color: var(--nl-status-text-warning-color, orange);
-	--nl-status-badge-warning-border-color: var(--nl-status-badge-warning-color);
-
-	--nl-status-badge-error-background-color: var(--nl-status-text-error-contrast-color, MistyRose);
-	--nl-status-badge-error-color: var(--nl-status-text-error-color, #DC143C);
-	--nl-status-badge-error-border-color: var(--nl-status-badge-error-color);
-}
-
 .nl-status-badge--success {
-	background-color: var(--nl-status-badge-success-background-color);
-	color: var(--nl-status-badge-success-color);
-	border-color: var(--nl-status-badge-success-border-color);
+	background-color: var(--nl-status-badge-success-background-color, var(--nl-status-fill-success-color, var(--nl-status-badge-background-color)));
+	color: var(--nl-status-badge-success-color, var(--nl-status-badge-success-color, var(--nl-status-badge-color)));
 }
 
 .nl-status-badge--warning {
-	background-color: var(--nl-status-badge-warning-background-color);
-	color: var(--nl-status-badge-warning-color);
-	border-color: var(--nl-status-badge-warning-border-color);
+	background-color: var(--nl-status-badge-warning-background-color, var(--nl-status-fill-warning-color, var(--nl-status-badge-background-color)));
+	color: var(--nl-status-badge-warning-color, var(--nl-status-badge-warning-color, var(--nl-status-badge-color)));
 }
 
 .nl-status-badge--error {
-	background-color: var(--nl-status-badge-error-background-color);
-	color: var(--nl-status-badge-error-color);
-	border-color: var(--nl-status-badge-error-border-color);
+	background-color: var(--nl-status-badge-error-background-color, var(--nl-status-fill-error-color, var(--nl-status-badge-background-color)));
+	color: var(--nl-status-badge-error-color, var(--nl-status-badge-error-color, var(--nl-status-badge-color)));
 }
