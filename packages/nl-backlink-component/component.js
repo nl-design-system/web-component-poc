@@ -57,7 +57,7 @@ export class NLBacklinkElement extends HTMLElement {
         if(this.shadow) {
 			//FIXME: should be solved with some type of css import or relative dependency
 			const styleLink = document.createElement('link');
-			styleLink.href="./packages/nl-backlink-component/style.css"
+			styleLink.href="./style.css"
 			styleLink.setAttribute('rel', 'stylesheet');
 
             const linkText = createBacklinkText(document.createElement('slot'));
