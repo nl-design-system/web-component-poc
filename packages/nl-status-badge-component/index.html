@@ -3,7 +3,6 @@
 <head>
 	<meta charset="utf-8">
 	<title>NLDS Status Badge Components</title>
-    <script src="./extend.js" type="module"></script>
     <script src="./element.js" type="module"></script>
 	<link rel="stylesheet" href="./style.css"/>
 </head>
@@ -20,13 +19,13 @@
 	<nl-status-badge status="warning" outline>Verbinden</nl-status-badge>
 </p>
 
-<h2>HTML extended component</h2>
-<pre>&lt;span is="nl-html-status-badge" data-status="{{success OR error OR warning}}" data-outline?&gt;</pre>
+<h2>HTML component</h2>
+<pre>&lt;span class="nl-status-badge nl-status-badge--{status} nl-status-badge--outline?"&gt;</pre>
 <p>
-	<span is="nl-html-status-badge" data-status="success">Online</span>
-	<span is="nl-html-status-badge" data-status="error">Offline</span>
-	<span is="nl-html-status-badge" data-status="warning">Verbinden</span>
-	<span is="nl-html-status-badge" data-status="success" data-outline>Online</span>
-	<span is="nl-html-status-badge" data-status="error" data-outline>Offline</span>
-	<span is="nl-html-status-badge" data-status="warning" data-outline>Verbinden</span>
+	<span class="nl-status-badge nl-status-badge--success">Online</span>
+	<span class="nl-status-badge nl-status-badge--error">Offline</span>
+	<span class="nl-status-badge nl-status-badge--warning">Verbinden</span>
+	<span class="nl-status-badge nl-status-badge--success nl-status-badge--outline">Online</span>
+	<span class="nl-status-badge nl-status-badge--error nl-status-badge--outline">Offline</span>
+	<span class="nl-status-badge nl-status-badge--warning nl-status-badge--outline">Verbinden</span>
 </p>
