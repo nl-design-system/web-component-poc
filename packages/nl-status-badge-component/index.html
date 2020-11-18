@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>NLDS Status Badge Components</title>
+    <script src="./extend.js" type="module"></script>
+    <script src="./element.js" type="module"></script>
+	<link rel="stylesheet" href="./style.css"/>
+</head>
+
+<h1>Status Badge</h1>
+<h2>Custom component</h2>
+<pre>&lt;nl-badge-component status="{{success || error || warning}}" outline?&gt;</pre>
+<p>
+	<nl-status-badge status="success">Online</nl-status-badge>
+	<nl-status-badge status="error">Offline</nl-status-badge>
+	<nl-status-badge status="warning">Verbinden</nl-status-badge>
+	<nl-status-badge status="success" outline>Online</nl-status-badge>
+	<nl-status-badge status="error" outline>Offline</nl-status-badge>
+	<nl-status-badge status="warning" outline>Verbinden</nl-status-badge>
+</p>
+
+<h2>HTML extended component</h2>
+<pre>&lt;span is="nl-html-status-badge" data-status="{{success OR error OR warning}}" data-outline?&gt;</pre>
+<p>
+	<span is="nl-html-status-badge" data-status="success">Online</span>
+	<span is="nl-html-status-badge" data-status="error">Offline</span>
+	<span is="nl-html-status-badge" data-status="warning">Verbinden</span>
+	<span is="nl-html-status-badge" data-status="success" data-outline>Online</span>
+	<span is="nl-html-status-badge" data-status="error" data-outline>Offline</span>
+	<span is="nl-html-status-badge" data-status="warning" data-outline>Verbinden</span>
+</p>
