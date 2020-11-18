@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>NLDS Backlink components</title>
+    <script src="./extend.js" type="module"></script>
+    <script src="./element.js" type="module"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <p>
+      <nl-backlink href="/">Back to overview</nl-backlink>
+    </p>
+
+    <p>
+      <a is="nl-html-backlink" href="/">Back to overview</a>
+    </p>
+    <script>
+      const textNode = document.createTextNode("Hello, World!");
+      const backlink = document.createElement("a", { is: "nl-html-backlink" });
+      backlink.setAttribute("href", "//example.com");
+      backlink.appendChild(textNode);
+      document.body.appendChild(backlink);
+
+      setInterval(() => (textNode.nodeValue = Math.random()), 1000);
+    </script>
+  </body>
+</html>
