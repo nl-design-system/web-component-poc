@@ -1,1 +1,1 @@
-export {NLStatusBadgeElement, NLStatusBadgeHTMLElement} from './component.js';
+export {NLStatusBadgeElement} from './component.js';
