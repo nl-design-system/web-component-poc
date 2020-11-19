@@ -2819,7 +2819,7 @@
     regenerator-runtime "^0.13.7"
     source-map "^0.7.3"
 
-"@storybook/theming@6.1.1":
+"@storybook/theming@6.1.1", "@storybook/theming@^6.1.1":
   version "6.1.1"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-6.1.1.tgz#ffa7925efc9a7ca755d6753802f8d2a984829675"
   integrity sha512-rSX02wcUEAB2EWRSAuMAY4ruqouEgAHX4V6pcOg7CU8YsIvYdIhB9TmgwKrQJfVilgQmS7szaZPKWoM/fivyDQ==

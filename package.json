@@ -4,6 +4,10 @@
   "description": "Web Components for NL Design System",
   "license": "EUPL-1.2",
   "name": "root",
+  "author": "Community for NL Design System",
+  "description": "Web Components for NL Design System",
+  "version": "0.0.1",
+  "license": "EUPL-1.2",
   "private": true,
   "devDependencies": {
     "@babel/core": "^7.12.3",
@@ -15,6 +19,7 @@
     "@storybook/addon-essentials": "^6.1.1",
     "@storybook/addon-links": "^6.1.1",
     "@storybook/html": "^6.1.0",
+    "@storybook/theming": "^6.1.1",
     "babel-loader": "^8.2.1",
     "eslint": "7.13.0",
     "eslint-config-prettier": "6.15.0",
