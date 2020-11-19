@@ -1,0 +1,44 @@
+import { Meta, Story, Canvas } from '@storybook/addon-docs/blocks';
+import './theme.css';
+import '../style.css';
+
+<Meta title="HTML/Status Badge" argTypes={{
+	status: {
+		description: 'Set the state attribute of the status badge',
+		control: { type: 'select', options: ['success', 'warning', 'error']}
+	},
+	label: {
+		description: 'Set the inner text of the badge, normally one word',
+		control: 'text'
+	}
+}}/>
+
+export const Template = ({ label, status }) => `<span class="nl-status-badge nl-status-badge--${status}">${label || '-'}</span>`;
+
+# NLStatusBadgeElement
+
+We can even preview multiple Stories in a block. This gets rendered as a group, but defines individual stories with unique URLs which is great for review and testing.
+
+<Canvas>
+  <Story name="success" args={{
+    status: 'success',
+    label: 'Online'
+  }}>
+    {Template.bind({})}
+  </Story>
+  <Story name="warning" args={{
+    status: 'warning',
+    label: 'Connecting...'
+  }}>
+    {Template.bind({})}
+  </Story>
+  <Story name="error" args={{
+    status: 'error',
+    label: 'Offline'
+  }}>
+    {Template.bind({})}
+  </Story>
+  <Story name="undefined" args={{}}>
+    {Template.bind({})}
+  </Story>
+</Canvas>
