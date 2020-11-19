@@ -1,9 +1,10 @@
 {
+  "version": "0.0.1",
+  "author": "Community for NL Design System",
+  "description": "Web Components for NL Design System",
+  "license": "EUPL-1.2",
   "name": "root",
   "private": true,
-  "workspaces": [
-    "nl-backlink-component"
-  ],
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
@@ -21,6 +22,7 @@
     "stylelint-config-prettier": "8.0.1"
   },
   "scripts": {
+    "bootstrap": "lerna bootstrap",
     "lint": "npm-run-all --continue-on-error 'lint:*' && lerna run lint",
     "lint:css": "stylelint '**/*.css'",
     "lint:js": "eslint '**/*.{js,jsx,ts,tsx}'",
