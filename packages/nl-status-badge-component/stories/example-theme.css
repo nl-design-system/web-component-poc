@@ -9,7 +9,7 @@
 }
 
 :root,
-.example-light-mode {
+.example-theme-light {
   --nl-status-badge-success-background-color: #008000;
   --nl-status-badge-success-color: white;
 
@@ -20,7 +20,7 @@
   --nl-status-badge-error-color: white;
 }
 
-.example-dark-mode {
+.example-theme-dark {
   --nl-status-badge-success-background-color: white;
   --nl-status-badge-success-color: #008000;
 
@@ -38,12 +38,12 @@
   padding-inline-end: 10px;
 }
 
-.example-dark-mode .example-box,
-.example-dark-mode.example-box {
+.example-theme-dark .example-box,
+.example-theme-dark.example-box {
   background-color: darkslategrey;
 }
 
-.example-light-mode .example-box,
-.example-light-mode.example-box {
+.example-theme-light .example-box,
+.example-theme-light.example-box {
   background-color: white;
 }
