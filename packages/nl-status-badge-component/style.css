@@ -13,6 +13,8 @@
 	font-weight: var(--nl-status-badge-font-weight, inherit);
 	font-size: var(--nl-status-badge-font-size, 0.75rem);
 	vertical-align: middle;
+	background-color: var(--nl-status-badge-background-color);
+	color: var(--nl-status-badge-color);
 }
 
 .nl-status-badge--success {
