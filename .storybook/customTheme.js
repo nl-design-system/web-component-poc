@@ -18,5 +18,6 @@ export default create({
 
   brandTitle: 'NL Design System',
   brandUrl: 'https://designsystem.gebruikercentraal.nl',
-  brandImage: 'https://assets.gitlab-static.net/uploads/-/system/project/avatar/16983432/Screen_Shot_2020-02-18_at_13.43.53.png?width=40',
+  brandImage:
+    'https://assets.gitlab-static.net/uploads/-/system/project/avatar/16983432/Screen_Shot_2020-02-18_at_13.43.53.png?width=40',
 });

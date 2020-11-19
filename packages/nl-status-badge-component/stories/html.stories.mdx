@@ -1,52 +1,61 @@
-import { Meta, Story, Source, Canvas } from '@storybook/addon-docs/blocks';
-import './theme.css';
-import '../style.css';
-import '../element.js';
+import { Meta, Story, Source, Canvas } from "@storybook/addon-docs/blocks";
+import "./theme.css";
+import "../style.css";
+import "../element.js";
 
-<Meta title="HTML/Status Badge" argTypes={{
-	status: {
-		description: 'Set the state attribute of the status badge',
-		control: { type: 'select', options: ['success', 'warning', 'error']}
-	},
-	label: {
-		description: 'Set the inner text of the badge, normally one word',
-		control: 'text'
-	}
-}}/>
+<Meta
+  title="HTML/Status Badge"
+  argTypes={{
+    status: {
+      description: "Set the state attribute of the status badge",
+      control: { type: "select", options: ["success", "warning", "error"] },
+    },
+    label: {
+      description: "Set the inner text of the badge, normally one word",
+      control: "text",
+    },
+  }}
+/>
 
-export const Template = ({ label, status }) => `<span class="nl-status-badge nl-status-badge--${status}">${label}</span>`;
+export const Template = ({ label, status }) =>
+  `<span class="nl-status-badge nl-status-badge--${status}">${label}</span>`;
 
 # Status Badge - HTML & CSS
 
 ## Examples
+
 <Canvas>
-  <Story name="success" args={{ status: 'success', label: 'Online' }}>
+  <Story name="success" args={{ status: "success", label: "Online" }}>
     {Template.bind({})}
   </Story>
-  <Story name="warning" args={{ status: 'warning', label: 'Connecting...' }}>
+  <Story name="warning" args={{ status: "warning", label: "Connecting..." }}>
     {Template.bind({})}
   </Story>
-  <Story name="error" args={{ status: 'error', label: 'Offline' }}>
+  <Story name="error" args={{ status: "error", label: "Offline" }}>
     {Template.bind({})}
   </Story>
 </Canvas>
 
 ## Success
+
 <Canvas>
   <span class="nl-status-badge nl-status-badge--success">Success</span>
 </Canvas>
 
 ## Warning
+
 <Canvas>
-    <span class="nl-status-badge nl-status-badge--warning">Warning</span>
+  <span class="nl-status-badge nl-status-badge--warning">Warning</span>
 </Canvas>
 
 ## Error
+
 <Canvas>
-    <span class="nl-status-badge nl-status-badge--error">Error</span>
+  <span class="nl-status-badge nl-status-badge--error">Error</span>
 </Canvas>
 
 ## Undefined Status
+
 <Canvas>
-    <span class="nl-status-badge">?</span>
+  <span class="nl-status-badge">?</span>
 </Canvas>
