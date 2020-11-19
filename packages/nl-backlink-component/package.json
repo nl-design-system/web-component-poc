@@ -1,5 +1,7 @@
 {
   "name": "nl-backlink-component",
+  "author": "Community for NL Design System",
+  "description": "NL Design System: Backlink web component",
   "version": "0.0.1",
   "main": "index.js",
   "module": "index.js",

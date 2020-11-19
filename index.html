@@ -1,30 +1,31 @@
 <!DOCTYPE html>
-<head>
-  <meta charset="utf-8" />
-  <script src="./packages/nl-backlink-component/extend.js" type="module"></script>
-  <script src="./packages/nl-backlink-component/element.js" type="module"></script>
-  <link rel="stylesheet" href="./packages/nl-backlink-component/style.css" />
-</head>
+<html lang="en">
+  <head>
+    <title>Example page</title>
+    <meta charset="utf-8" />
+    <script src="./packages/nl-backlink-component/extend.js" type="module"></script>
+    <script src="./packages/nl-backlink-component/element.js" type="module"></script>
+    <link rel="stylesheet" href="./packages/nl-backlink-component/style.css" />
+  </head>
+  <body>
+    <p>
+      <nl-backlink href="//example.com">Back to Example.com</nl-backlink>
+    </p>
 
-<p>
-  <nl-backlink href="//robbert.com">Back to Yolijn</nl-backlink>
-</p>
+    <p>
+      <a is="nl-html-backlink" href="//example.com">Back to Example.com</a>
+    </p>
 
-<p>
-  <a is="nl-html-backlink" href="//yolijn.com">Back to Yolijn</a>
-</p>
+    <h1>Hello world!</h1>
 
-<!-- <p>
-    <div is="nl-backlink-div" href="//yolijn.com">Back to Yolijn</div>
-</p> -->
-<h1>Hello world!</h1>
+    <script>
+      const textNode = document.createTextNode("Hello, World!");
+      const backlink = document.createElement("a", { is: "nl-html-backlink" });
+      backlink.setAttribute("href", "//google.com");
+      backlink.appendChild(textNode);
+      document.body.appendChild(backlink);
 
-<script>
-  const textNode = document.createTextNode("Hello, World!");
-  const backlink = document.createElement("a", { is: "nl-html-backlink" });
-  backlink.setAttribute("href", "//google.com");
-  backlink.appendChild(textNode);
-  document.body.appendChild(backlink);
-
-  setInterval(() => (textNode.nodeValue = Math.random()), 1000);
-</script>
+      setInterval(() => (textNode.nodeValue = Math.random()), 1000);
+    </script>
+  </body>
+</html>
