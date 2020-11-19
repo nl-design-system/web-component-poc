@@ -1,8 +1,27 @@
 {
   "name": "root",
   "private": true,
-  "workspaces": ["nl-backlink-component", "nl-status-badge-component"],
+  "workspaces": [
+    "nl-backlink-component",
+    "nl-status-badge-component"
+  ],
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "@babel/core": "^7.12.3",
+    "@storybook/addon-actions": "^6.1.0",
+    "@storybook/addon-controls": "^6.1.1",
+    "@storybook/addon-docs": "^6.1.1",
+    "@storybook/addon-essentials": "^6.1.1",
+    "@storybook/addon-links": "^6.1.1",
+    "@storybook/html": "^6.1.0",
+    "babel-loader": "^8.2.1",
+    "lerna": "^3.22.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "webpack": "^5.6.0"
+  },
+  "dependencies": {},
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   }
 }
