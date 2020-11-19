@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>NLDS Status Badge Components</title>
-	<script src="./element.js" type="module"></script>
-	<link rel="stylesheet" href="./demo-theme.css"/>
-	<link rel="stylesheet" href="./style.css"/>
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <title>NLDS Status Badge Components</title>
+    <script src="./element.js" type="module"></script>
+    <link rel="stylesheet" href="./demo-theme.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Status Badge</h1>
+    <h2>Custom component</h2>
+    <pre>&lt;nl-badge-component status="{{success || error || warning}}" outline?&gt;</pre>
+    <p class="example-light-mode example-box">
+      <nl-status-badge status="success">Online</nl-status-badge>
+      <nl-status-badge status="error">Offline</nl-status-badge>
+      <nl-status-badge status="warning">Verbinden</nl-status-badge>
+    </p>
+    <p class="example-dark-mode example-box">
+      <nl-status-badge status="success">Online</nl-status-badge>
+      <nl-status-badge status="error">Offline</nl-status-badge>
+      <nl-status-badge status="warning">Verbinden</nl-status-badge>
+    </p>
 
-<h1>Status Badge</h1>
-<h2>Custom component</h2>
-<pre>&lt;nl-badge-component status="{{success || error || warning}}" outline?&gt;</pre>
-<p class="light-mode example-box">
-	<nl-status-badge status="success">Online</nl-status-badge>
-	<nl-status-badge status="error">Offline</nl-status-badge>
-	<nl-status-badge status="warning">Verbinden</nl-status-badge>
-</p>
-<p class="dark-mode example-box">
-	<nl-status-badge status="success">Online</nl-status-badge>
-	<nl-status-badge status="error">Offline</nl-status-badge>
-	<nl-status-badge status="warning">Verbinden</nl-status-badge>
-</p>
-
-<h2>HTML component</h2>
-<pre>&lt;span class="nl-status-badge nl-status-badge--{status}"&gt;</pre>
-<p class="light-mode example-box">
-	<span class="nl-status-badge nl-status-badge--success">Online</span>
-	<span class="nl-status-badge nl-status-badge--error">Offline</span>
-	<span class="nl-status-badge nl-status-badge--warning">Verbinden</span>
-</p>
-<p class="dark-mode example-box">
-	<span class="nl-status-badge nl-status-badge--success">Online</span>
-	<span class="nl-status-badge nl-status-badge--error">Offline</span>
-	<span class="nl-status-badge nl-status-badge--warning">Verbinden</span>
-</p>
+    <h2>HTML component</h2>
+    <pre>&lt;span class="nl-status-badge nl-status-badge--{status}"&gt;</pre>
+    <p class="example-light-mode example-box">
+      <span class="nl-status-badge nl-status-badge--success">Online</span>
+      <span class="nl-status-badge nl-status-badge--error">Offline</span>
+      <span class="nl-status-badge nl-status-badge--warning">Verbinden</span>
+    </p>
+    <p class="example-dark-mode example-box">
+      <span class="nl-status-badge nl-status-badge--success">Online</span>
+      <span class="nl-status-badge nl-status-badge--error">Offline</span>
+      <span class="nl-status-badge nl-status-badge--warning">Verbinden</span>
+    </p>
+  </body>
+</html>
