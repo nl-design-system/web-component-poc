@@ -17,9 +17,9 @@ jobs:
         with:
           node-version: "14.x"
 
-      - name: npm install, lint, and test
+      - name: install, lint, and test
         run: |
-          npm ci
-          npm run bootstrap
-          npm run lint --if-present
-          npm run test --if-present
+          yarn
+          yarn bootstrap
+          yarn lint
+          yarn test
