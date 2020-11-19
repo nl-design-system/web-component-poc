@@ -23,6 +23,7 @@
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",
+    "build": "mkdir -p dist/storybook/ && echo 'Hello, World!' > dist/storybook/index.html",
     "lint": "npm-run-all --continue-on-error 'lint:*' && lerna run lint",
     "lint:css": "stylelint '**/*.css'",
     "lint:js": "eslint '**/*.{js,jsx,ts,tsx}'",
@@ -33,6 +34,10 @@
     "lint-fix:css": "stylelint --fix '**/*.css'",
     "lint-fix:js": "eslint --fix '**/*.{js,jsx,ts,tsx}'",
     "lint-fix:md": "markdownlint --fix '**/*.md'",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "start": "node_modules/http-server/bin/http-server dist/storybook/"
+  },
+  "dependencies": {
+    "http-server": "^0.12.3"
   }
 }
