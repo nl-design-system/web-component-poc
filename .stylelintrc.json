@@ -30,8 +30,6 @@
     "alpha-value-notation": ["percentage"],
     "hue-degree-notation": ["number"],
     "color-function-notation": ["modern"],
-    "color-named": ["never"],
-    "color-no-hex": [true],
     "length-zero-no-unit": [true, "custom-properties"],
     "font-weight-notation": [
       "numeric",
