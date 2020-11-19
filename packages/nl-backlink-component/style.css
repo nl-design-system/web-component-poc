@@ -1,23 +1,23 @@
 .nl-backlink {
-	color: var(--nl-backlink-color, var(--nih-link-color, black));
-	text-decoration: none;
-}
-
-.nl-backlink:hover .nl-backlink__text {
-	border-bottom: 1px solid currentColor;
-}
-
-.nl-backlink:hover .nl-backlink__icon {
-	transform: translateX(-.2ch);
+  color: var(--nl-backlink-color, var(--nih-link-color, hsl(0 0% 0%)));
+  text-decoration: none;
 }
 
 .nl-backlink__icon {
-    height: var(--nl-backlink-icon-size, 2.5ch);
-    width: var(--nl-backlink-icon-size, 2.5ch);
-	vertical-align: text-top;
-	fill: currentColor;
+  height: var(--nl-backlink-icon-size, 2.5ch);
+  width: var(--nl-backlink-icon-size, 2.5ch);
+  vertical-align: text-top;
+  fill: currentColor;
 }
 
 .nl-backlink__text {
-	margin-inline-start: 1ch;
+  margin-inline-start: 1ch;
+}
+
+.nl-backlink:hover .nl-backlink__text {
+  border-bottom: 1px solid currentColor;
+}
+
+.nl-backlink:hover .nl-backlink__icon {
+  transform: translateX(-0.2ch);
 }

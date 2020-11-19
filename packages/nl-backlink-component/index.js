@@ -1,1 +1,1 @@
-export {NLBacklinkElement, NLBacklinkHTMLElement} from './component.js';
+export { NLBacklinkElement, NLBacklinkHTMLElement } from './component.js';
