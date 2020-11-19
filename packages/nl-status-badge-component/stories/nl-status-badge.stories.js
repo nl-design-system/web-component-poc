@@ -1,16 +1,13 @@
+import { argTypes } from './sharedConfig.js';
 import './theme.css';
 import '../element.js';
 
 export default {
-  title: 'Web Components/Status Badge',
-  argTypes: {
-	status: { control: { type: 'select', options: ['success', 'warning', 'error']}},
-	label: { control: 'text'},
-	darkmode: {control: 'boolean'}
-  }
+	title: 'Web Components/Status Badge',
+	argTypes
 };
 
-const Template = ({ label, status }) => `<nl-status-badge status="${status}">${label}</nl-status-badge>`;
+const Template = ({ label, status }) => `<nl-status-badge status="${status}">${label || '-'}</nl-status-badge>`;
 
 export const Success = Template.bind({});
 Success.args = {
@@ -31,6 +28,3 @@ Error.args = {
 };
 
 export const Undefined = Template.bind({});
-Undefined.args = {
-	label: 'Oops, forgot to specify status'
-}
