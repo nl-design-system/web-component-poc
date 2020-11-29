@@ -1,4 +1,4 @@
-:root {
+export const defaultTheme = `{
   --nl-status-badge-border-radius: 100px;
   --nl-status-badge-text-transform: uppercase;
   --nl-status-badge-padding-block: 1ch;
@@ -6,10 +6,9 @@
   --nl-status-badge-font-family: Arial;
   --nl-status-badge-font-weight: 700;
   --nl-status-badge-font-size: 0.75rem;
-}
+}`;
 
-:root,
-.example-theme-light {
+export const exampleLightMode = `{
   --nl-status-badge-success-background-color: #008000;
   --nl-status-badge-success-color: white;
 
@@ -18,9 +17,9 @@
 
   --nl-status-badge-error-background-color: #dc143c;
   --nl-status-badge-error-color: white;
-}
+}`;
 
-.example-theme-dark {
+export const exampleDarkMode = `{
   --nl-status-badge-success-background-color: white;
   --nl-status-badge-success-color: #008000;
 
@@ -29,21 +28,4 @@
 
   --nl-status-badge-error-background-color: white;
   --nl-status-badge-error-color: #dc143c;
-}
-
-.example-box {
-  padding-block-start: 20px;
-  padding-block-end: 20px;
-  padding-inline-start: 10px;
-  padding-inline-end: 10px;
-}
-
-.example-theme-dark .example-box,
-.example-theme-dark.example-box {
-  background-color: darkslategrey;
-}
-
-.example-theme-light .example-box,
-.example-theme-light.example-box {
-  background-color: white;
-}
+}`;
