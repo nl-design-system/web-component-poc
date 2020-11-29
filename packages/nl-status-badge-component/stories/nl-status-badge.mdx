@@ -1,0 +1,27 @@
+import { Story, Canvas } from "@storybook/addon-docs/blocks";
+
+# NL Design System Status Badge
+
+## As a HTML element with class names
+
+<Canvas>
+  <Story id="html-status-badge--success"></Story>
+  <Story id="html-status-badge--warning"></Story>
+  <Story id="html-status-badge--error"></Story>
+</Canvas>
+
+## As a Web Component with status attribute
+
+<Canvas>
+  <Story id="web-components-status-badge--success"></Story>
+  <Story id="web-components-status-badge--warning"></Story>
+  <Story id="web-components-status-badge--error"></Story>
+</Canvas>
+
+## Undefined Status
+
+As a HTML component without a status class. Or as a Web Component without a status attribute
+
+<Canvas>
+  <span className="nl-status-badge">?</span>
+</Canvas>
