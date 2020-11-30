@@ -1,5 +1,5 @@
-import DOMPurify from 'dompurify';
 import '../style.css';
+import DOMPurify from 'dompurify';
 import { getStatusBadgeStories } from './getStatusBadgeStories';
 
 const Template = ({ textContent, status }) =>
