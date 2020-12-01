@@ -13,3 +13,7 @@ We pledge to act and interact in ways that contribute to an open, welcoming, div
 ## Contributing
 
 Read our [Contributing Guidelines](CONTRIBUTING.md) when you want to get started with development.
+
+## License
+
+This project is free and open-source software licensed under the [European Union Public License (EUPL) v1.2](LICENSE.md).
