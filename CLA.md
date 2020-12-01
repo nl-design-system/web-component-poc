@@ -12,7 +12,7 @@ You (hereinafter: the Contributor) wish to contribute to the development of the 
 
 The purpose of this licence agreement is (i) to clarify the intellectual property rights to the Contributions and (ii) to enable the Ministry and the Community to use and publish the Contributions.
 
-By accepting this licence agreement, the Contributor declares that he/she has read the terms and conditions of this licence agreement and is in agreement with these terms and conditions.
+By accepting this licence agreement, the Contributor declares that they have read the terms and conditions of this licence agreement and is in agreement with these terms and conditions.
 
 ## Rights granted by the Contributor
 
@@ -35,10 +35,10 @@ By accepting this licence agreement, the Contributor declares that he/she has re
 ## Warranties by the Contributor
 
 - The Contributor grants the right of use to the Contributions on an ‘as is’ basis. The Contributor bears no responsibility for errors, defects and omissions in the Contributions.
-- The Contributor guarantees that the Contributions are his/her own work. The Contributor may not provide Contributions from third parties to the Ministry and the Community.
-- The Contributor guarantees that he/she is legally entitled to grant the right of use referred to in clause 1. If the intellectual property rights to Contributions accrue to the Contributor’s employer, the Contributor hereby declares that he/she has received permission from his/her employer to grant the right of use referred to in clause 1.
-- The Contributor guarantees that he/she will not institute legal proceedings against the Ministry and the Community or third parties or suggest that such proceedings be instituted if they make use of the Contributions in accordance with this licence.
-- The Contributor guarantees that he/she will inform the Ministry and the Community if he/she has unexpectedly provided the Ministry and the Community with incorrect information in any way whatsoever.
+- The Contributor guarantees that the Contributions are their own work. The Contributor may not provide Contributions from third parties to the Ministry and the Community.
+- The Contributor guarantees that they are legally entitled to grant the right of use referred to in clause 1. If the intellectual property rights to Contributions accrue to the Contributor’s employer, the Contributor hereby declares that they have received permission from their employer to grant the right of use referred to in clause 1.
+- The Contributor guarantees that they will not institute legal proceedings against the Ministry and the Community or third parties or suggest that such proceedings be instituted if they make use of the Contributions in accordance with this licence.
+- The Contributor guarantees that they will inform the Ministry and the Community if they have unexpectedly provided the Ministry and the Community with incorrect information in any way whatsoever.
 
 ## Remaining provisions
 
