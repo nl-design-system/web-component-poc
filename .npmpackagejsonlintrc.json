@@ -29,6 +29,7 @@
     "scripts-type": "error",
     "version-type": "error",
     "valid-values-author": "off",
+    "valid-values-license": ["error", ["EUPL-1.2"]],
     "valid-values-private": ["error", [true]],
     "name-format": "error",
     "version-format": "error"
