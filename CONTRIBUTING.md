@@ -1,5 +1,22 @@
 # Contributing
 
+## Code of Conduct
+
+We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community. Read [our Code of Conduct](CODE_OF_CONDUCT.md) if you haven't already.
+
+## TL;DR
+
+Before you make a commit or PR, install our code check tools using `npm ci` and then `npm run bootstrap`. Run `npm run lint` and `npm run test` to see if everything is in order. Many things can be fixed automatically using `npm run lint-fix`. Make separate commits for separate purposes. Prefix all your commit message with `fix:`, `feat:`, `docs:` or any of [the other allowed commit types](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#type). When you make a PR you will need to sign our [Contributor License Agreement](CLA.md), so first check with your employer if you need to.
+
+## Processes
+
+This projects uses the following processes:
+
+- [Required code reviews](https://github.com/features/code-review/): every PR needs to be approved by (other) maintainers before it can be merged.
+- Required code checks: code must match our defined code style, tests and builds need to succeed before a PR can be merged.
+- [Conventional Commits](https://www.conventionalcommits.org/): commits messages should follow the specified pattern, so we can have nice things such as automatic semantic versioning and automatically generating change logs based on the commit history.
+- [Semantic Versioning](https://semver.org)
+
 ## Code Style
 
 The project uses the following tools to automate checking and fixing code style rules:
