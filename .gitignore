@@ -15,6 +15,7 @@ tmp/
 # Ignore code editor files
 .vscode/
 *.sublime-workspace
+.vs/
 
 # Ignore OS files
 .DS_Store
