@@ -3,7 +3,7 @@
   "author": "Community for NL Design System",
   "description": "Web Components for NL Design System",
   "license": "EUPL-1.2",
-  "name": "root",
+  "name": "@nl-design-system-unstable/web-component-poc",
   "private": true,
   "devDependencies": {
     "@babel/core": "^7.12.3",
