@@ -1,0 +1,5 @@
+{
+  "rules": {
+    "valid-values-name-scope": ["error", ["@nl-design-system"]]
+  }
+}
