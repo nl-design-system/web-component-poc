@@ -1,4 +1,4 @@
-name: Lint & Test
+name: Continuous Integration
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  build-and-deploy:
+  continuous-integration:
     runs-on: ubuntu-latest
 
     steps:

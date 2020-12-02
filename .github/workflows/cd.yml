@@ -1,4 +1,4 @@
-name: Release & Deploy
+name: Continuous Delivery
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  build-and-deploy:
+  continuous-delivery:
     runs-on: ubuntu-latest
 
     steps:
