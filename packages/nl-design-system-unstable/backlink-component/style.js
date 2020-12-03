@@ -1,0 +1,25 @@
+export default `
+.nl-backlink {
+  color: var(--nl-backlink-color, var(--nl-link-color, #000));
+  text-decoration: none;
+}
+
+.nl-backlink__icon {
+  height: var(--nl-backlink-icon-size, 2.5ch);
+  width: var(--nl-backlink-icon-size, 2.5ch);
+  vertical-align: text-top;
+  fill: currentColor;
+}
+
+.nl-backlink__text {
+  margin-inline-start: 1ch;
+}
+
+.nl-backlink:hover .nl-backlink__text {
+  border-bottom: 1px solid currentColor;
+}
+
+.nl-backlink:hover .nl-backlink__icon {
+  transform: translateX(-0.2ch);
+}
+`;
