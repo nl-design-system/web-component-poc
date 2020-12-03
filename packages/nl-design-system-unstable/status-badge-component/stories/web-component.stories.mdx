@@ -1,0 +1,37 @@
+import { Meta, Story, Canvas, ArgsTable } from "@storybook/addon-docs/blocks";
+import { argTypes, getParameters, decorators } from "./getStorySetup.js";
+import { sanitize } from "dompurify";
+
+export const Template = ({ label, status }) =>
+  `<nl-status-badge status="${status}">${sanitize(label)}</nl-status-badge status>`;
+
+<Meta
+  title="Web Components/Status Badge"
+  argTypes={argTypes}
+  parameters={getParameters(Template)}
+  decorators={decorators}
+/>
+
+# Status Badge - Web Components
+
+## UX guidelines
+
+<Canvas>
+  <Story name="Success" args={{ status: "success", label: "Online" }}>
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+<ArgsTable story="Success" />
+
+### Variations
+
+<Canvas>
+  <Story id="web-components-status-badge--success"></Story>
+  <Story name="Warning" args={{ status: "warning", label: "Connecting..." }}>
+    {Template.bind({})}
+  </Story>
+  <Story name="Error" args={{ status: "error", label: "Offline" }}>
+    {Template.bind({})}
+  </Story>
+</Canvas>
