@@ -1,3 +1,5 @@
+import style from './style.js';
+
 const BACKLINK_CLASS = 'nl-backlink';
 
 const createBacklinkIcon = () => {
@@ -47,12 +49,16 @@ export class NLBacklinkElement extends HTMLElement {
     super();
   }
 
+  // TODO: This should not be a copy of style.css
+  getStyles() {
+    return style;
+  }
+
   render() {
     if (this.shadow) {
       //FIXME: should be solved with some type of css import or relative dependency
-      const styleLink = document.createElement('link');
-      styleLink.href = './style.css';
-      styleLink.setAttribute('rel', 'stylesheet');
+      const style = document.createElement('style');
+      style.textContent = this.getStyles();
 
       const linkText = createBacklinkText(document.createElement('slot'));
 
@@ -60,7 +66,7 @@ export class NLBacklinkElement extends HTMLElement {
       this.anchor.href = this.getAttribute('href') || '';
       this.anchor.classList.add(BACKLINK_CLASS);
 
-      this.anchor.appendChild(styleLink);
+      this.anchor.appendChild(style);
       this.anchor.appendChild(createBacklinkIcon());
       this.anchor.appendChild(linkText);
 
