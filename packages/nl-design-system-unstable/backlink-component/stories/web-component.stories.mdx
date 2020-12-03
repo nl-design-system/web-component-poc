@@ -1,0 +1,32 @@
+import { Meta, Story, Canvas, ArgsTable } from "@storybook/addon-docs/blocks";
+import { argTypes, getParameters, decorators } from "./getStorySetup.js";
+import { sanitize } from "dompurify";
+
+export const Template = ({ href, content }) => `<nl-backlink href="${href}">${sanitize(content)}</nl-backlink>`;
+
+<Meta
+  title="Web Components/Backlink"
+  argTypes={argTypes}
+  parameters={getParameters(Template)}
+  decorators={decorators}
+/>
+
+# Backlink - Web Components
+
+## UX guidelines
+
+<Canvas>
+  <Story name="Simple" args={{ href: "#", content: "Back" }}>
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+<ArgsTable story="Simple" />
+
+### With complex content
+
+<Canvas>
+  <Story name="Complex" args={{ href: "http://example.com", content: "Back to <strong>example.com</strong>" }}>
+    {Template.bind({})}
+  </Story>
+</Canvas>
