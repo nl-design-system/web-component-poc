@@ -1,42 +1,41 @@
 # Badge
 
-*Status: **In ontwikkeling***
+*Status: **In development***
 
-## Introductie
+## Introduction
 
-Een badge trekt de aandacht en wijst een gebruiker op wijzigingen, systeem staten of nieuwe inhoud. Tevens kan het als (categorie) label dienen. De informatie in een badge is kort en duidelijk scanbaar.
+A badge draws attention and alerts a user to changes, system states or new content. It can also serve as a (category) label. The information in a badge is short, concise and clearly scannable.
+A badge can stand alone, but can also be contextually added to another element.
 
-Een badge kan op zichzelf staan maar tevens contextueel toegevoegd worden aan een ander element.
-
-## Soorten en varianten
+## Variants
 
 ### Counter badge
 
-Een counter badge geeft een getal weer. Optioneel kunnen getallen voorzien worden van een minus of plus teken.
+A counter badge is used to display numbers. Numbers can haven an optional minus or plus sign.
 
-Een lang getal kan ingekort worden en voorzien van een plus teken achter het laatste cijfer, bv. 999+. Zorg er voor dat de daadwerkelijke informatie beschikbaar is voor alle gebruikers, dus ook voor gebruikers van screen readers.
+A long number can be truncated with an added plus sign, for example 999+. Make sure that the full information is available to everyone, including people who rely on screen readers.
 
 ### Dot indicator
 
-Een dot indicator is een badge zonder tekstuele inhoud. De context voor een dot indicator wordt bepaald door het parent element waar deze bij behoort.
+A dot indicator is a badge without content. The context of a dot indicator is defined by its parent element.
 
-### Tekst badge
+### Text badge
 
-Een tekst badge kan gebruikt worden om een categorie of status aan te geven.
+A text badge can be used to signify a status or category.
 
 ### Status light
 
-Een status light geeft een status weer. Deze badge dient voorzien te zijn van een duidelijk tekstlabel dat de status beschrijft.
+A status light is used to display a status. A status light badge should have a descriptive text label.
 
-## Alternatieven en gerelateerde componenten
+## Alternatives and related components
 
-## Anatomie
+## Anatomy
 
-- Container met padding
-- Standaard rechter en ondermarge
-- Tekst (behalve voor Dot badge)
-- Tekst label (status light)
-- Optioneel icoon
+- Container with padding
+- Standard right and bottommargin
+- Text (except for the Dot badge)
+- Text label (for the status light)
+- Optional icon
 
 ## Design tokens
 
@@ -53,7 +52,7 @@ Een status light geeft een status weer. Deze badge dient voorzien te zijn van ee
 
 ### Dot indicator
 
-### Tekst badge
+### Text badge
 
 - badge-text-transform // Sentence case or uppercase
 
@@ -72,9 +71,9 @@ Een status light geeft een status weer. Deze badge dient voorzien te zijn van ee
 - feedback-fill-danger-background-color // Error notification background color
 - feedback-fill-danger-color // Error notification foreground (icon) color
 
-## Interactieve staten
+## Interactive states
 
-Wanneer een badge interactief is–de badge wordt bijvoorbeeld gebruikt voor categorie navigatie–dan dienen alle interactieve staten ontworpen te zijn.
+If a badge is interactive, for instance when it is being used as category navigation, make sure that all interactive states are properly designed.
 
 ### Focus
 
@@ -82,94 +81,99 @@ Wanneer een badge interactief is–de badge wordt bijvoorbeeld gebruikt voor cat
 
 ### Active
 
-## Ontwerp-eigenschappen
+## Design properties
 
-### Positionering
+### Positioning
 
-Wanneer meerdere badges naast of boven elkaar geplaatst worden, zorg dan voor voldoende tussenruimte (marge).
+In case multiple badges are placed next or above each other make sure there is enough spacing between each badge.
 
-### Typografie
+### Typography
 
-Als een badge een status weergeeft dan kan de gehele tekst in kapitalen gezet worden (all-caps).
+If a badge displays a status, text can be set in all-caps.
 
-### Overerving van tekstgrootte
+### Inheritance of text size
 
-Een badge kan de tekstgrootte van zijn parent element overnemen, denk hierbij bijvoorbeeld aan het toevoegen van een tekst badge aan een koptekst.
+A badge can inherit the text-size of its parent element, for example when a badge is used inside a heading.
 
-## Voorbeelden
+## Examples
 
-## Toegankelijkheid
+## Accessibility
 
-Zorg voor voldoende contrast tussen de voor- en achtergrond.
+Make sure there is enough contrast between the fore- and background colors.
 
-Maak niet alleen gebruik van kleur om een status weer te geven, zorg dat mensen met een kleurenblindheid het verschil kunnen zien door tevens gebruik te maken van textuur. Gebruik bijvoorbeeld een gevulde badge en een badge met omlijning om verschillen aan te tonen.
+Do not rely on color alone to indicate a status, make sure people suffering from forms of color blindness are able to see a difference in status by adding texture. Use for instance a filled versus an outlined badge to indicate differences.
 
-In het geval dat een badge een update weergeeft, zorg dan dat een screen-reader gebruiker ook over deze informatie beschikt.
+When a badge indicates an update
 
-## Content richtlijnen
+In case a badge displays an update, make sure that people relying on screen readers are made aware of such updates as well.
 
-Probeer tekst in een badge tot een enkel woord te beperken. In uiterste gevallen kunnen maximaal drie woorden gebruikt worden.
+## Content guidelines
+
+Try to minimize text inside a badge to a single word. In extreme cases up to a maximum of three words should be used.
 
 ## Best practices
 
 ### Dos
 
-Beperkt het aantal badges dat tegelijkertijd getoont worden om mentale overbelasting voor een gebruiker te voorkomen.
+Try to minimize the amount of badges to avoid mental overload for users.
 
-Plaats meerdere badges die een relatie hebben in een `<ul>` element.
+Place multiple badges sharing a relationship inside a `<ul>` element.
 
 ### Don'ts
 
-Om verwarring met knoppen te vermijden is het raadzaam om kleuren te vermijden die ook voor knoppen gebruikt worden.
+To avoid confusion with buttons it is advisable to not use colors also in use for buttons.
 
-Vermijd het gebruik van een badge in lopende tekst.
+Avoid using a badge in running text.
 
-## Referenties
+## References
 
-## Richtlijnen checklist
+## Guidelines checklist
 
 ### Layout
 
-Het component schaalt mee in een responsive layout.
+The component is flexible and scales in a responsive layout.
 
-### Interactieve staten
+### Interactive states
 
-Wanneer het een interactief component betreft dienen alle relevante interactieve staten aanwezig te zijn (focus, hover, active, disabled).
+When a component is interactive, make sure that all interactive states are properly designed (focus, hover, active, disabled).
 
-### Feedback staten
+### Feedback states
 
-Wanneer het component dient om feedback te tonen dienen alle relevante feedback staten aanwezig te zijn (informatie, succes, waarschuwing, foutmelding).
+When a component is used to provide feedback, make sure that all relevant feedback states are properly designed (information, success, warning, error).
 
 ### Content
 
-Tekst dient voor alle gebruikers begrijpelijk en makkelijk leesbaar te zijn. Inhoud dient toegankelijk en begrijpelijk te zijn voor screen-readers.
+Text should be readable and understandable. Content needs to be accessible to and understandable by screen reader software.
 
-### Varianten
+### Variants
 
-Als het component meerdere varianten heeft (variaties in bijvoorbeeld grootte, visuele stijl) dienen deze aanwezig te zijn. Wanneer meerdere kleurenthema’s zoals een dark mode aangeboden worden dient dit component daarin te voorzien.
+When a component has multiple variant (differences in for example size or visual style) all of these variant need to be properly designed. When multiple colorschemes such as dark or high contrast modes are provided, the component needs to gather for all these different modes.
 
-### Gebruiksrichtlijnen
+### Usage guidelines
 
-De documentatie voor het component is duidelijk genoeg om ermee te kunnen ontwerpen en het te implementeren. Voorzie waar mogelijk het component van ‘dos and don'ts’.
+Component documentation should be understandable and clear enough to design and implement a component. Where possible provide ‘dos and don'ts’.
 
-### Toegankelijkheid
+### Accessibility
 
-Het component dient toegankelijk te zijn voor alle gebruikers, het contrast niveau dient waar nodig te voldoen aan WCAG2.1 [succescriteria 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) en [1.4.11](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast).
+A component should be accessible for everyone. Contrast levels should meet WCAG2.1 [successcriterium 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) and [1.4.11](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast) for textual and non-textual interface elements respectively.
 
-Relevante inhoud dient door screen-readers geïnterpreteerd te kunnen worden.
+Relevant content should be made available to screen reading software.
 
-Alle interactie dient [mogelijk te zijn middels een toetsenbord](https://www.w3.org/WAI/WCAG21/Understanding/keyboard-accessible).
+All interaction should be [possible by keyboard](https://www.w3.org/WAI/WCAG21/Understanding/keyboard-accessible).
 
-### Implementatie
+### Development
 
-Het component dient voorzien te zijn van de juiste semantische markup.
+Components should be developed with correct and semantic markup.
 
-## Geschiedenis
+## History
+
+### 0.3 (07-12-2020)
+- Translation of Dutch documentation to English
 
 ### 0.2 (30-11-2020)
 
-- Toevoeging van design tokens
+- Addition of design tokens
 
 ### 0.1 (12-11-2020)
 
-- Eerste versie van documentatie
+- First documentation draft
