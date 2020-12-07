@@ -1,20 +1,20 @@
-# Design system pages
+# Badge
 
 *Status: **In ontwikkeling***
 
-# Introductie
+## Introductie
 
 Een badge trekt de aandacht en wijst een gebruiker op wijzigingen, systeem staten of nieuwe inhoud. Tevens kan het als (categorie) label dienen. De informatie in een badge is kort en duidelijk scanbaar.
 
 Een badge kan op zichzelf staan maar tevens contextueel toegevoegd worden aan een ander element.
 
-### Soorten en varianten
+## Soorten en varianten
 
 ### Counter badge
 
 Een counter badge geeft een getal weer. Optioneel kunnen getallen voorzien worden van een minus of plus teken.
 
-Een lang getal kan ingekort worden en voorzien van een plus teken achter het laatste cijfer, bv. 999+. Zorg er voor dat de daadwerkelijke informatie beschikbaar is voor alle gebruikers, dus ook voor gebruikers van screenreaders.
+Een lang getal kan ingekort worden en voorzien van een plus teken achter het laatste cijfer, bv. 999+. Zorg er voor dat de daadwerkelijke informatie beschikbaar is voor alle gebruikers, dus ook voor gebruikers van screen readers.
 
 ### Dot indicator
 
@@ -28,9 +28,9 @@ Een tekst badge kan gebruikt worden om een categorie of status aan te geven.
 
 Een status light geeft een status weer. Deze badge dient voorzien te zijn van een duidelijk tekstlabel dat de status beschrijft.
 
-### Alternatieven en gerelateerde componenten
+## Alternatieven en gerelateerde componenten
 
-# Anatomie
+## Anatomie
 
 - Container met padding
 - Standaard rechter en ondermarge
@@ -38,7 +38,7 @@ Een status light geeft een status weer. Deze badge dient voorzien te zijn van ee
 - Tekst label (status light)
 - Optioneel icoon
 
-### Design tokens
+## Design tokens
 
 - badge-corner-radius // Border radius
 - badge-padding-inline // Left and right padding
@@ -72,7 +72,7 @@ Een status light geeft een status weer. Deze badge dient voorzien te zijn van ee
 - feedback-fill-danger-background-color // Error notification background color
 - feedback-fill-danger-color // Error notification foreground (icon) color
 
-# Interactieve staten
+## Interactieve staten
 
 Wanneer een badge interactief is–de badge wordt bijvoorbeeld gebruikt voor categorie navigatie–dan dienen alle interactieve staten ontworpen te zijn.
 
@@ -82,9 +82,7 @@ Wanneer een badge interactief is–de badge wordt bijvoorbeeld gebruikt voor cat
 
 ### Active
 
-[Zie Ontwerp patronen → Interactieve staten](https://zeroheight.com/52045b9ea/p/207839-interactieve-staten)
-
-# Ontwerp-eigenschappen
+## Ontwerp-eigenschappen
 
 ### Positionering
 
@@ -98,9 +96,9 @@ Als een badge een status weergeeft dan kan de gehele tekst in kapitalen gezet wo
 
 Een badge kan de tekstgrootte van zijn parent element overnemen, denk hierbij bijvoorbeeld aan het toevoegen van een tekst badge aan een koptekst.
 
-# Voorbeelden
+## Voorbeelden
 
-# Toegankelijkheid
+## Toegankelijkheid
 
 Zorg voor voldoende contrast tussen de voor- en achtergrond.
 
@@ -108,17 +106,17 @@ Maak niet alleen gebruik van kleur om een status weer te geven, zorg dat mensen 
 
 In het geval dat een badge een update weergeeft, zorg dan dat een screen-reader gebruiker ook over deze informatie beschikt.
 
-# Content richtlijnen
+## Content richtlijnen
 
 Probeer tekst in een badge tot een enkel woord te beperken. In uiterste gevallen kunnen maximaal drie woorden gebruikt worden.
 
-# Best practices
+## Best practices
 
 ### Dos
 
-Beperkt het aantal badges dat tegelijkertijd getoont worden om mentale overbelasting voor een gebruiker te voorkomen .
+Beperkt het aantal badges dat tegelijkertijd getoont worden om mentale overbelasting voor een gebruiker te voorkomen.
 
-Plaats meerdere badges die een relatie hebben in een <ul> element.
+Plaats meerdere badges die een relatie hebben in een `<ul>` element.
 
 ### Don'ts
 
@@ -126,9 +124,9 @@ Om verwarring met knoppen te vermijden is het raadzaam om kleuren te vermijden d
 
 Vermijd het gebruik van een badge in lopende tekst.
 
-# Referenties
+## Referenties
 
-# Richtlijnen checklist
+## Richtlijnen checklist
 
 ### Layout
 
@@ -166,7 +164,7 @@ Alle interactie dient [mogelijk te zijn middels een toetsenbord](https://www.w3.
 
 Het component dient voorzien te zijn van de juiste semantische markup.
 
-# Geschiedenis
+## Geschiedenis
 
 ### 0.2 (30-11-2020)
 
