@@ -67,7 +67,7 @@ The variants share their color semantics with the colors for success, warning, a
 
 ### Don'ts
 
-- To avoid confusion with buttons it is advisable to not use colors also in use for buttons.
+- To avoid confusion with buttons it is advisable to not mimic the shape and overall appearance of a button.
 - Avoid using status badges in running text.
 
 ## References
