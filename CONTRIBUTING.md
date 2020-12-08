@@ -93,6 +93,8 @@ Documentation is written in [Markdown](https://daringfireball.net/projects/markd
 
 GitHub uses its own ‘flavor’ of Markdown. [See this list for an overview of all the formatting options](https://guides.github.com/features/mastering-markdown/) allowed in documentation.
 
+When referencing tokens they should be written between ‘backticks’ (`` ` ``). This ensures tokens will be rendered as code.
+
 ### Design components
 
 Documentation supports Figma-based components to be included. Details on process and workflow for this to follow.
