@@ -20,9 +20,7 @@ A status badge draws attention and alerts a user to system states. The informati
 ## Anatomy
 
 - Container with padding
-- Standard right and bottom-margin
-- Text
-- Optional icon
+- Status text
 
 ## Design tokens
 - --nl-status-badge-border-radius // Border radius
@@ -33,11 +31,11 @@ A status badge draws attention and alerts a user to system states. The informati
 - --nl-status-badge-font-weight // Text weight
 - --nl-status-badge-font-size // Text size
 - --nl-status-badge-success-background-color // Background color of success variant
-- --nl-status-badge-success-color // Text color of success variant
+- --nl-status-badge-success-color // Text color of success variant, should have sufficient contrast (pass 4.5:1 contrast level) with --nl-status-badge-success-background-color
 - --nl-status-badge-warning-background-color // Background color of warning variant
-- --nl-status-badge-warning-color // Text color of warning variant
+- --nl-status-badge-warning-color // Text color of warning variant, should have sufficient contrast (pass 4.5:1 contrast level) with --nl-status-badge-warning-background-color
 - --nl-status-badge-error-background-color // Background color of error variant
-- --nl-status-badge-error-color // Text color of error variant
+- --nl-status-badge-error-color // Text color of error variant, should have sufficient contrast (pass 4.5:1 contrast level) with --nl-status-badge-error-background-color
 
 ## Design properties
 
