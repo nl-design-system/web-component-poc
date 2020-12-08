@@ -70,7 +70,7 @@ Once your work is finished you are able to ‘commit’ your changes first to yo
 
 NLDS uses [Conventional Commits](https://www.conventionalcommits.org/) in order for commit messages to follow a consistent pattern.
 
-After committing your changes to your branch you need to merge them to the main repository. You have to make an additional ‘pull request’ to let reviewers know about your changes.
+After committing your changes to your branch you need to merge them to the main repository by clicking on the ‘Publish branch’ button. You have to make an additional ‘pull request’ to let reviewers know about your changes.
 
 Before an addition or change is approved and added to the design system it will first go through a review phase. If changes are needed, you will automatically receive an email on the address associated with your GitHub account.
 
