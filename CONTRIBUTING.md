@@ -14,7 +14,7 @@ This projects uses the following processes:
 
 - [Required code reviews](https://github.com/features/code-review/): every PR needs to be approved by (other) maintainers before it can be merged.
 - Required code checks: code must match our defined code style, tests and builds need to succeed before a PR can be merged.
-- [Conventional Commits](https://www.conventionalcommits.org/): commits messages should follow the specified pattern, so we can have nice things such as automatic semantic versioning and automatically generating change logs based on the commit history.
+- [Conventional Commits](https://www.conventionalcommits.org/): commits messages should follow the [specified pattern](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#type), so we can have nice things such as automatic semantic versioning and automatically generating change logs based on the commit history.
 - [Semantic Versioning](https://semver.org)
 
 ## Code Style
@@ -54,32 +54,45 @@ JSON is formatted using Prettier.
 
 ## Contributing as a designer or content specialist
 
-We encourage contributions from designers, copywriters and other stakeholders. There are many different ways to make a useful contribution, from the addition of (UX) documentation, new design components to fixing typing errors.
+The NL Design System encourages contributions from designers, copywriters and other stakeholders. There are many different ways to make a useful contribution, from the addition of (UX) documentation, new design components to fixing typing errors.
 
 In order to contribute you must have a [GitHub account](https://github.com/join).
 
 ### Using GitHub
 
-GitHub allows the NL Design System to be maintained in the open. Hosting the content on GitHub has several benefits; all the content is freely available to everything in a central place and can accept contributions from everyone. Version control means that a full history is kept of the progress of and changes to the design system. Changes can be reverted when needed.
+GitHub allows the NL Design System to be maintained in the open. Hosting the content on GitHub has several benefits; all the content is freely available to everything in a central place and can accept contributions from everyone. Version control means that a full history is kept of the progress of and changes to the project. Changes can be reverted when needed.
 
-The easiest way to work with GitHub is through the [GitHub Desktop application](https://desktop.github.com/), available for both Mac OS-X and Windows.
+The easiest way to work with GitHub is through the [GitHub Desktop application](https://desktop.github.com/), available for both macOS and Windows.
 
-For both new additions and changes to existing components or documentation you first need to create a ‘branch’. A branch duplicates the ‘repository’ (all content of NLDS), and allows you to make changes or additions safely in isolation without impacting the rest of the project.
+For both new additions and changes to existing components or documentation you first need to create a ‘branch’. A branch duplicates the ‘repository’ (all content of the project), and allows you to make changes or additions safely in isolation without impacting the rest of the project.
 
-Once your work is finished you are able to ‘commit’ your changes first to your branch. It is important to describe as clear and concise as possible what you have changed or added in the commit message. This message will be displayed to reviewers and all other contributors of the design system.
+Once your work is finished you are able to ‘commit’ your changes first to your branch. It is important to describe as clear and concise as possible what you have changed or added in the commit message. This message will be displayed to reviewers and all other contributors of the project. A longer in-depth description message can be provided as well should it be needed.
 
-NLDS uses [Conventional Commits](https://www.conventionalcommits.org/) in order for commit messages to follow a consistent pattern.
+The project uses [Conventional Commits](https://www.conventionalcommits.org/) in order for commit messages to follow a consistent pattern.
+
+Commit messages must always start with a type, for example ‘docs:’ for changes to additions to documentation. Other relevant types are ‘feat:’ for new features and ‘fix:’ for bug fixes to components. A [full overview of types is available here](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#type).
+
+#### Example commit message
+
+```
+docs: accessibility improvements to status badge
+^--^  ^----------------------------------------^
+|     |
+|     +-> Consise, short summary
+|
++-------> Type
+```
 
 After committing your changes to your branch you need to merge them to the main repository by clicking on the ‘Publish branch’ button. You have to make an additional ‘pull request’ to let reviewers know about your changes.
 
-Before an addition or change is approved and added to the design system it will first go through a review phase. If changes are needed, you will automatically receive an email on the address associated with your GitHub account.
+Before an addition or change is approved and added to the NL Design System it will first go through a review phase. If changes are needed, you will automatically receive an email on the address associated with your GitHub account.
 
 ### Writing documentation
 
-Our documentation is written in [Markdown](https://daringfireball.net/projects/markdown/), an easy to write and read text format that can easily be converted to other formats. Markdown allows documents to be consistently formatted and structured.
+Documentation is written in [Markdown](https://daringfireball.net/projects/markdown/), an easy to write and read text format that can easily be converted to other formats. Markdown allows documents to be consistently formatted and structured.
 
-GitHub uses its own ‘flavor’ of Markdown. [See this list for an overview of all the formatting options](https://guides.github.com/features/mastering-markdown/) allowed in our documentation.
+GitHub uses its own ‘flavor’ of Markdown. [See this list for an overview of all the formatting options](https://guides.github.com/features/mastering-markdown/) allowed in documentation.
 
 ### Design components
 
-We currently support Figma-based components to be included in out documentation.
+Documentation supports Figma-based components to be included. Details on process and workflow for this to follow.
