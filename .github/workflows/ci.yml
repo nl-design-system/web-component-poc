@@ -1,9 +1,7 @@
 name: Continuous Integration
 
 on:
-  push:
-    branches-ignore:
-      - main
+  pull_request:
 
 jobs:
   continuous-integration:
