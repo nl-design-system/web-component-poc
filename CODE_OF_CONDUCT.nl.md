@@ -1,4 +1,3 @@
-
 # Gedragscode voor Bijdragers
 
 ## Onze belofte
@@ -10,19 +9,19 @@ In het belang van het bevorderen van een open en welkome omgeving, beloven wij, 
 Voorbeelden van gedrag dat bijdraagt tot het creëren van een positieve omgeving
 omvat onder andere:
 
-* Gebruik van gastvrije en omvattende taal
-* Respectvol zijn ten aanzien van andere standpunten en ervaringen
-* Het accepteren van constructieve kritiek
-* Focussen op wat het beste is voor de gemeenschap
-* Empathisch zijn ten aanzien van andere deelnemers
+- Gebruik van gastvrije en omvattende taal
+- Respectvol zijn ten aanzien van andere standpunten en ervaringen
+- Het accepteren van constructieve kritiek
+- Focussen op wat het beste is voor de gemeenschap
+- Empathisch zijn ten aanzien van andere deelnemers
 
 Voorbeelden van niet acceptabel gedrag bij deelnemers omvat:
 
-* Het gebruik van seksueel geladen taal of prenten, alsook ongewenst seksuele aandacht of avances
-* Trollen, beledigend/denigrerend commentaar en persoonlijke of politieke aanvallen
-* Publiek of privaat lastig vallen
-* Het publiceren van privéinformatie zoals een fysiek of electronisch adres zonder expliciete toestemming
-* Ander gedrag dat redelijkerwijs zou kunnen worden beschouwd als ongepast in een professionele omgeving
+- Het gebruik van seksueel geladen taal of prenten, alsook ongewenst seksuele aandacht of avances
+- Trollen, beledigend/denigrerend commentaar en persoonlijke of politieke aanvallen
+- Publiek of privaat lastig vallen
+- Het publiceren van privéinformatie zoals een fysiek of electronisch adres zonder expliciete toestemming
+- Ander gedrag dat redelijkerwijs zou kunnen worden beschouwd als ongepast in een professionele omgeving
 
 ## Onze verantwoordelijkheden
 
@@ -43,5 +42,5 @@ Projectonderhouders die de Gedragscode niet volgen of ter goeder trouw handhaven
 
 ## Attributie
 
-Deze Gedragscode is een  aangepaste versie van  de [Contributor Covenant](https://www.contributor-covenant.org),
+Deze Gedragscode is een aangepaste versie van de [Contributor Covenant](https://www.contributor-covenant.org),
 versie 1.4, beschikbaar op [https://www.contributor-covenant.org/nl/version/1/4/code-of-conduct.html](https://www.contributor-covenant.org/nl/version/1/4/code-of-conduct.html).
