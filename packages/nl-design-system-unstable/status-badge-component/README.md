@@ -1,6 +1,6 @@
 # Status badge
 
-*Status: **In development***
+\*Status: **In development\***
 
 ## Introduction
 
@@ -23,6 +23,7 @@ A status badge draws attention and alerts a user to system states. The informati
 - Status text
 
 ## Design tokens
+
 - `--nl-status-badge-border-radius` // Border radius
 - `--nl-status-badge-text-transform` // Uppercase or title case
 - `--nl-status-badge-padding-block` // Top and bottom padding
