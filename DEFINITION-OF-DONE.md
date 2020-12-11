@@ -1,6 +1,6 @@
 # Definition of done
 
-Before any component or documentation is considered ‘stable’ and get a versionnumber 1.0 assigned it has to meet certain requirements.
+Before any component or documentation is considered ‘stable’ and get a version number 1.0 assigned it has to meet certain requirements.
 
 These requirements ensure that everything published to the stable version of the project adheres to a quality baseline.
 
@@ -45,8 +45,8 @@ Where applicable components should meet the following criteria.
 ### Accessibility
 
 - A component should be accessible for everyone. Contrast levels should meet WCAG2.1 [successcriterium 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) and [1.4.11](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast) for textual and non-textual interface elements respectively.
-- Relevant content should be made available to screen reading software.
-- All interaction should be [possible by keyboard](https://www.w3.org/WAI/WCAG21/Understanding/keyboard-accessible).
+- Relevant content should be made available to assistive software (such as screen reader and speech software).
+- All interaction should be [possible by keyboard](https://www.w3.org/WAI/WCAG21/Understanding/keyboard-accessible) without excluding a mouse.
 
 ### Development
 
