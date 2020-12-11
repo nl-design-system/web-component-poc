@@ -1,6 +1,6 @@
 # Definition of done
 
-Before any component or documentation is considered ‘stable’ and get a version number 1.0 assigned it has to meet certain requirements.
+Before any component or documentation is considered ‘stable’ and gets a version number 1.0 assigned it has to meet certain requirements.
 
 These requirements ensure that everything published to the stable version of the project adheres to a quality baseline.
 
@@ -14,7 +14,7 @@ Where applicable components should meet the following criteria.
 
 ### Reusability
 
-- Component should be reusable. If you create a one-off, single-use component that will not be reused in your own or other projects refrain from adding it.
+- Components should be reusable. If you create a one-off, single-use component that will not be reused in your own or other projects refrain from adding it.
 - Use design tokens to establish the visual design.
 
 ### Layout
@@ -33,10 +33,10 @@ Where applicable components should meet the following criteria.
 
 - Text should be readable and understandable. Content needs to be accessible to and understandable by screen reader software.
 
-### Variants
+### Variations
 
-- When a component has multiple variant (differences in for example size or visual style) all of these variant need to be properly designed.
- -When multiple colorschemes such as dark or high contrast modes are provided, the component needs to gather for all these different modes.
+- When a component has multiple variations (differences in for example size or visual style) all of these variations need to be properly designed.
+ -When multiple color schemes such as dark or high contrast modes are provided, the component needs to gather for all these different modes.
 
 ### Usage guidelines
 
@@ -44,7 +44,7 @@ Where applicable components should meet the following criteria.
 
 ### Accessibility
 
-- A component should be accessible for everyone. Contrast levels should meet WCAG2.1 [successcriterium 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) and [1.4.11](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast) for textual and non-textual interface elements respectively.
+- A component should be accessible for everyone. Contrast levels should meet WCAG2.1 [success criterion 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) and [1.4.11](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast) for textual and non-textual interface elements respectively.
 - Relevant content should be made available to assistive software (such as screen reader and speech software).
 - All interaction should be [possible by keyboard](https://www.w3.org/WAI/WCAG21/Understanding/keyboard-accessible) without excluding a mouse.
 
@@ -54,5 +54,5 @@ Where applicable components should meet the following criteria.
 
 ### User research
 
-- If user research or testing has been conducted for a certain component or feature, be sure to include any relevant conclusions in the documetation.
+- If user research or testing has been conducted for a certain component or feature, be sure to include any relevant conclusions in the documentation.
 
