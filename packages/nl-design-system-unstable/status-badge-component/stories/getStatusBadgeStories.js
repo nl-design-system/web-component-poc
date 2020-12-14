@@ -1,6 +1,7 @@
 import { withCssResources } from '@storybook/addon-cssresources';
 import mdx from './nl-status-badge.mdx';
 import { defaultTheme, exampleDarkMode, exampleLightMode } from './themes.js';
+import { withDesign } from 'storybook-addon-designs';
 
 export const getStatusBadgeStories = ({ prefix, Template }) => {
   const config = {
@@ -42,8 +43,12 @@ export const getStatusBadgeStories = ({ prefix, Template }) => {
           hideCode: false, // Defaults to false, this enables you to hide the code snippet and only displays the style selector
         },
       ],
+      design: {
+        type: 'figma',
+        url: 'https://www.figma.com/file/thNg88CEm4XU4Pm9K2V0m2/component-badge-status-badge',
+      },
     },
-    decorators: [withCssResources],
+    decorators: [withCssResources, withDesign],
   };
 
   const Success = Template.bind({});
