@@ -27,6 +27,7 @@
     "prettier": "2.1.2",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "storybook-addon-designs": "^5.4.2",
     "stylelint": "13.7.2",
     "stylelint-config-prettier": "8.0.1",
     "webpack": "^4.44.2"
