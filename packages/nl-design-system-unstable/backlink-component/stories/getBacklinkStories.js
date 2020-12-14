@@ -1,5 +1,6 @@
 import mdx from './nl-backlink.mdx';
 import { defaultTheme, exampleLightMode, exampleDarkMode } from './themes';
+import { withDesign } from 'storybook-addon-designs';
 
 export const getBacklinkStories = ({ prefix, Template }) => {
   const config = {
@@ -39,7 +40,12 @@ export const getBacklinkStories = ({ prefix, Template }) => {
           hideCode: false, // Defaults to false, this enables you to hide the code snippet and only displays the style selector
         },
       ],
+      design: {
+        type: 'figma',
+        url: 'https://www.figma.com/file/BBZBJdbdVnvHwhcBoKsczw/components-backlink',
+      },
     },
+    decorators: [withDesign],
   };
 
   const Simple = Template.bind({});
