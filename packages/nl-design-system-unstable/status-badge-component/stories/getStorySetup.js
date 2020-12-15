@@ -1,5 +1,5 @@
 import { withCssResources } from '@storybook/addon-cssresources';
-import { defaultTheme, exampleDarkMode, exampleLightMode } from './themes.js';
+import { exampleBrandStyles, exampleDarkMode, exampleLightMode, defaultTheme } from './themes.js';
 import '../style.css';
 import './defaultTheme.css';
 import '../element.js';
@@ -26,22 +26,24 @@ export const getParameters = (Template) => {
     },
     cssresources: [
       {
-        id: 'Example Status Badge Default Styles',
+        id: 'Default Component Styles without Theme',
         code: `<style>:root ${defaultTheme}</style>`,
         picked: true,
-        hideCode: false,
+      },
+      {
+        id: 'Example Status Badge Root Styles',
+        code: `<style>:root ${exampleBrandStyles}</style>`,
+        picked: true,
       },
       {
         id: 'Example Status Badge Light Mode',
         code: `<style>:root ${exampleLightMode}</style>`,
         picked: true,
-        hideCode: false, // Defaults to false, this enables you to hide the code snippet and only displays the style selector
       },
       {
         id: 'Example Status Badge Dark Mode',
         code: `<style>:root ${exampleDarkMode};</style>`,
         picked: false,
-        hideCode: false, // Defaults to false, this enables you to hide the code snippet and only displays the style selector
       },
     ],
   };
