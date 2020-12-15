@@ -1,6 +1,8 @@
 export const defaultTheme = `{
   --nl-link-color: blue;
   --nl-backlink-icon-size: 1.5ch;
+
+  --nl-backlink-color: var(--nl-link-color);
 }`;
 
 export const exampleLightMode = `{
