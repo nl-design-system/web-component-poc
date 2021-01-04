@@ -309,13 +309,6 @@ Bij 0900 nummers: 0900 - 0001 (€ 0,10/minuut)
 
 Vermijd het onderlijnen van tekst. Reserveer tekst onderlijning voor links.
 
-### Tekst uitlijning
-
-Verkies links uitgelijnde tekst boven gecentreerde en uitgevulde (justified) tekst.
-
-Links uitgelijnde tekst is het comfortabelst om te lezen.
-
-
 ## Content ontwerp
 
 Webteksten beginnen met de essentie van de boodschap, de ‘conclusie’, met hierna de uitleg en achtergronden, de omgekeerde piramide. Bovenin staat de belangrijkste boodschap, onderin de minst belangrijke informatie. Het is essentieel dat de lezer aan de titel en het begin van de inleiding kan zien waarover de pagina gaat. Zorg voor call-to-actions zoals een link naar een download, contactinformatie of een andere website met meer informatie. Eindtekst kan verwijzing naar andere pagina of document zijn.
@@ -386,6 +379,12 @@ Een tekst wordt beter scanbaar door opsommingen te gebruiken.
 - Bij een link naar een e-mailadres moet het e-mailadres zichtbaar zijn als link: info@rijksoverheid.nl
 - Verwijs niet naar vormen, kleuren of plekken op desktopweergave. Bijvoorbeeld ‘In de rechterkolom vind je een overzicht van relevante documenten’. In de mobiele weergave heb je bijvoorbeeld geen rechterkolom. 
 - Links openen in hetzelfde venster/tabblad. Dit geldt ook voor links naar externe websites.
+
+### Tekst uitlijning
+
+Verkies links uitgelijnde tekst boven gecentreerde en uitgevulde (justified) tekst.
+
+Links uitgelijnde tekst is het comfortabelst om te lezen.
 
 ## Referenties
 
