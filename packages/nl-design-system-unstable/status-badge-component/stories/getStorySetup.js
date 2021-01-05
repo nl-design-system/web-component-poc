@@ -3,6 +3,7 @@ import { exampleBrandStyles, exampleDarkMode, exampleLightMode, defaultTheme } f
 import '../style.css';
 import './defaultTheme.css';
 import '../element.js';
+import { withDesign } from 'storybook-addon-designs';
 
 export const argTypes = {
   status: {
@@ -46,6 +47,10 @@ export const getParameters = (Template) => {
         picked: false,
       },
     ],
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/file/thNg88CEm4XU4Pm9K2V0m2/component-badge-status-badge',
+    },
   };
 };
-export const decorators = [withCssResources];
+export const decorators = [withCssResources, withDesign];
