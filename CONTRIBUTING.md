@@ -74,7 +74,7 @@ Commit messages must always start with a type, for example ‘docs:’ for chang
 
 #### Example commit message
 
-```
+```text
 docs: accessibility improvements to status badge
 ^--^  ^----------------------------------------^
 |     |
