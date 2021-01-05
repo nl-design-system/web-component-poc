@@ -1,8 +1,6 @@
 import { withCssResources } from '@storybook/addon-cssresources';
 import { defaultTheme, exampleDarkMode, exampleLightMode } from './themes.js';
 import '../style.css';
-import '../element.js';
-import '../extend.js';
 import './defaultTheme.css';
 
 export const argTypes = {
