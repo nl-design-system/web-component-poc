@@ -2,6 +2,7 @@ import { withCssResources } from '@storybook/addon-cssresources';
 import { defaultTheme, exampleDarkMode, exampleLightMode } from './themes.js';
 import '../style.css';
 import './defaultTheme.css';
+import { withDesign } from 'storybook-addon-designs';
 
 export const argTypes = {
   href: {
@@ -39,7 +40,11 @@ export const getParameters = (Template) => {
         hideCode: false, // Defaults to false, this enables you to hide the code snippet and only displays the style selector
       },
     ],
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/file/BBZBJdbdVnvHwhcBoKsczw/components-backlink',
+    },
   };
 };
 
-export const decorators = [withCssResources];
+export const decorators = [withCssResources, withDesign];
