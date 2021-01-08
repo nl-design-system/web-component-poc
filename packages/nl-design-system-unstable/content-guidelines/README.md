@@ -1,6 +1,5 @@
 # Tekst en taalgebruik
 
-
 ## Introductie
 
 De overheid moet duidelijk communiceren. Dat betekent: rekening houden met je lezer, een persoonlijke benadering kiezen en ervoor zorgen dat de taal begrijpelijk is. Zorg er daarom voor dat begrijpelijke taal in een vroeg stadium van de productontwikkeling gewaarborgd is.
@@ -22,7 +21,6 @@ Bv. help bestanden, veelgestelde vragen, contactgegevens.
 #### ‘Applicatieve’ tekst
 
 Bv. knoptekst, formulierlabels, feedbacktekst, contextuele helptekst.
-
 
 ## Toegankelijkheid
 
@@ -81,7 +79,6 @@ Alternatieve of ‘alt-’tekst wordt gebruikt om te beschrijven wat op een info
 
 Dove gebruikers beheersen soms eerder gebarentaal en hebben dan vaak Nederlands als tweede taal. Houd hier rekening mee wanneer u toegankelijke inhoud wilt maken.
 
-
 ## Richtlijnen voor leesbaarheid
 
 ### Duidelijke, klare taal
@@ -137,7 +134,7 @@ Spreek de bezoeker aan met ‘je’, ‘jij’ of ‘u’.
 - Ingeburgerde afkortingen schrijf je met kleine letters aan elkaar: btw, mkb, pc, tv, sms, hbo, cv, hiv, aids, cao, bnp, bbp.
 - Afleidingen van afkortingen krijgen een apostrof: mkb'er, tv’tje, sms’je.
 - Maakt de afkorting deel uit van een samenstelling, dan volgt na de afkorting een liggend streepje: tv-toestel, mkb-ondernemer. Samenstellingen zijn woorden die zijn opgebouwd uit twee of meer woorden die ook zelfstandig kunnen voorkomen.
-- Gebruik bestaande afkortingen van belastingen, wetten en regelingen. 	Afgekorte titels krijgen een kleine letter (met punt): drs., lic., mr., prof. en dr., maar BA, MA, PhD, MBA. 
+- Gebruik bestaande afkortingen van belastingen, wetten en regelingen. 	Afgekorte titels krijgen een kleine letter (met punt): drs., lic., mr., prof. en dr., maar BA, MA, PhD, MBA.
 - Voor internationaal erkende symbolen in handel, techniek en wetenschap gelden de internationaal vastgelegde conventies: kg, mm, kW, kWh, MW, MWh, GW, GWh, CO2, Hz, H2O, brt, °C en km2
 
 ### Ampersand
@@ -146,7 +143,7 @@ Voorkom het gebruik van een ampersand (&). Deze leggen visuele nadruk op de mins
 
 ### Benadrukken
 
-Ga spaarzaam om met het benadrukken van woorden in de tekst: 
+Ga spaarzaam om met het benadrukken van woorden in de tekst:
 
 - Gebruik vet om enkele belangrijke woorden te benadrukken. Denk aan een waarschuwing.
 - Gebruik cursief om een enkel woord te benadrukken. Bij cursief verandert de toon waarop iets gezegd wordt of het woord heeft een speciale betekenis zodat de hele zin anders wordt. Spraaksoftware leest dit woord of woorden dan ook anders voor.
@@ -157,13 +154,13 @@ Ga spaarzaam om met het benadrukken van woorden in de tekst:
 
 Wees zo actueel mogelijk en noem concrete data en jaartallen. Noem de datum inclusief het jaartal, eventueel inclusief de dag van de week. Gebruik geen tijdsaanduidingen zoals gisteren, binnenkort, dit najaar of jongstleden (jl.). Gisteren is onduidelijk in een webtekst zonder datum. Binnenkort is vaag. Zeg bijvoorbeeld ‘het najaar van 2012’.
 
-#### Bij data:
+#### Bij data
 
 - Jaartallen voluit (2007).
 - Maanden voluit (mei).
 - Dagen in cijfers, zonder voorloopnul: 1 mei 2007.
 
-#### Bij tijdsaanduiding:
+#### Bij tijdsaanduiding
 
 - Gebruik bij de weergave van tijdstippen de 24-uursindeling, waarbij uren en minuten door een punt gescheiden worden.
 - Uren in cijfers, tot 10 uur geen voorloopnullen.
@@ -180,8 +177,8 @@ Voorbeeld: langetermijnplanning
 
 ### Geldbedragen
 
-- Als je het cijfer in letters uitschrijft, dan schrijf je euro achter het bedrag ook uit. Voorbeeld: tien euro. 
-- Gebruik je cijfers, gebruik dan ook het euroteken (€). Tussen het euroteken en het bedrag een spatie. Voorbeeld: € 10,- en € 10,75. 
+- Als je het cijfer in letters uitschrijft, dan schrijf je euro achter het bedrag ook uit. Voorbeeld: tien euro.
+- Gebruik je cijfers, gebruik dan ook het euroteken (€). Tussen het euroteken en het bedrag een spatie. Voorbeeld: € 10,- en € 10,75.
 - In tabellen het euroteken gebruiken (€).
 - Duizendtallen met een punt. Voorbeeld: € 1.300
 
@@ -197,7 +194,7 @@ Cijfers zijn makkelijker te scannen dan getallen die uit letters bestaan.
 - Rangtelwoorden met de of ste – afhankelijk van de uitspraak – (ook overal e is correct). Voorbeelden: 7de, 7e, 38ste, 38e.
 - Getallen in breuken – alleen onder de twintig - in woorden en altijd los. Voorbeelden: een kwart, een achtste, vier en een half, half elf, tweeënhalf, drie kwart miljoen.
 - Geldbedragen in woorden aaneenschrijven. Na duizend volgt een spatie. Miljoen en miljard zijn aparte woorden. Bij geldbedragen van vier of meer cijfers een punt gebruiken om duizendtallen aan te geven. Voorbeelden: 430.000 of € 430.000.
-- Als in één zin of in één alinea meerdere getallen staan, die afwisselend in letters en in cijfers moeten worden uitgeschreven, kies je ervoor om alle getallen in cijfers te vermelden. Voorbeeld: De 79 reacties leiden tot 3 verschillende bijeenkomsten. (3 is dus niet drie). 
+- Als in één zin of in één alinea meerdere getallen staan, die afwisselend in letters en in cijfers moeten worden uitgeschreven, kies je ervoor om alle getallen in cijfers te vermelden. Voorbeeld: De 79 reacties leiden tot 3 verschillende bijeenkomsten. (3 is dus niet drie).
 
 ### Hoofdlettergebruik
 
@@ -205,7 +202,7 @@ Begin iedere koptekst en (paragraaf) zin met een hoofdletter.
 
 Gebruik hoofdletters voor landen, persoonsnamen, merk- en productnamen.
 
-Vermijd het zetten van hele woorden in hoofdletters (all-caps). De leesbaarheid wordt hiermee verminderd doordat woorden een uniforme rechthoekige vorm krijgen. Lezers kunnen woorden hierdoor niet aan hun vorm herkennen of onderscheiden. Bovendien kan het als schreeuwerig ervaren worden. 
+Vermijd het zetten van hele woorden in hoofdletters (all-caps). De leesbaarheid wordt hiermee verminderd doordat woorden een uniforme rechthoekige vorm krijgen. Lezers kunnen woorden hierdoor niet aan hun vorm herkennen of onderscheiden. Bovendien kan het als schreeuwerig ervaren worden.
 
 ### Internet en e-mail
 
@@ -214,37 +211,37 @@ Vermijd het zetten van hele woorden in hoofdletters (all-caps). De leesbaarheid 
 
 ### Koppeltekens
 
-Vermijd het gebruik van koppeltekens. 
+Vermijd het gebruik van koppeltekens.
 
 Voorbeeld: Aanmelden en afmelden (niet aan- en afmelden)
 
 ### Namen van wetten
 
 - Bij namen van wetten, wetsvoorstellen volgen we de spelling en afkorting van de overheid (bij wetten wordt de citeertitel genoemd in de slotbepalingen).
-- Bij afgekorte namen van besluiten of overheidsplannen volgen we ook de officiële schrijfwijze van de overheid. 
+- Bij afgekorte namen van besluiten of overheidsplannen volgen we ook de officiële schrijfwijze van de overheid.
 
 ### Opsommingen
 
 Gebruik bij een opsomming opsommingstekens. De onderdelen van de opsomming hebben soms:
 
-- een hoofdletter en een punt; 
+- een hoofdletter en een punt;
 - kleine letters en wel of niet een puntkomma.
 
 Als de opsomming uit delen van zinnen bestaat, begint elke deel met een kleine letter en eindigt met puntkomma. Het laatste deel van de opsomming krijgt een punt. Als de opsomming uit hele zinnen bestaat, begint elk deel met een hoofdletter en eindigt de opsomming met een punt of vraagteken.
 
-#### Voorbeelden:
+#### Voorbeelden
 
 Op school heb ik geleerd:
 
 - boom
 - roos
-- vuur	
+- vuur
 
 Op school heb ik geleerd dat:
 
 - de boom groot is;
 - de roos doorns heeft;
-- het vuur warm is.	
+- het vuur warm is.
 
 Op school heb ik het volgende geleerd:
 
@@ -258,7 +255,7 @@ Schrijf ‘procent’ voluit, behalve in tabellen.
 
 ### Rekeningnummers
 
-Noteer IBAN-nummers met spaties om de kans op verschrijvingen bij het overnemen ervan te verkleinen. 
+Noteer IBAN-nummers met spaties om de kans op verschrijvingen bij het overnemen ervan te verkleinen.
 
 NL99 [BANK] 0123 4567 89
 
@@ -270,7 +267,7 @@ Dus:
 
 ### Telefoon- en faxnummers
 
-Bij telefoonnummers schrijf je eerst het kengetal (drie of vier cijfers) aan elkaar. Daarna spatieer je de andere cijfers per twee van achteraf. Nationale telefoonnummers, mobiele nummers en 0900-nummers voorzie je van een koppelstreepje. 
+Bij telefoonnummers schrijf je eerst het kengetal (drie of vier cijfers) aan elkaar. Daarna spatieer je de andere cijfers per twee van achteraf. Nationale telefoonnummers, mobiele nummers en 0900-nummers voorzie je van een koppelstreepje.
 
 Bij een kengetal van drie cijfers: 045 - 220 21 21
 
@@ -331,9 +328,9 @@ Werk met tussenkoppen: zorg dat informatie herkenbaar is geordend.
 - Het aantal woorden per zin: maximaal 15, liever minder.
 - Schrijf afwisselend enkelvoudige zinnen (zonder komma’s, maximaal 15 woorden) en meervoudige zinnen (dus korte en iets langere zinnen).
 - Focus keyword moet een aantal keer voorkomen in de tekst: zo’n 2%. Bij een tekst van 300 woorden is dit 3 tot 6 keer. Het focus keyword moet in ieder geval in de intro voorkomen (SEO).
-- Gebruik signaalwoorden om paragrafen ‘aan elkaar te knopen’. Pas op dat de gebruikte woorden niet te ambtelijk zijn. 
+- Gebruik signaalwoorden om paragrafen ‘aan elkaar te knopen’. Pas op dat de gebruikte woorden niet te ambtelijk zijn.
 
-### Opsommingen
+### Gebruik opsommingen
 
 Een tekst wordt beter scanbaar door opsommingen te gebruiken.
 
@@ -348,11 +345,11 @@ Een tekst wordt beter scanbaar door opsommingen te gebruiken.
 - Maak niet te korte (1 kort woord) of te lange links (bijvoorbeeld over 2 regels)
 - Maak geen links in de intro van het bericht of pagina
 - Gebruik relevante inhoudswoorden en laat zien waarnaar ze verwijzen.
-    - Niet: klik hier
-    - Gebruik de url van de externe website als link. (Meer informatie vind je op www.rijksoverheid.nl)
-    - Vermeld bij een pdf achter de link dat het om een pdf-bestand gaat en hoeveel kB of MB deze is, afgerond op hele getallen. Bijvoorbeeld: Download de routebeschrijving (pdf, 50 kB)
+ - Niet: klik hier
+ - Gebruik de url van de externe website als link. (Meer informatie vind je op www.rijksoverheid.nl)
+ - Vermeld bij een pdf achter de link dat het om een pdf-bestand gaat en hoeveel kB of MB deze is, afgerond op hele getallen. Bijvoorbeeld: Download de routebeschrijving (pdf, 50 kB)
 - Bij een link naar een e-mailadres moet het e-mailadres zichtbaar zijn als link: info@rijksoverheid.nl
-- Verwijs niet naar vormen, kleuren of plekken op desktopweergave. Bijvoorbeeld ‘In de rechterkolom vind je een overzicht van relevante documenten’. In de mobiele weergave heb je bijvoorbeeld geen rechterkolom. 
+- Verwijs niet naar vormen, kleuren of plekken op desktopweergave. Bijvoorbeeld ‘In de rechterkolom vind je een overzicht van relevante documenten’. In de mobiele weergave heb je bijvoorbeeld geen rechterkolom.
 - Links openen in hetzelfde venster/tabblad. Dit geldt ook voor links naar externe websites.
 
 ### Tekst uitlijning
