@@ -134,7 +134,7 @@ Spreek de bezoeker aan met ‘je’, ‘jij’ of ‘u’.
 - Ingeburgerde afkortingen schrijf je met kleine letters aan elkaar: btw, mkb, pc, tv, sms, hbo, cv, hiv, aids, cao, bnp, bbp.
 - Afleidingen van afkortingen krijgen een apostrof: mkb'er, tv’tje, sms’je.
 - Maakt de afkorting deel uit van een samenstelling, dan volgt na de afkorting een liggend streepje: tv-toestel, mkb-ondernemer. Samenstellingen zijn woorden die zijn opgebouwd uit twee of meer woorden die ook zelfstandig kunnen voorkomen.
-- Gebruik bestaande afkortingen van belastingen, wetten en regelingen. 	Afgekorte titels krijgen een kleine letter (met punt): drs., lic., mr., prof. en dr., maar BA, MA, PhD, MBA.
+- Gebruik bestaande afkortingen van belastingen, wetten en regelingen. Afgekorte titels krijgen een kleine letter (met punt): drs., lic., mr., prof. en dr., maar BA, MA, PhD, MBA.
 - Voor internationaal erkende symbolen in handel, techniek en wetenschap gelden de internationaal vastgelegde conventies: kg, mm, kW, kWh, MW, MWh, GW, GWh, CO2, Hz, H2O, brt, °C en km2
 
 ### Ampersand
@@ -345,9 +345,9 @@ Een tekst wordt beter scanbaar door opsommingen te gebruiken.
 - Maak niet te korte (1 kort woord) of te lange links (bijvoorbeeld over 2 regels)
 - Maak geen links in de intro van het bericht of pagina
 - Gebruik relevante inhoudswoorden en laat zien waarnaar ze verwijzen.
- - Niet: klik hier
- - Gebruik de url van de externe website als link. (Meer informatie vind je op www.rijksoverheid.nl)
- - Vermeld bij een pdf achter de link dat het om een pdf-bestand gaat en hoeveel kB of MB deze is, afgerond op hele getallen. Bijvoorbeeld: Download de routebeschrijving (pdf, 50 kB)
+    - Niet: klik hier
+    - Gebruik de url van de externe website als link. (Meer informatie vind je op www.rijksoverheid.nl)
+    - Vermeld bij een pdf achter de link dat het om een pdf-bestand gaat en hoeveel kB of MB deze is, afgerond op hele getallen. Bijvoorbeeld: Download de routebeschrijving (pdf, 50 kB)
 - Bij een link naar een e-mailadres moet het e-mailadres zichtbaar zijn als link: info@rijksoverheid.nl
 - Verwijs niet naar vormen, kleuren of plekken op desktopweergave. Bijvoorbeeld ‘In de rechterkolom vind je een overzicht van relevante documenten’. In de mobiele weergave heb je bijvoorbeeld geen rechterkolom.
 - Links openen in hetzelfde venster/tabblad. Dit geldt ook voor links naar externe websites.
