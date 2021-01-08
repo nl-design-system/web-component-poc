@@ -55,4 +55,3 @@ Where applicable components should meet the following criteria.
 ### User research
 
 - If user research or testing has been conducted for a certain component or feature, be sure to include any relevant conclusions in the documentation.
-
