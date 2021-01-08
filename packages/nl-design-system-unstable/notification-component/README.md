@@ -29,7 +29,7 @@ A notification can display four kinds of information:
 * Container (with padding)
 * Icon to support color for the type of notification
 * Optional heading
-* Notification text (uses standard body text), can contain a link to, for example, in-depth explanation 
+* Notification text (uses standard body text), can contain a link to, for example, in-depth explanation
 * Optional close functionality
 
 ### Design tokens
@@ -126,15 +126,15 @@ In addition to a difference in icon drawing, a difference in outline (_traffic s
 
 To display a background process such as the saving of data an animated spinner can be used.
 
-#### Success
+#### Success icon
 
 Checkmark.
 
-#### Warning
+#### Warning icon
 
 Exclamation sign (traffic sign).
 
-#### Error
+#### Error icon
 
 Cross (traffic sign).
 
@@ -157,7 +157,6 @@ Try to limit the text of a full-width notification to a maximum of three lines (
 ### Inline notification
 
 Try to make the text for an inline notification as concise and clear as possible.
-
 
 ## Best practices
 

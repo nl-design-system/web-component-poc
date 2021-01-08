@@ -10,22 +10,22 @@ The functionality of a backlink is not the same as a browser’s back button. A 
 
 ### Alternatives and related components
 
-*   Navigation
-*   Breadcrumbs
+* Navigation
+* Breadcrumbs
 
 ## Anatomy
 
-*   Icon (arrow)
-*   Text link
+* Icon (arrow)
+* Text link
 
 ### Design tokens
 
-*   `backlink-icon` // Leading icon
-*   `backlink-icon-margin-right` // Icon right margin
-*   `backlink-foreground color` // Foreground color of icon and text
-*   `backlink-text-font-family` // Text font-family
-*   `backlink-text-font-size` // Text font size
-*   `backlink-text-font-weight` // Text font weight
+* `backlink-icon` // Leading icon
+* `backlink-icon-margin-right` // Icon right margin
+* `backlink-foreground color` // Foreground color of icon and text
+* `backlink-text-font-family` // Text font-family
+* `backlink-text-font-size` // Text font size
+* `backlink-text-font-weight` // Text font weight
 
 ## Interactive states
 
@@ -61,4 +61,4 @@ Make it clear where the link navigates to. Text such as ‘terug’ (‘back’)
 
 ### 0.1 (14-12-2020)
 
-*   First documentation draft
+* First documentation draft

@@ -20,27 +20,27 @@ Icons ensure that the component clearly displays its current state. The most con
 
 ### Alternatives and related components
 
-*   Tabs
-*   Accordeon
+* Tabs
+* Accordeon
 
 ## Anatomy
 
-*   Heading with icon (icon changes in response to open/closed state)
-*   Optional background color
-*   Container with padding for secondary information
-*   Optional animation to indicate change in open/closed state
+* Heading with icon (icon changes in response to open/closed state)
+* Optional background color
+* Container with padding for secondary information
+* Optional animation to indicate change in open/closed state
 
 ### Design tokens
 
-*   `collapse-icon-toggle-closed` // Closed state icon
-*   `collapse-icon-toggle-open` // Opened state icon
-*   `collapse-heading-font-family` // Heading font-family
-*   `collapse-heading-font-size` // Heading font size
-*   `collapse-heading-font-weight` // Heading font weight
-*   `collapse-heading-color`	// Heading foreground color
-*   `collapse-heading-background` // Heading background color
-*   `collapse-panel-background` // Expanded panel background color
-*   `collapse-panel-padding` // Expanded panel padding
+* `collapse-icon-toggle-closed` // Closed state icon
+* `collapse-icon-toggle-open` // Opened state icon
+* `collapse-heading-font-family` // Heading font-family
+* `collapse-heading-font-size` // Heading font size
+* `collapse-heading-font-weight` // Heading font weight
+* `collapse-heading-color` // Heading foreground color
+* `collapse-heading-background` // Heading background color
+* `collapse-panel-background` // Expanded panel background color
+* `collapse-panel-padding` // Expanded panel padding
 
 ## Interactive states
 
@@ -68,15 +68,15 @@ The collapse title should be descriptive of the secondary information.
 
 ### Dos
 
-*   Fast layout shifts can cause confusion and discomfort, try adding a subtle transition for opening and closing the secondary content.
-*   Use the collapse component to make long text passages with secondary content clear and understandable.
+* Fast layout shifts can cause confusion and discomfort, try adding a subtle transition for opening and closing the secondary content.
+* Use the collapse component to make long text passages with secondary content clear and understandable.
 
 ### Don'ts
 
-*   Don’t hide essential information or notifications in a collapse component.
-*   For long secondary text, consider providing a link to another page with extended content.
-*   Don’t place complex information such as tables in the secondary information panel.
-*   Do not place forms in a collapse component.
+* Don’t hide essential information or notifications in a collapse component.
+* For long secondary text, consider providing a link to another page with extended content.
+* Don’t place complex information such as tables in the secondary information panel.
+* Do not place forms in a collapse component.
 
 ## References
 
@@ -84,4 +84,4 @@ The collapse title should be descriptive of the secondary information.
 
 ### 0.1 (14-12-2020)
 
-*   First documentation draft
+* First documentation draft
