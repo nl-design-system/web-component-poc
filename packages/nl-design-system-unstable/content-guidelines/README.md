@@ -71,11 +71,6 @@ Hoger opgeleiden hebben ook baat bij begrijpelijke taal. Zij lezen ook liever ee
 - Vermijd afleiding zoals banners of drukke achtergronden
 - Voorkom tijdsdruk
 
-##### Referenties
-
-- [https://inclusie.gebruikercentraal.nl/wp-content/uploads/sites/24/2019/05/Poster-Laaggeletterden.pdf](https://inclusie.gebruikercentraal.nl/wp-content/uploads/sites/24/2019/05/Poster-Laaggeletterden.pdf)
-- [https://www.communicatierijk.nl/vakkennis/rijkswebsites/aanbevolen-richtlijnen/taalniveau-b1](https://www.communicatierijk.nl/vakkennis/rijkswebsites/aanbevolen-richtlijnen/taalniveau-b1)
-
 ### Screen readers
 
 #### Alternatieve tekst voor afbeeldingen
@@ -118,18 +113,6 @@ Eenvoudig geschreven tekst:
 - Vermijd het gebruik van Latijnse tekst.
 
 ### Woorden om te vermijden, en hun alternatieven
-
-### Referenties
-
-- [https://onzetaal.nl/taaladvies/ouderwets-taalgebruik](https://onzetaal.nl/taaladvies/ouderwets-taalgebruik)
-- [https://readabilityguidelines.co.uk/clear-language/](https://readabilityguidelines.co.uk/clear-language/)
-- [https://directduidelijk.gebruikercentraal.nl/artikelen/](https://directduidelijk.gebruikercentraal.nl/artikelen/)
-- [https://www.w3.org/WAI/WCAG21/Understanding/reading-level](https://www.w3.org/WAI/WCAG21/Understanding/reading-level)
-- [https://www.ishetb1.nl/](https://www.ishetb1.nl/)
-- [https://www.zoekeenvoudigewoorden.nl/](https://www.zoekeenvoudigewoorden.nl/)
-- [https://directduidelijkhulp.nl/taalhulplijn/](https://directduidelijkhulp.nl/taalhulplijn/index.aspx)
-- [https://st-abc.nl/](https://st-abc.nl/)
-
 
 ## Taalregels en grammatica
 
@@ -204,10 +187,6 @@ Voorbeeld: langetermijnplanning
 
 Gebruik voor getallen in webteksten cijfers. Geldbedragen worden dus altijd met cijfers en eurotekens geschreven. Cijfers zijn makkelijker te scannen dan getallen die uit letters bestaan.
 
-#### Referenties
-
-- [http://www.2useit.nl/usabilityupdate/cijfers-en-getallen-op-het-web.php](http://www.2useit.nl/usabilityupdate/cijfers-en-getallen-op-het-web.php)
-
 ### Getallen
 
 Gebruik voor getallen in webteksten cijfers. Dus ‘8 weken’ in plaats van ‘acht weken’. Gebruik ook cijfers in het begin van een zin. ’12 jaar later ging hij …’
@@ -219,10 +198,6 @@ Cijfers zijn makkelijker te scannen dan getallen die uit letters bestaan.
 - Getallen in breuken – alleen onder de twintig - in woorden en altijd los. Voorbeelden: een kwart, een achtste, vier en een half, half elf, tweeënhalf, drie kwart miljoen.
 - Geldbedragen in woorden aaneenschrijven. Na duizend volgt een spatie. Miljoen en miljard zijn aparte woorden. Bij geldbedragen van vier of meer cijfers een punt gebruiken om duizendtallen aan te geven. Voorbeelden: 430.000 of € 430.000.
 - Als in één zin of in één alinea meerdere getallen staan, die afwisselend in letters en in cijfers moeten worden uitgeschreven, kies je ervoor om alle getallen in cijfers te vermelden. Voorbeeld: De 79 reacties leiden tot 3 verschillende bijeenkomsten. (3 is dus niet drie). 
-
-#### Referenties
-
-- [http://www.2useit.nl/usabilityupdate/cijfers-en-getallen-op-het-web.php](http://www.2useit.nl/usabilityupdate/cijfers-en-getallen-op-het-web.php)
 
 ### Hoofdlettergebruik
 
@@ -391,6 +366,17 @@ Links uitgelijnde tekst is het comfortabelst om te lezen.
 Algemene referenties omtrent taal en content in design systems.
 
 - [https://taaladvies.net/](https://taaladvies.net/)
+- [https://inclusie.gebruikercentraal.nl/wp-content/uploads/sites/24/2019/05/Poster-Laaggeletterden.pdf](https://inclusie.gebruikercentraal.nl/wp-content/uploads/sites/24/2019/05/Poster-Laaggeletterden.pdf)
+- [https://www.communicatierijk.nl/vakkennis/rijkswebsites/aanbevolen-richtlijnen/taalniveau-b1](https://www.communicatierijk.nl/vakkennis/rijkswebsites/aanbevolen-richtlijnen/taalniveau-b1)
+- [http://www.2useit.nl/usabilityupdate/cijfers-en-getallen-op-het-web.php](http://www.2useit.nl/usabilityupdate/cijfers-en-getallen-op-het-web.php)
+- [https://onzetaal.nl/taaladvies/ouderwets-taalgebruik](https://onzetaal.nl/taaladvies/ouderwets-taalgebruik)
+- [https://readabilityguidelines.co.uk/clear-language/](https://readabilityguidelines.co.uk/clear-language/)
+- [https://directduidelijk.gebruikercentraal.nl/artikelen/](https://directduidelijk.gebruikercentraal.nl/artikelen/)
+- [https://www.w3.org/WAI/WCAG21/Understanding/reading-level](https://www.w3.org/WAI/WCAG21/Understanding/reading-level)
+- [https://www.ishetb1.nl/](https://www.ishetb1.nl/)
+- [https://www.zoekeenvoudigewoorden.nl/](https://www.zoekeenvoudigewoorden.nl/)
+- [https://directduidelijkhulp.nl/taalhulplijn/](https://directduidelijkhulp.nl/taalhulplijn/index.aspx)
+- [https://st-abc.nl/](https://st-abc.nl/)
 - [https://informaat.nl/nl/whitepapers/content-in-design-systems/](https://informaat.nl/nl/whitepapers/content-in-design-systems/)
 - [https://directduidelijk.nl/schrijftips/tips](https://directduidelijk.nl/schrijftips/tips)
 - [https://directduidelijk.nl/tips/checklist-voor-teksten](https://directduidelijk.nl/tips/checklist-voor-teksten)
