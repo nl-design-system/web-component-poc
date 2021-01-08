@@ -345,9 +345,9 @@ Een tekst wordt beter scanbaar door opsommingen te gebruiken.
 * Maak niet te korte (1 kort woord) of te lange links (bijvoorbeeld over 2 regels)
 * Maak geen links in de intro van het bericht of pagina
 * Gebruik relevante inhoudswoorden en laat zien waarnaar ze verwijzen.
-    - Niet: klik hier
-    - Gebruik de url van de externe website als link. (Meer informatie vind je op www.rijksoverheid.nl)
-    - Vermeld bij een pdf achter de link dat het om een pdf-bestand gaat en hoeveel kB of MB deze is, afgerond op hele getallen. Bijvoorbeeld: Download de routebeschrijving (pdf, 50 kB)
+  * Niet: klik hier
+  * Gebruik de url van de externe website als link. (Meer informatie vind je op www.rijksoverheid.nl)
+  * Vermeld bij een pdf achter de link dat het om een pdf-bestand gaat en hoeveel kB of MB deze is, afgerond op hele getallen. Bijvoorbeeld: Download de routebeschrijving (pdf, 50 kB)
 * Bij een link naar een e-mailadres moet het e-mailadres zichtbaar zijn als link: info@rijksoverheid.nl
 * Verwijs niet naar vormen, kleuren of plekken op desktopweergave. Bijvoorbeeld ‘In de rechterkolom vind je een overzicht van relevante documenten’. In de mobiele weergave heb je bijvoorbeeld geen rechterkolom.
 * Links openen in hetzelfde venster/tabblad. Dit geldt ook voor links naar externe websites.
@@ -382,6 +382,7 @@ Algemene referenties omtrent taal en content in design systems.
 ## Geschiedenis
 
 ### 0.3 (06-01-2021)
+
 * Referentie Handboek webcontent toegevoegd (Wiep Hamstra)
 
 ### 0.2 (29-12-2020)
