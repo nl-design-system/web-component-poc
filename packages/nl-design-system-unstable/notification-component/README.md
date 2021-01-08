@@ -78,7 +78,7 @@ Notifications don’t have interactive states.
 
 Conventional, sematic colors are used to display the four types of information.
 
-#### Neutral information
+#### Neutral
 
 Grey or light-blue.
 
