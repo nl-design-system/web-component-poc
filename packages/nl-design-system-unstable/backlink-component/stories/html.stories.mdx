@@ -1,32 +1,26 @@
-import { Meta, Story, Canvas, ArgsTable } from "@storybook/addon-docs/blocks";
+import { Meta, Story, Canvas, ArgsTable, Description } from "@storybook/addon-docs/blocks";
 import { argTypes, getParameters, decorators } from "./getStorySetup.js";
 import { sanitize } from "dompurify";
 import "../extend.js";
+import README from "../README.md";
+import { MDXEmbedProvider } from "mdx-embed";
 
 export const Template = ({ href, content }) => `<a is="nl-html-backlink" href="${href}">${sanitize(content)}</a>`;
 
-<Meta title="HTML/Backlink" argTypes={argTypes} parameters={getParameters(Template)} decorators={decorators} />
-
-# Backlink - HTML
+<Meta title="HTML" argTypes={argTypes} parameters={getParameters(Template)} decorators={decorators} />
 
 <Canvas>
-  <Story name="Simple" args={{ href: "#", content: "Back" }}>
+  <Story name="Backlink" args={{ href: "#", content: "Back" }}>
     {Template.bind({})}
   </Story>
 </Canvas>
 
-<ArgsTable story="Simple" />
+<ArgsTable story="Backlink" />
 
-### With complex content
+<Description>{README}</Description>
 
-<Canvas>
-  <Story
-    name="Complex"
-    args={{
-      href: "http://example.com",
-      content: "Back to <strong>example.com</strong>",
-    }}
-  >
-    {Template.bind({})}
-  </Story>
-</Canvas>
+## Design Kit
+
+<MDXEmbedProvider>
+  <Figma title="Backlink" url="file/BBZBJdbdVnvHwhcBoKsczw/components-backlink" />
+</MDXEmbedProvider>

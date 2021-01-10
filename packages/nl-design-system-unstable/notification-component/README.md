@@ -15,58 +15,58 @@ A notification can display four kinds of information:
 
 ### Variations
 
-* ‘Full-width’ (‘global’) notifications are displayed in a central location where they grab the user's attention, usually right below the page header. A notification is displayed across the entire width (100%) minus margins of its parent element.
-* Inline (‘contextual’) notifications are almost always displayed followed by a user action. They are displayed in the proximity of the element to which the notification relates.
-* A user can optionally dismiss a notification.
+- ‘Full-width’ (‘global’) notifications are displayed in a central location where they grab the user's attention, usually right below the page header. A notification is displayed across the entire width (100%) minus margins of its parent element.
+- Inline (‘contextual’) notifications are almost always displayed followed by a user action. They are displayed in the proximity of the element to which the notification relates.
+- A user can optionally dismiss a notification.
 
 ### Alternatives and related components
 
-* Modal dialog
-* Prompt (system prompt)
+- Modal dialog
+- Prompt (system prompt)
 
 ## Anatomy
 
-* Container (with padding)
-* Icon to support color for the type of notification
-* Optional heading
-* Notification text (uses standard body text), can contain a link to, for example, in-depth explanation
-* Optional close functionality
+- Container (with padding)
+- Icon to support color for the type of notification
+- Optional heading
+- Notification text (uses standard body text), can contain a link to, for example, in-depth explanation
+- Optional close functionality
 
 ### Design tokens
 
 #### Global/default
 
-* `feedback-notification-width` // Container width (inline or full-width)
-* `feedback-border-radius` // Container border radius
-* `feedback-heading-font-family` // Heading font-family
-* `feedback-heading-font-size` // Heading font size
-* `feedback-heading-font-weight` // Heading font weight
-* `feedback-heading-color`// Heading foreground color
-* `feedback-icon-close` // Icon with action to close notification
+- `feedback-notification-width` // Container width (inline or full-width)
+- `feedback-border-radius` // Container border radius
+- `feedback-heading-font-family` // Heading font-family
+- `feedback-heading-font-size` // Heading font size
+- `feedback-heading-font-weight` // Heading font weight
+- `feedback-heading-color`// Heading foreground color
+- `feedback-icon-close` // Icon with action to close notification
 
 #### Neutral notification
 
-* `feedback-icon-info` // Leading icon
-* `feedback-fill-neutral-background-color` // Notification background color
-* `feedback-fill-neutral-color` // Notification foreground color (heading or icon)
+- `feedback-icon-info` // Leading icon
+- `feedback-fill-neutral-background-color` // Notification background color
+- `feedback-fill-neutral-color` // Notification foreground color (heading or icon)
 
 #### Success notification
 
-* `feedback-icon-success` // Leading icon
-* `feedback-fill-safe-background-colon` // Notification background color, should have sufficient contrast with `feedback-fill-safe-color`
-* `feedback-fill-safe-color` // Notification foreground color (heading or icon), should have sufficient contrast with `feedback-fill-safe-background-color`
+- `feedback-icon-success` // Leading icon
+- `feedback-fill-safe-background-colon` // Notification background color, should have sufficient contrast with `feedback-fill-safe-color`
+- `feedback-fill-safe-color` // Notification foreground color (heading or icon), should have sufficient contrast with `feedback-fill-safe-background-color`
 
 #### Warning notification
 
-* `feedback-icon-warning` // Leading icon
-* `feedback-fill-warning-background-color` // Notification background color, should have sufficient contrast with `feedback-fill-warning-color`
-* `feedback-fill-warning-color` // Notification foreground color (heading or icon), should have sufficient contrast with `feedback-fill-warning-background-color`
+- `feedback-icon-warning` // Leading icon
+- `feedback-fill-warning-background-color` // Notification background color, should have sufficient contrast with `feedback-fill-warning-color`
+- `feedback-fill-warning-color` // Notification foreground color (heading or icon), should have sufficient contrast with `feedback-fill-warning-background-color`
 
 #### Error notification
 
-* `feedback-icon-error` // Leading icon
-* `feedback-fill-danger-background-color` // Notification background color, should have sufficient contrast with `feedback-fill-danger-color`
-* `feedback-fill-danger-color` // Notification foreground color (heading or icon), should have sufficient contrast with `feedback-fill-danger-background-color`
+- `feedback-icon-error` // Leading icon
+- `feedback-fill-danger-background-color` // Notification background color, should have sufficient contrast with `feedback-fill-danger-color`
+- `feedback-fill-danger-color` // Notification foreground color (heading or icon), should have sufficient contrast with `feedback-fill-danger-background-color`
 
 ## Interactive states
 
@@ -162,12 +162,12 @@ Try to make the text for an inline notification as concise and clear as possible
 
 ### Dos
 
-* Contextual notifications must be placed in direct proximity of the relevant element.
+- Contextual notifications must be placed in direct proximity of the relevant element.
 
 ### Don'ts
 
-* An error message should not be dismissable without the error first being corrected.
-* Do not place multiple notifications within one notification component. In case multiple notifications have to be displayed, they will each be shown in their own notification component.
+- An error message should not be dismissable without the error first being corrected.
+- Do not place multiple notifications within one notification component. In case multiple notifications have to be displayed, they will each be shown in their own notification component.
 
 ## References
 
@@ -175,5 +175,5 @@ Try to make the text for an inline notification as concise and clear as possible
 
 ### 0.1 (14-12-2020)
 
-* First draft of documentation
-* First version of Figma component
+- First draft of documentation
+- First version of Figma component

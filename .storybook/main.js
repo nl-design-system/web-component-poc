@@ -1,4 +1,15 @@
 module.exports = {
   stories: ['../**/*.stories.@(js|mdx)'],
-  addons: ['@storybook/addon-essentials', '@storybook/addon-cssresources', 'storybook-addon-designs'],
+  addons: [
+    {
+      name: '@storybook/addon-essentials',
+      options: {
+        actions: false,
+      },
+    },
+    '@storybook/addon-cssresources',
+    'storybook-addon-designs',
+    '@etchteam/storybook-addon-status/register',
+    'storybook-addon-mdx-embed',
+  ],
 };

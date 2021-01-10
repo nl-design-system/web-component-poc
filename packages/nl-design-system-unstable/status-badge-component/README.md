@@ -1,18 +1,18 @@
+<!-- \*Status: **In development\*** -->
+
 # Status badge
 
-\*Status: **In development\***
-
-## Introduction
+## UX Guidelines
 
 A status badge draws attention and alerts a user to system states. The information in a status badge is short, concise and clearly scannable.
 
-## Variants
+### Variants
 
 - Success
 - Warning
 - Error
 
-## Alternatives and related components
+### Alternatives and related components
 
 - Status light
 - Text badge
@@ -70,11 +70,3 @@ The variants share their color semantics with the colors for success, warning, a
 
 - To avoid confusion with buttons it is advisable to not mimic the shape and overall appearance of a button.
 - Avoid using status badges in running text.
-
-## References
-
-## History
-
-### 0.1 (08-11-2020)
-
-- First documentation draft
