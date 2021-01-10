@@ -44,6 +44,7 @@ export const getParameters = (Template) => {
       type: 'figma',
       url: 'https://www.figma.com/file/BBZBJdbdVnvHwhcBoKsczw/components-backlink',
     },
+    status: 'IN DEVELOPMENT',
   };
 };
 

@@ -1,6 +1,8 @@
-import { Meta, Story, Canvas, ArgsTable } from "@storybook/addon-docs/blocks";
+import { Meta, Story, Canvas, ArgsTable, Description } from "@storybook/addon-docs/blocks";
 import { argTypes, getParameters, decorators } from "./getStorySetup.js";
 import { sanitize } from "dompurify";
+import README from "../README.md";
+import { MDXEmbedProvider } from "mdx-embed";
 
 export const Template = ({ label, status }) => {
   const statusClass = status ? `nl-status-badge--${status}` : "";
@@ -9,26 +11,30 @@ export const Template = ({ label, status }) => {
 
 <Meta title="HTML/Status Badge" argTypes={argTypes} parameters={getParameters(Template)} decorators={decorators} />
 
-# Status Badge - HTML
-
-## UX guidelines
-
 <Canvas>
-  <Story name="Success" args={{ status: "success", label: "Online" }}>
+  <Story name="Success" args={{ status: "success", label: "Success" }}>
     {Template.bind({})}
   </Story>
 </Canvas>
 
 <ArgsTable story="Success" />
 
-### Variations
+## Variations
 
 <Canvas>
   <Story id="html-status-badge--success"></Story>
-  <Story name="Warning" args={{ status: "warning", label: "Connecting..." }}>
+  <Story name="Warning" args={{ status: "warning", label: "Warning" }}>
     {Template.bind({})}
   </Story>
-  <Story name="Error" args={{ status: "error", label: "Offline" }}>
+  <Story name="Error" args={{ status: "error", label: "Error" }}>
     {Template.bind({})}
   </Story>
 </Canvas>
+
+<Description>{README}</Description>
+
+## Design Kit
+
+<MDXEmbedProvider>
+  <Figma title="Status Badge" url="file/thNg88CEm4XU4Pm9K2V0m2/component%2Fbadge%2Fstatus-badge?node-id=0%3A1" />
+</MDXEmbedProvider>
