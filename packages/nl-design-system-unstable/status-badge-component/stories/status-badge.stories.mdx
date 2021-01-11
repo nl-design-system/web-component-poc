@@ -10,16 +10,16 @@ export const Template = ({ label, status }) =>
 <Meta
   title="Components/Status Badge"
   argTypes={{
-    "status": {
-      "description": "Set the state attribute of the status badge",
-      "table": { "category": "colors" },
-      "control": { "type": "select", "options": ["success", "warning", "error"] }
+    status: {
+      description: "Set the state attribute of the status badge",
+      table: { category: "colors" },
+      control: { type: "select", options: ["success", "warning", "error"] },
     },
-    "label": {
-      "description": "Set the inner text of the badge, normally one word",
-      "table": { "category": "text" },
-      "control": "text"
-    }
+    label: {
+      description: "Set the inner text of the badge, normally one word",
+      table: { category: "text" },
+      control: "text",
+    },
   }}
   parameters={getParameters(Template)}
 />
@@ -48,7 +48,8 @@ Without the JavaScript logic, a component is also available as a HTML-only templ
 </Canvas>
 
 ### Web Component
-To use the component as a web component, make sure the component is defined by including the components `element.js` file 
+
+To use the component as a web component, make sure the component is defined by including the components `element.js` file
 
 <Canvas>
   <Story id="components-status-badge--success"></Story>

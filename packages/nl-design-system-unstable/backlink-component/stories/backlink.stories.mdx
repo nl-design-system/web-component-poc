@@ -8,16 +8,20 @@ import dedent from "ts-dedent";
 
 export const Template = ({ href, content }) => `<nl-backlink href="${href}">${sanitize(content)}</nl-backlink>`;
 
-<Meta title="Components" argTypes={{
-  href: {
-    description: 'Set the href attribute of the backlink',
-    control: 'text',
-  },
-  content: {
-    description: 'Set the content of the badge, normally a string',
-    control: 'text',
-  },
-}} parameters={getParameters(Template)} />
+<Meta
+  title="Components"
+  argTypes={{
+    href: {
+      description: "Set the href attribute of the backlink",
+      control: "text",
+    },
+    content: {
+      description: "Set the content of the badge, normally a string",
+      control: "text",
+    },
+  }}
+  parameters={getParameters(Template)}
+/>
 
 # Backlink
 
@@ -35,19 +39,27 @@ The component is available as a Web Component. To use it you can play around wit
 Without the JavaScript logic, a component is also available as a HTML-only template with classnames that correspond with the Design System theme or as an HTML anchor extention
 
 ### HTML
+
 <Canvas>
-  <a class="nl-backlink"><span class="nl-backlink__icon">←</span><span class="nl-backlink__text">HTML only backlink</span></a>
+  <a class="nl-backlink">
+    <span class="nl-backlink__icon">←</span>
+    <span class="nl-backlink__text">HTML only backlink</span>
+  </a>
 </Canvas>
 
 ### HTML extended
-To use the component as a component extention, make sure the component is defined by including the components `extend.js` file 
+
+To use the component as a component extention, make sure the component is defined by including the components `extend.js` file
 
 <Canvas>
-  <a is="nl-html-backlink" href="#">Back</a>
+  <a is="nl-html-backlink" href="#">
+    Back
+  </a>
 </Canvas>
 
 ### Web Component
-To use the component as a web component, make sure the component is defined by including the components `element.js` file 
+
+To use the component as a web component, make sure the component is defined by including the components `element.js` file
 
 <Canvas>
   <nl-backlink href="#">
