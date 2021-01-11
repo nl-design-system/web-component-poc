@@ -1,0 +1,45 @@
+import { Meta, Story, Canvas, ArgsTable, Description, Source } from "@storybook/addon-docs/blocks";
+import { argTypes, getParameters, decorators } from "./getStorySetup.js";
+import { sanitize } from "dompurify";
+import "../element.js";
+import { MDXEmbedProvider } from "mdx-embed";
+import dedent from "ts-dedent";
+
+export const Template = ({ href, content }) => `<nl-backlink href="${href}">${sanitize(content)}</nl-backlink>`;
+
+<Meta title="Components" argTypes={argTypes} parameters={getParameters(Template)} decorators={decorators} />
+
+# Backlink
+
+<Canvas>
+  <Story name="Backlink" args={{ href: "#", content: "Back" }}>
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+<ArgsTable story="Backlink" />
+
+## Code
+
+The component is available as a Web Component. To use it you can play around with the options in the examples above and copy the code from the example.
+Without the JavaScript logic, a component is also available as a HTML-only template with classnames that correspond with the Design System theme:
+
+<Source language="html" code='<a is="nl-html-backlink" href="#">backlink title</a>' />
+
+## Design Tokens
+
+These are the design tokens and their default value. Our Design tokens are CSS variables and can be assigned either in the css `:root` or in a css-selector scope.
+
+<Source
+  language="css"
+  code={`
+--nl-backlink-icon-size: 1.5ch;
+--nl-backlink-color: var(--nl-link-color);
+`}
+/>
+
+## Design Kit
+
+<MDXEmbedProvider>
+  <Figma title="Backlink" url="file/BBZBJdbdVnvHwhcBoKsczw/components-backlink" />
+</MDXEmbedProvider>
