@@ -1,23 +1,10 @@
-import { withCssResources } from '@storybook/addon-cssresources';
-import { defaultTheme, exampleDarkMode, exampleLightMode } from './themes.js';
-import '../style.css';
-import './defaultTheme.css';
-import { withDesign } from 'storybook-addon-designs';
-import intro from '../README.md';
-import contentGuidelines from '../docs/content-guidelines.md';
+import { defaultTheme, exampleDarkMode, exampleLightMode } from './themes.js'
+import '../style.css'
+import './defaultTheme.css'
+import README from '../README.md'
+import contentGuidelines from '../docs/content-guidelines.md'
 
-export const argTypes = {
-  href: {
-    description: 'Set the href attribute of the backlink',
-    control: 'text',
-  },
-  content: {
-    description: 'Set the content of the badge, normally a string',
-    control: 'text',
-  },
-};
-
-export const getParameters = (Template) => {
+export default Template => {
   return {
     docs: {
       transformSource: (_src, { args }) => Template(args),
@@ -47,8 +34,6 @@ export const getParameters = (Template) => {
       url: 'https://www.figma.com/file/BBZBJdbdVnvHwhcBoKsczw/components-backlink',
     },
     status: 'IN DEVELOPMENT',
-    notes: { Introduction: intro, 'Content Richtlijnen': contentGuidelines },
-  };
-};
-
-export const decorators = [withCssResources, withDesign];
+    notes: { UX: README, Content: contentGuidelines },
+  }
+}
