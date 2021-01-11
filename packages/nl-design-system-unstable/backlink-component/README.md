@@ -44,9 +44,3 @@ A backlink is positioned to the left on top of the page content (in left-to-righ
 Make sure the people depending on screen reading software are aware of the backlink and where it navigates to.
 
 A backlink should be included in the logical keyboard tab order.
-
-## Content guidelines
-
-### Best practices
-
-Make it clear where the link navigates to. Text such as ‘terug’ (‘back’) has poor ‘[information scent](https://www.nngroup.com/articles/information-scent/)’ and is not descriptive.

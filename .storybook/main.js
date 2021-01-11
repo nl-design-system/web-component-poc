@@ -11,5 +11,6 @@ module.exports = {
     'storybook-addon-designs',
     '@etchteam/storybook-addon-status/register',
     'storybook-addon-mdx-embed',
+    '@storybook/addon-notes/register',
   ],
 };
