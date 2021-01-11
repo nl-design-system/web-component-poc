@@ -1,17 +1,27 @@
 import { Meta, Story, Canvas, ArgsTable, Description, Source } from "@storybook/addon-docs/blocks";
-import { argTypes, getParameters, decorators } from "./getStorySetup.js";
+import getParameters from "./getStorySetup.js";
 import { sanitize } from "dompurify";
 import { MDXEmbedProvider } from "mdx-embed";
 import dedent from "ts-dedent";
 
 export const Template = ({ label, status }) =>
-  `<nl-status-badge status="${status}">${sanitize(label)}</nl-status-badge status>`;
+  `<nl-status-badge status="${status}">${sanitize(label)}</nl-status-badge>`;
 
 <Meta
   title="Components/Status Badge"
-  argTypes={argTypes}
+  argTypes={{
+    "status": {
+      "description": "Set the state attribute of the status badge",
+      "table": { "category": "colors" },
+      "control": { "type": "select", "options": ["success", "warning", "error"] }
+    },
+    "label": {
+      "description": "Set the inner text of the badge, normally one word",
+      "table": { "category": "text" },
+      "control": "text"
+    }
+  }}
   parameters={getParameters(Template)}
-  decorators={decorators}
 />
 
 # Status Badge
@@ -24,7 +34,21 @@ export const Template = ({ label, status }) =>
 
 <ArgsTable story="Success" />
 
-## Variations
+## Code
+
+The component is available as a Web Component. To use it you can play around with the options in the examples above and copy the code from the example.
+Without the JavaScript logic, a component is also available as a HTML-only template with classnames that correspond with the Design System theme:
+
+### HTML
+
+<Canvas>
+  <span class="nl-status-badge nl-status-badge--success">Available</span>
+  <span class="nl-status-badge nl-status-badge--warning">Waiting list</span>
+  <span class="nl-status-badge nl-status-badge--error">Unavailable</span>
+</Canvas>
+
+### Web Component
+To use the component as a web component, make sure the component is defined by including the components `element.js` file 
 
 <Canvas>
   <Story id="components-status-badge--success"></Story>
@@ -35,13 +59,6 @@ export const Template = ({ label, status }) =>
     {Template.bind({})}
   </Story>
 </Canvas>
-
-## Code
-
-The component is available as a Web Component. To use it you can play around with the options in the examples above and copy the code from the example.
-Without the JavaScript logic, a component is also available as a HTML-only template with classnames that correspond with the Design System theme:
-
-<Source language="html" code='<span class="nl-status-badge nl-status-badge--success">label</span>' />
 
 ## Design Tokens
 
