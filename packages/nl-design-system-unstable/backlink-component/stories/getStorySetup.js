@@ -1,10 +1,10 @@
-import { defaultTheme, exampleDarkMode, exampleLightMode } from './themes.js'
-import '../style.css'
-import './defaultTheme.css'
-import README from '../README.md'
-import contentGuidelines from '../docs/content-guidelines.md'
+import { defaultTheme, exampleDarkMode, exampleLightMode } from './themes.js';
+import '../style.css';
+import './defaultTheme.css';
+import README from '../README.md';
+import contentGuidelines from '../docs/content-guidelines.md';
 
-export default Template => {
+export default (Template) => {
   return {
     docs: {
       transformSource: (_src, { args }) => Template(args),
@@ -35,5 +35,5 @@ export default Template => {
     },
     status: 'IN DEVELOPMENT',
     notes: { UX: README, Content: contentGuidelines },
-  }
-}
+  };
+};
