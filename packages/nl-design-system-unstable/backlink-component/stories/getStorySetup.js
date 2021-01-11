@@ -3,6 +3,8 @@ import { defaultTheme, exampleDarkMode, exampleLightMode } from './themes.js';
 import '../style.css';
 import './defaultTheme.css';
 import { withDesign } from 'storybook-addon-designs';
+import intro from '../README.md';
+import contentGuidelines from '../docs/content-guidelines.md';
 
 export const argTypes = {
   href: {
@@ -45,6 +47,7 @@ export const getParameters = (Template) => {
       url: 'https://www.figma.com/file/BBZBJdbdVnvHwhcBoKsczw/components-backlink',
     },
     status: 'IN DEVELOPMENT',
+    notes: { Introduction: intro, 'Content Richtlijnen': contentGuidelines },
   };
 };
 

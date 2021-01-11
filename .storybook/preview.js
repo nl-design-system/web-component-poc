@@ -18,4 +18,5 @@ addParameters({
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
   controls: { expanded: true },
+  previewTabs: { 'storybookjs/notes/panel': { title: 'Documentation' }, 'storybook/docs/panel': { title: 'API' } },
 };
