@@ -1,0 +1,73 @@
+import { Meta, Story, Canvas, ArgsTable, Description, Source } from "@storybook/addon-docs/blocks";
+import { argTypes, getParameters, decorators } from "./getStorySetup.js";
+import { sanitize } from "dompurify";
+import { MDXEmbedProvider } from "mdx-embed";
+import dedent from "ts-dedent";
+
+export const Template = ({ label, status }) =>
+  `<nl-status-badge status="${status}">${sanitize(label)}</nl-status-badge status>`;
+
+<Meta
+  title="Components/Status Badge"
+  argTypes={argTypes}
+  parameters={getParameters(Template)}
+  decorators={decorators}
+/>
+
+# Status Badge
+
+<Canvas>
+  <Story name="Success" args={{ status: "success", label: "Online" }}>
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+<ArgsTable story="Success" />
+
+## Variations
+
+<Canvas>
+  <Story id="components-status-badge--success"></Story>
+  <Story name="Warning" args={{ status: "warning", label: "Connecting..." }}>
+    {Template.bind({})}
+  </Story>
+  <Story name="Error" args={{ status: "error", label: "Offline" }}>
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+## Code
+
+The component is available as a Web Component. To use it you can play around with the options in the examples above and copy the code from the example.
+Without the JavaScript logic, a component is also available as a HTML-only template with classnames that correspond with the Design System theme:
+
+<Source language="html" code='<span class="nl-status-badge nl-status-badge--success">label</span>' />
+
+## Design Tokens
+
+These are the design tokens and their default value. Our Design tokens are CSS variables and can be assigned either in the css `:root` or in a css-selector scope.
+
+<Source
+  language="css"
+  code={dedent`--nl-status-badge-background-color: lightgrey;
+  --nl-status-badge-color: black;
+  --nl-status-badge-padding-block: 0;
+  --nl-status-badge-padding-inline: 0;
+  --nl-status-badge-border-radius: 0;
+  --nl-status-badge-text-transform: inherit;
+  --nl-status-badge-font-family: inherit;
+  --nl-status-badge-font-weight: inherit;
+  --nl-status-badge-font-size: 0.75rem;
+  --nl-status-badge-success-background-color: var(--nl-status-badge-background-color);
+  --nl-status-badge-success-color: var(--nl-status-badge-color);
+  --nl-status-badge-warning-background-color: var(--nl-status-badge-background-color);
+  --nl-status-badge-warning-color: var(--nl-status-badge-color);
+  --nl-status-badge-error-background-color: var(--nl-status-badge-background-color);
+  --nl-status-badge-error-color: var(--nl-status-badge-color);`}
+/>
+
+## Design Kit
+
+<MDXEmbedProvider>
+  <Figma title="Status Badge" url="file/thNg88CEm4XU4Pm9K2V0m2/component%2Fbadge%2Fstatus-badge?node-id=0%3A1" />
+</MDXEmbedProvider>

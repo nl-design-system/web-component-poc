@@ -58,10 +58,6 @@ The variants share their color semantics with the colors for success, warning, a
 - The text of the status badge should be self-explanatory thus eliminating the need for additional texture or iconography to indicate variations in status for colorblind users.
 - Status text and subsequent changes to the status–should they occur–should be announced by screen reading software in a way that it makes sense in context.
 
-## Content guidelines
-
-- Try to minimize text inside a badge to a single word. In extreme cases up to a maximum of three words should be used.
-
 ## Best practices
 
 ### Dos
