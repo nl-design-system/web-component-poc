@@ -10,7 +10,7 @@ Often cited in the context of visual impairments (1 in 30 people has some form o
 
 The spectrum of disabilities includes users who depend on keyboard-only use, dyslexics, are color blind (1 in 12 men and 1 in 200 women are color blind), have a mobility impairment or a temporary disability. In total, about 15 to 20% of the population has some form of visual, auditory, physical or cognitive disability.
 
-_“Accessibility is simply the absence of barriers.”_
+> _“Accessibility is simply the absence of barriers.”_
 
 Disabilities that can pose problems for website users can range from mild to severe:
 
