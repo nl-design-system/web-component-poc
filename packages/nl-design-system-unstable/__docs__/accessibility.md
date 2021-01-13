@@ -32,4 +32,4 @@ The [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/)
 
 0.1 (20-11-2020)
 
-*   First documentation draft
+* First documentation draft
