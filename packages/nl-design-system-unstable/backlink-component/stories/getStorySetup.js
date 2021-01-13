@@ -31,7 +31,7 @@ export default (Template) => {
     ],
     design: {
       type: 'figma',
-      url: 'https://www.figma.com/file/BBZBJdbdVnvHwhcBoKsczw/components-backlink',
+      url: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/Components?node-id=102%3A183',
     },
     status: 'IN DEVELOPMENT',
     notes: { UX: README, Content: contentGuidelines },
