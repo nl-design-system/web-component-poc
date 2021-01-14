@@ -10,7 +10,6 @@
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
     "@etchteam/storybook-addon-status": "^2.1.0",
-    "@storybook/addon-cssresources": "^6.1.9",
     "@storybook/addon-essentials": "^6.1.6",
     "@storybook/addon-notes": "^5.3.21",
     "@storybook/html": "^6.1.6",
