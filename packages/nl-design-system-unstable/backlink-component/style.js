@@ -1,13 +1,13 @@
 export default `
 .nl-backlink {
-  color: var(--nl-backlink-color, var(--nl-link-color, #000));
+  color: var(--nl-backlink-color, var(--nl-link-color));
   text-decoration: none;
 }
 
 .nl-backlink__icon {
   vertical-align: middle;
-  color: currentColor;
-  height: 2ch;
+  fill: currentColor;
+  height: var(--nl-backlink-icon-size);
   width: auto;
 }
 
@@ -22,4 +22,5 @@ export default `
 .nl-backlink:hover .nl-backlink__icon {
   transform: translateX(-0.2ch);
 }
+
 `;
