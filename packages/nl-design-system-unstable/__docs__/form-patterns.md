@@ -82,7 +82,7 @@ Form elements must meet the following requirements, they have:
 
 If an input generates an error, make sure that the corresponding error message is announced by screen readers at the right time and in the right way.
 
-# Referenties
+## Referenties
 
 1. [https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/](https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/)
 2. [https://medium.com/nextux/design-better-forms-96fadca0f49c](https://medium.com/nextux/design-better-forms-96fadca0f49c)
@@ -112,16 +112,16 @@ If an input generates an error, make sure that the corresponding error message i
 26. [https://bradfrost.com/blog/post/float-label-pattern/](https://bradfrost.com/blog/post/float-label-pattern/)
 27. [https://uxdesign.cc/text-fields-forms-design-ui-components-series-2b32b2beebd0](https://uxdesign.cc/text-fields-forms-design-ui-components-series-2b32b2beebd0)
 
-# History
+## History
 
 0.3 (14-01-2021)
 
-*   Translated from Dutch to English
+* Translated from Dutch to English
 
 0.2 (25-11-2020)
 
-*   First public version
+* First public version
 
 0.1 (20-11-2020)
 
-*   First draft
+* First draft
