@@ -7,7 +7,6 @@ module.exports = {
         actions: false,
       },
     },
-    '@storybook/addon-cssresources',
     'storybook-addon-designs',
     '@etchteam/storybook-addon-status/register',
     'storybook-addon-mdx-embed',
