@@ -5,10 +5,10 @@ export default `
 }
 
 .nl-backlink__icon {
-  height: var(--nl-backlink-icon-size, 2.5ch);
-  width: var(--nl-backlink-icon-size, 2.5ch);
-  vertical-align: text-top;
-  fill: currentColor;
+  vertical-align: middle;
+  color: currentColor;
+  height: 2ch;
+  width: auto;
 }
 
 .nl-backlink__text {

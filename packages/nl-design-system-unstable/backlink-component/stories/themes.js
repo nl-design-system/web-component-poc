@@ -1,4 +1,4 @@
-export const defaultTheme = `{
+export const exampleTheme = `{
   --nl-link-color: blue;
   --nl-backlink-icon-size: 1.5ch;
 

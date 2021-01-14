@@ -1,10 +1,10 @@
-import { defaultTheme, exampleDarkMode, exampleLightMode } from './themes.js';
+import { exampleTheme, exampleDarkMode, exampleLightMode } from './themes.js';
 import '../style.css';
-import './defaultTheme.css';
+import './exampleTheme.css';
 import README from '../README.md';
 import contentGuidelines from '../docs/content-guidelines.md';
 
-export default (Template) => {
+export const getParameters = (Template) => {
   return {
     docs: {
       transformSource: (_src, { args }) => Template(args),
@@ -12,7 +12,7 @@ export default (Template) => {
     cssresources: [
       {
         id: 'Example Backlink Default Styles',
-        code: `<style>:root ${defaultTheme}</style>`,
+        code: `<style>:root ${exampleTheme}</style>`,
         picked: true,
         hideCode: false,
       },
