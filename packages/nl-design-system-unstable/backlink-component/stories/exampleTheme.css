@@ -1,0 +1,20 @@
+/* stylelint-disable no-duplicate-selectors*/
+
+/**
+ * @tokens Colors
+ * @presenter Color
+ */
+:root {
+  --nl-link-color: blue;
+  --nl-backlink-color: black;
+}
+
+/**
+ * @tokens Sizes
+ * @presenter Svg
+ */
+:root {
+  --nl-backlink-icon-size: 2.5ch;
+}
+
+/* stylelint-enable no-duplicate-selectors*/

@@ -1,5 +1,5 @@
 import { Meta, Story, Canvas, ArgsTable, Description, Source } from "@storybook/addon-docs/blocks";
-import getParameters from "./getStorySetup.js";
+import { BacklinkIcons, getParameters } from "./getStorySetup.js";
 import { sanitize } from "dompurify";
 import "../element.js";
 import "../extend.js";
@@ -41,9 +41,11 @@ Without the JavaScript logic, a component is also available as a HTML-only templ
 ### HTML
 
 <Canvas>
-  <a class="nl-backlink">
-    <span class="nl-backlink__icon">←</span>
-    <span class="nl-backlink__text">HTML only backlink</span>
+  <a className="nl-backlink">
+    <svg className="nl-backlink__icon" viewBox="0 0 32 32" focusable="false">
+      <use href="/icons.svg#nl-icon-backlink" />
+    </svg>
+    <span className="nl-backlink__text">HTML only backlink</span>
   </a>
 </Canvas>
 
