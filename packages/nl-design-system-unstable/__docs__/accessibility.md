@@ -31,6 +31,7 @@ The [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/)
 ## ARIA
 
 ## References
+
 1. [Easy Checks – A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/)
 2. [Accessibility for Teams](https://accessibility.digital.gov/)
 3. [WCAG - The Short Short Version](https://docs.google.com/document/d/1NQ4jZqu8VYc1MmZ3RQ1iXJCpxm47NHxFyD7R-RYbXFY/edit#)
