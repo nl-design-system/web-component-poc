@@ -26,9 +26,31 @@ Incorporating universal accessibility principles into the design and development
 
 ## Web content accessibility guidelines
 
-The [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/) are guidelines to make information accessible to everyone. References
+The [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/) are guidelines to make information accessible to everyone.
+
+## ARIA
+
+## References
+1. [Easy Checks – A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/)
+2. [Accessibility for Teams](https://accessibility.digital.gov/)
+3. [WCAG - The Short Short Version](https://docs.google.com/document/d/1NQ4jZqu8VYc1MmZ3RQ1iXJCpxm47NHxFyD7R-RYbXFY/edit#)
+4. [Accessibility for UX Designers](https://accessibility-for-teams.com/accessibility-for-ux-designers)
+5. [Microsoft Inclusive Design](https://www.microsoft.com/design/inclusive/)
+6. [WAI-ARIA Authoring Practices 1.1](https://www.w3.org/TR/wai-aria-practices-1.1/)
+7. [ARIA - MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA)
+8. [The ARIA Role Matrices](http://whatsock.com/training/matrices/)
+9. [WebAIM's WCAG 2 Checklist](https://webaim.org/standards/wcag/checklist)
+10. [The Accessibility Cheatsheet](https://bitsofco.de/the-accessibility-cheatsheet/)
+11. [The A11Y Project](https://www.a11yproject.com/)
+12. [Inclusive Design Principles](https://inclusivedesignprinciples.org/)
+13. [18F Accessibility Guide](https://accessibility.18f.gov/)
+14. [Dos and don'ts on designing for accessibility](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/)
 
 ## History
+
+0.2 (15-01-2021)
+
+* Added references
 
 0.1 (20-11-2020)
 
