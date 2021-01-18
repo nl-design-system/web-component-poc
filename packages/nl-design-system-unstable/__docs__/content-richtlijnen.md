@@ -22,34 +22,30 @@ Bv. help bestanden, veelgestelde vragen, contactgegevens.
 
 Bv. knoptekst, formulierlabels, feedbacktekst, contextuele helptekst.
 
-## Toegankelijkheid
+## Voor wie schrijven we?
 
-Taal en toegankelijkheid gaan hand in hand. Als de tekstuele inhoud van een product niet of moeilijk begrepen wordt, dan is het product niet toegankelijk.
+Taal en toegankelijkheid gaan hand in hand. Als de tekstuele inhoud van een product niet of moeilijk begrepen wordt, dan is het product niet toegankelijk. Duidelijke taal zorgt er voor dat iedereen begrijpt wat je met je tekst wilt overbrengen.
 
-Duidelijke taal zorgt er voor dat iedereen begrijpt wat je met je tekst wilt overbrengen.
+Veel mensen hebben baat bij duidelijke taal:
 
-### Laaggeletterdheid
+### Mensen die laaggeletterd zijn
 
-Laaggeletterdheid is een term voor mensen die grote moeite hebben met lezen, schrijven en/of rekenen. Mensen die laaggeletterd zijn, zijn geen analfabeten. Ze kunnen wel lezen en schrijven, maar beheersen niet het eindniveau VMBO of niveau MBO-2/3.
+Mensen die laaggeletterd hebben moeite met lezen, schrijven en/of rekenen. Verwar dit niet met de term  analfabeten. Ze kunnen wel lezen en schrijven, maar beheersen niet het eindniveau vmbo of niveau mbo-2/3.
 
-18% van de Nederlandse bevolking heeft moeite met lezen en schrijven. Dat zijn 3,1 miljoen mensen. Hiervan heeft 2 miljoen Nederlands als eerste taal en 1,1 miljoen als tweede taal.
+### Mensen die Nederlands niet als moedertaal hebben
 
-Mensen die laaggeletterd zijn hebben onder meer moeite met:
+Het kunnen mensen zijn die doof zijn en waarbij gebarentaal hun moedertaal is. Gebarentaal heeft een andere grammatica en vocabulaire. Het zijn ook mensen met een migratieachtergrond en die een andere moedertaal hebben dan het Nederlands.
 
-- Formulieren invullen (zorgtoeslag, belasting, etc.)
-- Digitaal betalen
-- Begrijpen van informatie over gezondheid en zorg (gezondheidsvaardigheden)
-- Werken met de computer
+### Mensen met autisme
+Mensen met autisme hebben moeite met begrijpend lezen. Zij vatten woorden letterlijk op.
 
-#### Taalniveau B1
+### Mensen die dyslectisch zijn
 
-Taalniveau B1 staat voor eenvoudig Nederlands. De overgrote meerderheid van de bevolking begrijpt teksten op taalniveau B1.
+Mensen die dyslectisch zijn hebben behoefte aan begrijpelijke taal, goede opmaak zoals koppen, voldoende wit tussen de regels, opsommingen.
 
-Hoger opgeleiden hebben ook baat bij begrijpelijke taal. Zij lezen ook liever een tekst in B1 geschreven.
+Hoger opgeleiden hebben ook baat bij begrijpelijke taal. Zij lezen ook liever een tekst in B1 geschreven. Maar denk ook aan aan mensen die zorgen en stress hebben en zaken moeten regelen bij de overheid.
 
-#### Ontwerpen voor laaggeletterden
-
-##### Do
+#### Do
 
 - Schrijf korte, actieve zinnen met dagelijks taalgebruik
 - Gebruik alternatieven om tekst te ondersteunen zoals afbeeldingen, video en spraak
@@ -57,7 +53,7 @@ Hoger opgeleiden hebben ook baat bij begrijpelijke taal. Zij lezen ook liever ee
 - Zorg voor rustige webpagina’s
 - Geef waar nodig positieve feedback, uitleg en hulp
 
-##### Don’t
+#### Don’t
 
 - Vermijd jargon
 - Vermijd afkortingen
@@ -75,9 +71,20 @@ Hoger opgeleiden hebben ook baat bij begrijpelijke taal. Zij lezen ook liever ee
 
 Alternatieve of ‘alt-’tekst wordt gebruikt om te beschrijven wat op een informatieve afbeelding weergegeven wordt. Dit wordt alleen voor afbeeldingen gebruikt die daadwerkelijk informatie toevoegen en niet voor decoratieve afbeeldingen. Deze tekst wordt tevens weergegeven in gevallen dat afbeeldingen niet laden en geïndexeerd door zoekmachines.
 
-### Dove gebruikers
+Naast een beschrijving over wat er op de afbeelding staat is het belangrijk in de alt-tekst je bedoeling met de afbeelding over te brengen, afhankelijk van de context.
 
-Dove gebruikers beheersen soms eerder gebarentaal en hebben dan vaak Nederlands als tweede taal. Houd hier rekening mee wanneer u toegankelijke inhoud wilt maken.
+Vragen om jezelf te stellen bij het maken van een alternatieve tekst:
+* Waarom staat de afbeelding hier?
+* Wat is het doel van de afbeelding?
+* Welke informatie wil ik met de afbeelding overbrengen?
+* Als ik geen afbeelding kon gebruiken, hoe zou ik deze informatie dan overbrengen?
+
+##### Voorbeeld zonsondergang met drone
+
+![Diep oranje zonsondergang met het silhouet van een drone.](https://images.unsplash.com/photo-1489558546780-a69e0b3293e1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80)
+
+1. Diep oranje zonsondergang met het silhouet van een drone.
+2. De camera is ingesteld om de zonsondergang correct te belichten, waardoor de drone op de voorgrond een silhouet wordt.
 
 ## Richtlijnen voor leesbaarheid
 
@@ -380,6 +387,15 @@ Algemene referenties omtrent taal en content in design systems.
 - [https://directduidelijk.nl/tips/direct-duidelijk-koffer](https://directduidelijk.nl/tips/direct-duidelijk-koffer)
 
 ## Geschiedenis
+
+### 0.5 (18-01-2021)
+
+- Richtlijnen m.b.t. taal en toegankelijkheid en ontwerpen voor laaggeletterden gewijzigd (Saskia Schrijver)
+- Richtlijnen voor alternatieve tekst voor afbeeldingen gewijzigd en voorzien van voorbeeld (Ronny Hendriks)
+
+### 0.4 (12-01-2021)
+
+- Placeholder categorieën richtlijnen toegevoegd (via Mark Westbeek)
 
 ### 0.3 (06-01-2021)
 
