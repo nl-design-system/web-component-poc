@@ -24,6 +24,7 @@ const statuses = {
 const previewTabs = {
   'storybookjs/notes/panel': { title: 'Documentation' },
   'storybook/docs/panel': { title: 'API' },
+  canvas: { title: 'Design Tokens' },
 };
 
 export const parameters = {
