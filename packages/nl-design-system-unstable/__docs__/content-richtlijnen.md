@@ -24,7 +24,7 @@ Bv. knoptekst, formulierlabels, feedbacktekst, contextuele helptekst.
 
 ## Voor wie schrijven we
 
-Taal en toegankelijkheid gaan hand in hand. Als de tekstuele inhoud van een product niet of moeilijk begrepen wordt, dan is het product niet toegankelijk. Duidelijke taal zorgt er voor dat iedereen begrijpt wat je met je tekst wilt overbrengen.
+Taal en toegankelijkheid gaan hand in hand. Als de tekst over een product niet of moeilijk begrepen wordt, dan is het product niet toegankelijk. Duidelijke taal zorgt er voor dat iedereen begrijpt wat je met je tekst wilt overbrengen.
 
 Veel mensen hebben baat bij duidelijke taal:
 
@@ -34,7 +34,7 @@ Mensen die laaggeletterd zijn hebben moeite met lezen, schrijven en/of rekenen. 
 
 ### Mensen die Nederlands niet als moedertaal hebben
 
-Het kunnen mensen zijn die doof zijn en waarbij gebarentaal hun moedertaal is. Gebarentaal heeft een andere grammatica en vocabulaire. Het zijn ook mensen met een migratieachtergrond en die een andere moedertaal hebben dan het Nederlands.
+Het kunnen mensen zijn die doof zijn en waarbij gebarentaal hun moedertaal is. Nederlandse Gebarentaal (NGT) heeft een andere grammatica en vocabulaire. Het zijn ook mensen met een migratieachtergrond en die een andere moedertaal hebben dan het Nederlands.
 
 ### Mensen met autisme
 
@@ -389,6 +389,7 @@ Algemene referenties omtrent taal en content in design systems.
 - [ABC belangenbehartiging van en voor laaggeletterden](https://st-abc.nl/)
 - [Begrijpelijke en toepasbare voorlichtingsmaterialen & beeldverhalen](https://www.pharos.nl/thema/eenvoudig-voorlichtingsmateriaal-en-beeldverhalen/)
 - [Online checklist Toegankelijke informatie](https://www.pharos.nl/kennisbank/checklist-toegankelijke-informatie/)
+- [Writing for Web Accessibility](https://www.w3.org/WAI/tips/writing/)
 
 ## Geschiedenis
 
