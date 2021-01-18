@@ -8,6 +8,8 @@
 
 Text input fields allow users to enter text in a form or search field.
 
+See form design patterns for additional guidance on creating forms.
+
 ### Variations
 
 ### Alternatives and related components
@@ -64,35 +66,43 @@ Text input fields allow users to enter text in a form or search field.
 
 #### Default
 
-The normal state of an input element.
+The normal state of a text input element.
 
 #### Focus
 
-The focused state of an input element. The element is ready to accept input from the user.
+The focused state of a text input element. The element is ready to accept input from the user.
 
 #### Hover
 
-The hover (mouse-over) state of an input element.
-
-#### Active
+The hover (mouse-over) state of a text input element.
 
 #### Disabled/read-only
 
-### Design properties
+A disabled text input does not accept input from a user.
 
-#### Positioning
+### Design properties
 
 #### Typography
 
 ### Accessibility
 
+A text input field should have a corresponding `label` element.
+
+Place validation messages in proximity to input fields. Align messages with the input fields so people using screen magnifiers can read them. Associate messages with the field using `aria-describedby`.
+
+Use the `aria-invalid` on invalid fields and required fields with no input.
+
 ### Content guidelines
 
 ### Best practices
 
-#### Dos
+#### Do
 
-#### Don'ts
+- Associate a clear and consise label with each text input
+
+#### Don't
+
+- Don’t use the text input component when you expect users to input more than one line of text, for multi-line input use the textarea component
 
 ### References
 
