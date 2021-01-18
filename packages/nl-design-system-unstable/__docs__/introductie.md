@@ -11,19 +11,23 @@ Daarom gaan we tussen overheidsorganisaties principes, interactiepatronen en cod
 > We zouden het op prijs stellen als je wilt bijdragen om het NLDS tot een succes te maken.  
 > Dit kan in onze gitlab of met een mailtje aan: NLDesignSystem@gebruikercentraal.nl
 
-## Wat is een Design system
+## Wat is een Design System
 
-Een design system is een verzameling van herbruikbare componenten waarmee je als ontwerper of ontwikkelaar eenvoudig digitale diensten kunt ontwikkelen. Denk aan knoppen, formulier-elementen en pagina-templates.
-Op die manier wordt het gemakkelijk om op een consistente manier producten en diensten voor een hoogwaardig digitale dienstverlening te ontwikkelen.
-Daarnaast bestaat het design systeem uit handleidingen, principes en gedeelde afspraken over de kwaliteit.
-Dit alles ondersteunt ontwikkelaars en ontwerpers in hun werk. In plaats van iedere keer opnieuw na te moeten denken over dezelfde ontwerpvraagstukken, kan door het gebruik van een design systeem worden voortgebouwd op een stevige basis. Zie het als bouwblokken voor digitale dienstverlening. Het is als het ware één taal waarmee digitale producten ontworpen en gerealiseerd kunnen worden.
+Een Design System, oftewel een ontwerpsysteem, is een verzameling afspraken tussen ontwerpers en ontwikkelaars voor het maken van digitale producten, zoals websites en apps. Het doel van deze afspraken is om de producten consistent en de gebruikerservaring zo prettig mogelijk te maken. Een Design System ‘leeft’: dankzij nieuwe inzichten en feedback van gebruikers worden de afspraken continu verbeterd.
 
-## De voordelen van een NL Design System
+## Hoe werkt een Design System
 
-Door binnen de hele overheid te ontwikkelen op basis van een gezamenlijk design system, werken overheidsdiensten veel meer op dezelfde manier (met behoud van eigen stijl en kleuren). Dat maakt diensten gebruiksvriendelijker voor burgers, helemaal bij levensgebeurtenissen waarbij contact met meerdere overheden nodig is.
-Bovendien zijn componenten in het design system straks grondig getest met gebruikers. Ook met gebruikers met een visuele of andere beperking. Hierdoor neemt de kwaliteit en toegankelijkheid ervan toe. En zo kunnen we mensen steeds beter van dienst zijn.
-Daarnaast zijn er ook voor de overheid zelf voordelen. Doordat we niet elke keer over hetzelfde na hoeven te denken wordt dubbel werk voorkomen en daarmee ook dubbele kosten. Heel praktisch: projecten komen sneller uit de startblokken en kunnen sneller resultaat laten zien, als gebruik wordt gemaakt van componenten van een hoog niveau.
-Waarom nog een keer dezelfde problemen oplossen als die al tientallen keren door anderen zijn opgelost? Zo blijft er veel meer tijd over om na te denken over die uitdagingen die uniek zijn voor jouw dienst.
+De afspraken in het Design System worden gemaakt aan de hand van bewezen oplossingen. Ze vormen een solide basis voor de ontwerpers en ontwikkelaars: doordat zij het wiel niet steeds opnieuw hoeven uit te vinden, kunnen ze snel en effectief nieuwe digitale producten bouwen. Als je als organisatie met een Design System werkt, bouw je voort op elkaars ervaringen en houd je meer tijd over voor unieke, eenmalige uitdagingen. Wel is er een betrokken, actieve community nodig om het Design System actueel en praktisch toepasbaar te houden.
+
+## Waarom een NL Design System
+
+In een Design System staan principes, handvatten, elementen, patronen en richtlijnen beschreven. Allemaal basisonderdelen waarover je goed afspraken kunt maken. Juist overheidsorganisaties hebben baat bij één duidelijke set herbruikbare basisonderdelen. Vooral voor levensgebeurtenissen, waarbij vaak contact nodig is met meerdere instanties en organisaties.
+
+Dankzij het NL Design System kan de hele overheid in Nederland samenwerken aan een begrijpelijke, gebruiksvriendelijke én toegankelijke online dienstverlening. Een dienstverlening die logisch en samenhangend is, maar niet per se uniform, want binnen de afspraken blijft er ruimte voor de eigen identiteit van overheidsorganisaties.
+
+## Voor (en door) iedereen
+
+Het is belangrijk dat iedereen de online dienstverlening van de overheid kan gebruiken, ongeacht wie je bent en wat je situatie is. Dit heet inclusie: iedereen moet kunnen meedoen. Daarom testen we de afspraken in het Design System met een heel diverse gebruikersgroep, waaronder mensen met beperkingen. Zo nemen de kwaliteit, bruikbaarheid en toegankelijkheid toe en kunnen we iedereen in Nederland met onze digitale producten steeds beter van dienst zijn.
 
 De POC is te vinden op:
 
