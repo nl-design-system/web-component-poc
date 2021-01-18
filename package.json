@@ -38,7 +38,7 @@
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "build:storybook": "build-storybook --output-dir dist/storybook",
+    "build:storybook": "build-storybook --output-dir dist/storybook -s .storybook/static",
     "build": "npm-run-all 'build:*'",
     "lint": "npm-run-all --continue-on-error 'lint:*' && lerna run lint",
     "lint:css": "stylelint '**/*.css'",
