@@ -5,6 +5,7 @@ module.exports = {
       name: '@storybook/addon-essentials',
       options: {
         actions: false,
+        controls: false,
       },
     },
     '@etchteam/storybook-addon-status/register',
