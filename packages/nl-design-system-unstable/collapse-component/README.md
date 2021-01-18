@@ -1,8 +1,10 @@
+<!-- \*Status: **In development\*** -->
+
 # Collapse
 
-_Status: **In development**_
+## UX guidelines
 
-## Introduction
+### Introduction
 
 A collapse/expand component can save space by hiding secundary information.
 
@@ -23,14 +25,14 @@ Icons ensure that the component clearly displays its current state. The most con
 - Tabs
 - Accordeon
 
-## Anatomy
+### Anatomy
 
 - Heading with icon (icon changes in response to open/closed state)
 - Optional background color
 - Container with padding for secondary information
 - Optional animation to indicate change in open/closed state
 
-### Design tokens
+#### Design tokens
 
 - `collapse-icon-toggle-closed` // Closed state icon
 - `collapse-icon-toggle-open` // Opened state icon
@@ -42,46 +44,50 @@ Icons ensure that the component clearly displays its current state. The most con
 - `collapse-panel-background` // Expanded panel background color
 - `collapse-panel-padding` // Expanded panel padding
 
-## Interactive states
+### Interactive states
 
-### Focus
+#### Focus
 
-### Hover
+#### Hover
 
-### Active
+#### Active
 
-## Design properties
+### Design properties
 
-### Positioning
+#### Positioning
 
-### Typography
+#### Typography
 
-## Accessibility
+### Accessibility
 
 If the collapse component contains text, make sure that it can be annouced by a screen reader. This can be done by adding the [attribute aria-live="polite"](https://www.w3.org/TR/wai-aria/#aria-live). Adding [the aria-expanded attribute](https://www.w3.org/TR/wai-aria/#aria-expanded) allows a screen reader to read the current status (open or closed). Opening and closing the collapse component should be possible with a keyboard (space bar, enter key). The tab order should be logical.
 
-## Content guidelines
+### Content guidelines
 
 The collapse title should be descriptive of the secondary information.
 
-## Best practices
+### Best practices
 
-### Dos
+#### Use when
+
+#### Don’t use when
+
+#### Dos
 
 - Fast layout shifts can cause confusion and discomfort, try adding a subtle transition for opening and closing the secondary content.
 - Use the collapse component to make long text passages with secondary content clear and understandable.
 
-### Don'ts
+#### Don'ts
 
 - Don’t hide essential information or notifications in a collapse component.
 - For long secondary text, consider providing a link to another page with extended content.
 - Don’t place complex information such as tables in the secondary information panel.
 - Do not place forms in a collapse component.
 
-## References
+### References
 
-## History
+### History
 
-### 0.1 (14-12-2020)
+#### 0.1 (14-12-2020)
 
 - First documentation draft

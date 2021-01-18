@@ -1,8 +1,10 @@
+<!-- \*Status: **In development\*** -->
+
 # Text input
 
-_Status: **In development**_
+## UX guidelines
 
-## Introduction
+### Introduction
 
 Text input fields allow users to enter text in a form or search field.
 
@@ -19,7 +21,7 @@ Text input fields allow users to enter text in a form or search field.
 - Textarea, for entry of multiple lines of text
 - Date and time input, specific input for dates and time (calendar)
 
-## Anatomy
+### Anatomy
 
 - Text label associated with input field
 - Mandatory or optional indication
@@ -28,7 +30,7 @@ Text input fields allow users to enter text in a form or search field.
 - Optional icon
 - Optional helper text. The helper text area can double as interactive feedback.
 
-### Design tokens
+#### Design tokens
 
 - `form-label-font-family` // Label text font-family
 - `form-label-font-size` // Label text font size
@@ -58,44 +60,44 @@ Text input fields allow users to enter text in a form or search field.
 - `form-helper-text-color` // Helper text foreground color
 - `form-helper-text-icon` // Helper text leading icon
 
-## Interactive states
+### Interactive states
 
-### Default
+#### Default
 
 The normal state of an input element.
 
-### Focus
+#### Focus
 
 The focused state of an input element. The element is ready to accept input from the user.
 
-### Hover
+#### Hover
 
 The hover (mouse-over) state of an input element.
 
-### Active
+#### Active
 
-### Disabled/read-only
+#### Disabled/read-only
 
-## Design properties
+### Design properties
 
-### Positioning
+#### Positioning
 
-### Typography
+#### Typography
 
-## Accessibility
+### Accessibility
 
-## Content guidelines
+### Content guidelines
 
-## Best practices
+### Best practices
 
-### Dos
+#### Dos
 
-### Don'ts
+#### Don'ts
 
-## References
+### References
 
-## History
+### History
 
-### 0.1 (14-12-2020)
+#### 0.1 (14-12-2020)
 
 - First documentation draft
