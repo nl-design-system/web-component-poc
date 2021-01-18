@@ -22,7 +22,7 @@ Bv. help bestanden, veelgestelde vragen, contactgegevens.
 
 Bv. knoptekst, formulierlabels, feedbacktekst, contextuele helptekst.
 
-## Voor wie schrijven we?
+## Voor wie schrijven we
 
 Taal en toegankelijkheid gaan hand in hand. Als de tekstuele inhoud van een product niet of moeilijk begrepen wordt, dan is het product niet toegankelijk. Duidelijke taal zorgt er voor dat iedereen begrijpt wat je met je tekst wilt overbrengen.
 
@@ -37,6 +37,7 @@ Mensen die laaggeletterd hebben moeite met lezen, schrijven en/of rekenen. Verwa
 Het kunnen mensen zijn die doof zijn en waarbij gebarentaal hun moedertaal is. Gebarentaal heeft een andere grammatica en vocabulaire. Het zijn ook mensen met een migratieachtergrond en die een andere moedertaal hebben dan het Nederlands.
 
 ### Mensen met autisme
+
 Mensen met autisme hebben moeite met begrijpend lezen. Zij vatten woorden letterlijk op.
 
 ### Mensen die dyslectisch zijn
@@ -74,10 +75,11 @@ Alternatieve of ‘alt-’tekst wordt gebruikt om te beschrijven wat op een info
 Naast een beschrijving over wat er op de afbeelding staat is het belangrijk in de alt-tekst je bedoeling met de afbeelding over te brengen, afhankelijk van de context.
 
 Vragen om jezelf te stellen bij het maken van een alternatieve tekst:
-* Waarom staat de afbeelding hier?
-* Wat is het doel van de afbeelding?
-* Welke informatie wil ik met de afbeelding overbrengen?
-* Als ik geen afbeelding kon gebruiken, hoe zou ik deze informatie dan overbrengen?
+
+- Waarom staat de afbeelding hier?
+- Wat is het doel van de afbeelding?
+- Welke informatie wil ik met de afbeelding overbrengen?
+- Als ik geen afbeelding kon gebruiken, hoe zou ik deze informatie dan overbrengen?
 
 ##### Voorbeeld zonsondergang met drone
 
