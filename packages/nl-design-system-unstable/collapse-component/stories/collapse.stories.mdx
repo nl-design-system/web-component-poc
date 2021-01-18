@@ -1,0 +1,21 @@
+import { Meta, Story, Canvas, ArgsTable } from "@storybook/addon-docs/blocks";
+import { getParameters } from "./getStorySetup.js";
+import { MDXEmbedProvider } from "mdx-embed";
+
+export const Template = () => `<p>Component not yet available...</p>`;
+
+<Meta title="Components/Collapse" parameters={getParameters(Template)} />
+
+# Collapse
+
+<Canvas>
+  <Story name="Collapse" args={{}}>
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+## Design Kit
+
+<MDXEmbedProvider>
+  <Figma title="Collapse" url="file/gqQhMe3gj4YlC6JrZOWiCv/Components?node-id=102%3A169" />
+</MDXEmbedProvider>
