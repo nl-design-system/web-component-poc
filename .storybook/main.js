@@ -1,16 +1,18 @@
 module.exports = {
   stories: ['../**/*.stories.@(js|mdx)'],
   addons: [
+    '@storybook/addon-notes/register',
+    '@etchteam/storybook-addon-status/register',
     {
       name: '@storybook/addon-essentials',
       options: {
         actions: false,
         controls: false,
+        backgrounds: false,
+        viewport: false,
       },
     },
-    '@etchteam/storybook-addon-status/register',
     'storybook-addon-mdx-embed',
-    '@storybook/addon-notes/register',
     'storybook-design-token',
   ],
-};
+}
