@@ -1,6 +1,4 @@
 import { addParameters } from '@storybook/html';
-import { withCssResources } from '@storybook/addon-cssresources';
-import { withDesign } from 'storybook-addon-designs';
 
 const cssReq = require.context('!!raw-loader!../packages/nl-design-system-unstable', true, /.\.css$/);
 const cssTokenFiles = cssReq.keys().map((filename) => ({ filename, content: cssReq(filename).default }));
@@ -37,8 +35,6 @@ export const parameters = {
   controls: { expanded: true },
   previewTabs: { 'storybookjs/notes/panel': { title: 'Documentation' }, 'storybook/docs/panel': { title: 'API' } },
 };
-
-export const decorators = [withCssResources, withDesign];
 
 /**
  * const cssReq = require.context('!!raw-loader!../src', true, /.\.css$/);

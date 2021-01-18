@@ -8,10 +8,6 @@ export const getParameters = (Template) => {
     docs: {
       transformSource: (_src, { args }) => Template(args),
     },
-    design: {
-      type: 'figma',
-      url: 'https://www.figma.com/file/BBZBJdbdVnvHwhcBoKsczw/components-backlink',
-    },
     status: 'IN DEVELOPMENT',
     notes: { UX: README, Content: contentGuidelines },
   };

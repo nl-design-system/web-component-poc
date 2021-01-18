@@ -11,10 +11,6 @@ export default (Template) => {
         return Template(context.args);
       },
     },
-    design: {
-      type: 'figma',
-      url: 'https://www.figma.com/file/thNg88CEm4XU4Pm9K2V0m2/component-badge-status-badge',
-    },
     status: 'IN DEVELOPMENT',
     notes: { UX: README, Content: contentGuidelines },
   };
