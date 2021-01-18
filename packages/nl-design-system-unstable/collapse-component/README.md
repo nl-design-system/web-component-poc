@@ -68,16 +68,12 @@ The collapse title should be descriptive of the secondary information.
 
 ### Best practices
 
-#### Use when
-
-#### Don’t use when
-
-#### Dos
+#### Do
 
 - Fast layout shifts can cause confusion and discomfort, try adding a subtle transition for opening and closing the secondary content.
 - Use the collapse component to make long text passages with secondary content clear and understandable.
 
-#### Don'ts
+#### Don't
 
 - Don’t hide essential information or notifications in a collapse component.
 - For long secondary text, consider providing a link to another page with extended content.

@@ -146,11 +146,11 @@ To show the difference in notification type don’t rely on color alone. Try to 
 
 If a notification can be closed by the user, this must also be possible using the keyboard. The close button should be a logical part of the tab-sequence.
 
-Notifications and their context should also be offered to screen reader users in an understandable manner.
+Notifications and their context should also be offered to screen reader users in an understandable manner by using the proper ARIA role. If the message is not interactive, use the ARIA `role="alert"` to inform assistive technologies of time-sensitive or important notifications. If the message is interactive, use the use the ARIA `role="alertdialog"` instead.
 
 ### Content guidelines
 
-If the notification contains an error message, explain how to correct the error and how to prevent it in the future.
+If the notification contains an error message, be polite and explain how to correct the error and how to prevent it in the future. Don’t blame the user for an error.
 
 #### Full-width notification
 
@@ -162,11 +162,12 @@ Try to make the text for an inline notification as concise and clear as possible
 
 ### Best practices
 
-#### Dos
+#### Do
 
 - Contextual notifications must be placed in direct proximity of the relevant element.
+- Use for system-wide notifications and notifications based on user interaction such as validation messages.
 
-#### Don'ts
+#### Don't
 
 - An error message should not be dismissable without the error first being corrected.
 - Do not place multiple notifications within one notification component. In case multiple notifications have to be displayed, they will each be shown in their own notification component.
