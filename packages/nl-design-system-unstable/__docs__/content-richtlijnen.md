@@ -30,7 +30,9 @@ Veel mensen hebben baat bij duidelijke taal:
 
 ### Mensen die laaggeletterd zijn
 
-Mensen die laaggeletterd zijn hebben moeite met lezen, schrijven en/of rekenen. Verwar dit niet met de term  analfabeten. Ze kunnen wel lezen en schrijven, maar beheersen niet het eindniveau vmbo of niveau mbo-2/3.
+Mensen die laaggeletterd zijn hebben moeite met lezen, schrijven en/of rekenen. Verwar dit niet met de term analfabeten. Ze kunnen wel lezen en schrijven, maar beheersen niet het eindniveau vmbo of niveau mbo-2/3.
+
+Overweeg voor mensen die laaggeletterd zijn inhoud te verduidelijken door middel van ondersteunende illustraties en/of videomateriaal.
 
 ### Mensen die Nederlands niet als moedertaal hebben
 
@@ -390,6 +392,7 @@ Algemene referenties omtrent taal en content in design systems.
 - [Begrijpelijke en toepasbare voorlichtingsmaterialen & beeldverhalen](https://www.pharos.nl/thema/eenvoudig-voorlichtingsmateriaal-en-beeldverhalen/)
 - [Online checklist Toegankelijke informatie](https://www.pharos.nl/kennisbank/checklist-toegankelijke-informatie/)
 - [Writing for Web Accessibility](https://www.w3.org/WAI/tips/writing/)
+- [Beeldtaal, zó werkt het](https://beeldbank.gebruikercentraal.nl/)
 
 ## Geschiedenis
 
