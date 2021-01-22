@@ -46,6 +46,8 @@ The [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/)
 12. [Inclusive Design Principles](https://inclusivedesignprinciples.org/)
 13. [18F Accessibility Guide](https://accessibility.18f.gov/)
 14. [Dos and don'ts on designing for accessibility](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/)
+15. [De digitale toegankelijkheid en toegankelijkheid webrichtlijnen van de WCAG uitgelegd](https://digitaaltoegankelijk.nl/wcag-uitgelegd/)
+16. [De richtlijnen van de WCAG 2.1 in het Nederlands](https://digitaaltoegankelijk.nl/de-richtlijnen-van-de-wcag-2-1-in-het-nederlands/)
 
 ## History
 
