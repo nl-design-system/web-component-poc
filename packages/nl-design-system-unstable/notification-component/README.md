@@ -34,42 +34,6 @@ A notification can display four kinds of information:
 - Notification text (uses standard body text), can contain a link to, for example, in-depth explanation
 - Optional close functionality
 
-#### Design tokens
-
-##### Global/default
-
-- `feedback-notification-width` // Container width (inline or full-width)
-- `feedback-border-radius` // Container border radius
-- `feedback-heading-font-family` // Heading font-family
-- `feedback-heading-font-size` // Heading font size
-- `feedback-heading-font-weight` // Heading font weight
-- `feedback-heading-color`// Heading foreground color
-- `feedback-icon-close` // Icon with action to close notification
-
-##### Neutral notification
-
-- `feedback-icon-info` // Leading icon
-- `feedback-fill-neutral-background-color` // Notification background color
-- `feedback-fill-neutral-color` // Notification foreground color (heading or icon)
-
-##### Success notification
-
-- `feedback-icon-success` // Leading icon
-- `feedback-fill-safe-background-colon` // Notification background color, should have sufficient contrast with `feedback-fill-safe-color`
-- `feedback-fill-safe-color` // Notification foreground color (heading or icon), should have sufficient contrast with `feedback-fill-safe-background-color`
-
-##### Warning notification
-
-- `feedback-icon-warning` // Leading icon
-- `feedback-fill-warning-background-color` // Notification background color, should have sufficient contrast with `feedback-fill-warning-color`
-- `feedback-fill-warning-color` // Notification foreground color (heading or icon), should have sufficient contrast with `feedback-fill-warning-background-color`
-
-##### Error notification
-
-- `feedback-icon-error` // Leading icon
-- `feedback-fill-danger-background-color` // Notification background color, should have sufficient contrast with `feedback-fill-danger-color`
-- `feedback-fill-danger-color` // Notification foreground color (heading or icon), should have sufficient contrast with `feedback-fill-danger-background-color`
-
 ### Interactive states
 
 Notifications don’t have interactive states.

@@ -32,18 +32,6 @@ Icons ensure that the component clearly displays its current state. The most con
 - Container with padding for secondary information
 - Optional animation to indicate change in open/closed state
 
-#### Design tokens
-
-- `collapse-icon-toggle-closed` // Closed state icon
-- `collapse-icon-toggle-open` // Opened state icon
-- `collapse-heading-font-family` // Heading font-family
-- `collapse-heading-font-size` // Heading font size
-- `collapse-heading-font-weight` // Heading font weight
-- `collapse-heading-color` // Heading foreground color
-- `collapse-heading-background` // Heading background color
-- `collapse-panel-background` // Expanded panel background color
-- `collapse-panel-padding` // Expanded panel padding
-
 ### Interactive states
 
 #### Focus
