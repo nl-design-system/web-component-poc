@@ -91,7 +91,7 @@ In order to contribute you must have a [GitHub account](https://github.com/join)
 
 To ensure the highest shared value, new components and documentation require an established need from at least two products. ‘One-off’ components or documentation that is not reusable should not be added to the design system.
 
-For a component, first verify whether there is an existing component that solves a particular need or use-case. 
+For a component, first verify whether there is an existing component that solves a particular need or use-case.
 
 If there is no available component or documentation, propose a new one. When proposing identify other products that share the need for the same component or documentation. The best way to do that is to add the proposed component or documentation to the backlog and discuss it in the Slack channel or during one of the NL Design System sessions.
 
