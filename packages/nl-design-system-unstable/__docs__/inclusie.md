@@ -62,3 +62,7 @@ Inclusive Design gaat zowel over het proces als over het ontwerp, maar richt zic
 Ontwerpen voor inclusie is relatief onbekend bij veel mensen die op een of andere manier betrokken zijn bij digitale dienstverlening of de ontwikkeling daarvan. Toch is het een voorwaarde voor een inclusieve samenleving die een grondige digitale transformatie doormaakt. Immers, [digitale uitsluiting veroorzaakt ook sociale uitsluiting (cf. Mariën & Baelden 2015, vanaf p.16)](https://docs.wixstatic.com/ugd/5ffc7d_0e6d123701154b57abcc63e9b3834be8.pdf).
 
 Bezoek de [Inclusie website van Gebruiker Centraal](https://inclusie.gebruikercentraal.nl/) voor meer informatie.
+
+## Referenties
+
+- [Ontwerptips voor diverse doelgroepen](https://inclusie.gebruikercentraal.nl/doelgroepen/)
