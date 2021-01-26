@@ -6,7 +6,7 @@
 
 ### Introduction
 
-Buttons allow users to perform an action on a page. Buttons communicate actions users can take such as starting an application, saving their information or submitting a form. They should be easy to identify and find. A button must clearly show the action that the user can perform. Use shape and color to make a button visually recognizable for the user.
+Buttons allow users to perform an action on a page with a single click or tap. Buttons communicate actions users can take such as starting an application, saving their information or submitting a form. They should be easy to identify and find. A button must clearly show the action that the user can perform. Use shape and color to make a button visually recognizable for the user.
 
 ### Variations
 
