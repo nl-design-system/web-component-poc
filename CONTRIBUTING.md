@@ -105,6 +105,9 @@ For components answer these additional questions:
 - Are there similar component with comparable functionality?
 - Are there specific content guidelines?
 - Are there specific a11y guidelines?
+- Are there variations to this component?
+- Does the component have interactive states (such as hover, focus, disabled)?
+- Does the component have feedback states (such as success, warning, error)?
 
 #### Review and discuss
 
