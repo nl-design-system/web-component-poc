@@ -423,6 +423,10 @@ Algemene referenties omtrent taal en content in design systems.
 
 ## Geschiedenis
 
+0.6 (27-01-2021)
+
+- Sectie over genderinclusiviteit toegevoegd (via Celina van Hees)
+
 ### 0.5 (18-01-2021)
 
 - Richtlijnen m.b.t. taal en toegankelijkheid en ontwerpen voor laaggeletterden gewijzigd (Saskia Schrijver)
