@@ -99,6 +99,13 @@ If there is no available component or documentation, propose a new one. When pro
 
 Provide a clear description of new components or documentation or edits to existing ones. Gather requirements and identify current industry standards and best practices. If there are any usertest results that support design and documentation, provide these as well. Also investigate specific content and accessibilitry needs.
 
+For components answer these additional questions:
+
+- Which use case(s) does it cover?
+- Are there similar component with comparable functionality?
+- Are there specific content guidelines?
+- Are there specific a11y guidelines?
+
 #### Review and discuss
 
 Enhancements or changes to existing components should be discussed via the backlog. Questions and remarks regarding changes or enhancements beforehand can also be discussed via the Slack channel.
