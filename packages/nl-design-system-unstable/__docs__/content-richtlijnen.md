@@ -48,7 +48,7 @@ Hoger opgeleiden hebben ook baat bij begrijpelijke taal. Zij lezen ook liever ee
 
 ### Genderinclusiviteit
 
-0.6 á 0.7% van de Nederlandse bevolking is transgender. Daarnaast indentificeert 3.9% van de bevolking zich niet of niet eenduidig met het geboortegeslacht.
+0.6 á 0.7% van de Nederlandse bevolking is transgender. Daarnaast identificeert 3.9% van de bevolking zich niet of niet eenduidig met het geboortegeslacht.
 
 In formulieren wordt vaak gevraagd naar het geslacht. Meestal is de keuze hierbij beperkt tot man of vrouw. Het vragen naar het geslacht dient echter te worden vermeden. Mocht dit toch nodig blijken, biedt dan een neutrale optie aan. Op advies van belanghebbenden, zoals het transgendernetwerk TNN, wordt hiervoor ‘Niet relevant’ als text label gebruikt en daarmee de mogelijkheid gegeven neutraal te antwoorden op de sekse-uitvraag.
 
@@ -61,7 +61,7 @@ Wanneer je een groep mensen aan wilt spreken, gebruik dan datgene wat ze allemaa
 - Beste mensen
 - Beste inwoners
 
-Je hoef een groep mensen niet per se als groep aan te spreken, maar ook hier kan je hen aanspreken door te gebruiken wat ze allemaal gemeen hebben, bijvoorbeeld:
+Je hoeft een groep mensen niet per se als groep aan te spreken, maar ook hier kan je hen aanspreken door te gebruiken wat ze allemaal gemeen hebben, bijvoorbeeld:
 
 - Geachte aanwezige
 - Beste lezer
