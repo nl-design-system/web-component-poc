@@ -12,7 +12,7 @@ A good form invites users to complete a task successfully.
 
 ## General guidelines
 
-Only ask for the strictly necessary information and inform users of the necessity of the requested information.
+Only ask for the strictly necessary information and inform users of the necessity of the requested information. Avoid the need for users to enter the same information several times.
 
 ### Logical structure
 
@@ -24,9 +24,11 @@ Forms in a one-column layout are easier to scan. A logical sequence indicates wh
 
 Indicating the length of the expected input can (sparingly) be shown visually by input fields of different widths. For instance, data for a house number is often shorter than a telephone number. An exception to this rule can be made and a house number addition field can be displayed next to a house number field. This is however only possible if the fields have a direct relationship with each other and are in a logical order.
 
-## Information density
+### Information density
 
 When structuring a form, there should be enough space between different visual elements. These elements must also be well grouped so that it is clear that, for example, a label belongs to a text input field. Takes different states of elements into account; for example, a possible error message should be in the proximity of the erroneous element and show a direct context.
+
+If the form is long or contains a lot of information and becomes difficult for users to process consider breaking it down into multiple steps or pages (‘[chuncking](https://www.nngroup.com/articles/chunking/)’).
 
 ## Text labels
 
