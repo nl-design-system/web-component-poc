@@ -74,6 +74,12 @@ If not all fields are required, make clear which fields are.
 
 The best way to indicate this is with a text so that it is also announced by screen readers. Are most fields required in a form? Then only show an indication for the optional fields. However, make sure that this pattern is consistent throughout the interface.
 
+## Genderinclusivity
+
+Many forms ask for gender. Sometimes this might be necessary, sometimes there is no other option and sometimes this is done to answer properly. Usually the choice is limited to either man or woman. Try however to avoid unnecessary questions about gender. Where you absolutely have to ask for a gender also provide a neutral option. On the advice of stakeholders, such as the transgender network TNN, the text label ‘Niet relevant’ should be used for this.
+
+- [Terugdringen van onnodige vragen naar sekse](https://www.denhaag.nl/nl/bestuur-en-organisatie/contact-met-de-gemeente/terugdringen-van-onnodige-vragen-naar-sekse.htm)
+
 ## Accessibility
 
 Form elements must meet the following requirements, they have:
@@ -115,6 +121,10 @@ If an input generates an error, make sure that the corresponding error message i
 27. [https://uxdesign.cc/text-fields-forms-design-ui-components-series-2b32b2beebd0](https://uxdesign.cc/text-fields-forms-design-ui-components-series-2b32b2beebd0)
 
 ## History
+
+0.4 (27-01-2021)
+
+- Added section on gender inclusivity (via Celina van Hees)
 
 0.3 (14-01-2021)
 
