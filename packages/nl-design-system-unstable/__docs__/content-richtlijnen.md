@@ -46,6 +46,36 @@ Mensen die dyslectisch zijn hebben behoefte aan begrijpelijke taal, goede opmaak
 
 Hoger opgeleiden hebben ook baat bij begrijpelijke taal. Zij lezen ook liever een tekst in B1 geschreven. Maar denk ook aan aan mensen die zorgen en stress hebben en zaken moeten regelen bij de overheid.
 
+### Genderinclusiviteit
+
+0.6 á 0.7% van de Nederlandse bevolking is transgender. Daarnaast indentificeert 3.9% van de bevolking zich niet of niet eenduidig met het geboortegeslacht.
+
+In formulieren wordt vaak gevraagd naar het geslacht. Meestal is de keuze hierbij beperkt tot man of vrouw. Het vragen naar het geslacht dient echter te worden vermeden. Mocht dit toch nodig blijken, biedt dan een neutrale optie aan. Op advies van belanghebbenden, zoals het transgendernetwerk TNN, wordt hiervoor ‘Niet relevant’ als text label gebruikt en daarmee de mogelijkheid gegeven neutraal te antwoorden op de sekse-uitvraag.
+
+De keuze voor ‘man/vrouw/niet relevant/geen keuze’ heeft invloed op de aanhef en communicatie naar de gebruiker toe.
+
+Wanneer je een groep mensen aan wilt spreken, gebruik dan datgene wat ze allemaal gemeen hebben, bijvoorbeeld:
+
+- Geachte aanwezigen
+- Beste lezers
+- Beste mensen
+- Beste inwoners
+
+Je hoef een groep mensen niet per se als groep aan te spreken, maar ook hier kan je hen aanspreken door te gebruiken wat ze allemaal gemeen hebben, bijvoorbeeld:
+
+- Geachte aanwezige
+- Beste lezer
+- Beste inwoner
+
+Wanneer je wel over voor- en achternaam beschikt en mensen individueel aan kan spreken gebruik dan bijvoorbeeld:
+
+- Beste Sam de Jong
+- Geachte W.G. Jansen
+
+Wanneer je iemands voornaam weet, dan kan je deze gebruiken in plaats van ‘mevrouw’ of ‘meneer’.
+
+Zie [het Genderdoeboek (pdf)](https://www.transgendernetwerk.nl/wp-content/uploads/Het-Genderdoeboek-2017.pdf) van Transgender netwerk Nederland en [de pagina over het terugdringen van onnodige vragen naar sekse](https://www.denhaag.nl/nl/bestuur-en-organisatie/contact-met-de-gemeente/terugdringen-van-onnodige-vragen-naar-sekse.htm) voor meer informatie.
+
 #### Do
 
 - Schrijf korte, actieve zinnen met dagelijks taalgebruik

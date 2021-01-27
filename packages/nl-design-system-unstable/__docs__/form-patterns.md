@@ -24,7 +24,7 @@ Forms in a one-column layout are easier to scan. A logical sequence indicates wh
 
 Indicating the length of the expected input can (sparingly) be shown visually by input fields of different widths. For instance, data for a house number is often shorter than a telephone number. An exception to this rule can be made and a house number addition field can be displayed next to a house number field. This is however only possible if the fields have a direct relationship with each other and are in a logical order.
 
-## Information density
+### Information density
 
 When structuring a form, there should be enough space between different visual elements. These elements must also be well grouped so that it is clear that, for example, a label belongs to a text input field. Takes different states of elements into account; for example, a possible error message should be in the proximity of the erroneous element and show a direct context.
 
@@ -72,6 +72,12 @@ If not all fields are required, make clear which fields are.
 
 The best way to indicate this is with a text so that it is also announced by screen readers. Are most fields required in a form? Then only show an indication for the optional fields. However, make sure that this pattern is consistent throughout the interface.
 
+## Genderinclusivity
+
+Many forms ask for gender. Sometimes this might be necessary, sometimes there is no other option and sometimes this is done to answer properly. Usually the choice is limited to either man or woman. Try however to avoid unnecessary questions about gender. Where you absolutely have to ask for a gender also provide a neutral option. On the advice of stakeholders, such as the transgender network TNN, the text label ‘Niet relevant’ should be used for this.
+
+- [Terugdringen van onnodige vragen naar sekse](https://www.denhaag.nl/nl/bestuur-en-organisatie/contact-met-de-gemeente/terugdringen-van-onnodige-vragen-naar-sekse.htm)
+
 ## Accessibility
 
 Form elements must meet the following requirements, they have:
@@ -114,14 +120,18 @@ If an input generates an error, make sure that the corresponding error message i
 
 ## History
 
+0.4 (27-01-2021)
+
+- Added section on gender inclusivity (via Celina van Hees)
+
 0.3 (14-01-2021)
 
-* Translated from Dutch to English
+- Translated from Dutch to English
 
 0.2 (25-11-2020)
 
-* First public version
+- First public version
 
 0.1 (20-11-2020)
 
-* First draft
+- First draft
