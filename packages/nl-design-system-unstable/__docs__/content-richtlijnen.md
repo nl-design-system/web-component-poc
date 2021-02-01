@@ -386,6 +386,7 @@ Algemene referenties omtrent taal en content in design systems.
 - [Direct Duidelijk Tour artikelen](https://directduidelijk.gebruikercentraal.nl/artikelen/)
 - [WCAG 2.1 Understanding Guideline 3.1: Readable](https://www.w3.org/WAI/WCAG21/Understanding/readable)
 - [Is het b1?/](https://www.ishetb1.nl/)
+- [B1-teksten schrijven: deze tools helpen je op weg](https://b1teksten.nl/artikel/b1-teksten-schrijven-deze-tools-helpen-je-op-weg)
 - [Zoek eenvoudige woorden](https://www.zoekeenvoudigewoorden.nl/)
 - [Direct Duidelijk taalhulplijn/](https://directduidelijkhulp.nl/taalhulplijn/index.aspx)
 - [ABC belangenbehartiging van en voor laaggeletterden](https://st-abc.nl/)
@@ -393,8 +394,13 @@ Algemene referenties omtrent taal en content in design systems.
 - [Online checklist Toegankelijke informatie](https://www.pharos.nl/kennisbank/checklist-toegankelijke-informatie/)
 - [Writing for Web Accessibility](https://www.w3.org/WAI/tips/writing/)
 - [Beeldtaal, zó werkt het](https://beeldbank.gebruikercentraal.nl/)
+- [Stichting Lezen en Schrijven](https://www.lezenenschrijven.nl/)
 
 ## Geschiedenis
+
+### 0.6 (01-02-2021)
+
+- Referenties toegevoegd
 
 ### 0.5 (18-01-2021)
 
