@@ -1,8 +1,10 @@
+<!-- \*Status: **In development\*** -->
+
 # Notification
 
-_Status: **In development**_
+## UX guidelines
 
-## Introduction
+### Introduction
 
 Notifications can be displayed in response to both system activity and user actions.
 
@@ -24,7 +26,7 @@ A notification can display four kinds of information:
 - Modal dialog
 - Prompt (system prompt)
 
-## Anatomy
+### Anatomy
 
 - Container (with padding)
 - Icon to support color for the type of notification
@@ -32,69 +34,33 @@ A notification can display four kinds of information:
 - Notification text (uses standard body text), can contain a link to, for example, in-depth explanation
 - Optional close functionality
 
-### Design tokens
-
-#### Global/default
-
-- `feedback-notification-width` // Container width (inline or full-width)
-- `feedback-border-radius` // Container border radius
-- `feedback-heading-font-family` // Heading font-family
-- `feedback-heading-font-size` // Heading font size
-- `feedback-heading-font-weight` // Heading font weight
-- `feedback-heading-color`// Heading foreground color
-- `feedback-icon-close` // Icon with action to close notification
-
-#### Neutral notification
-
-- `feedback-icon-info` // Leading icon
-- `feedback-fill-neutral-background-color` // Notification background color
-- `feedback-fill-neutral-color` // Notification foreground color (heading or icon)
-
-#### Success notification
-
-- `feedback-icon-success` // Leading icon
-- `feedback-fill-safe-background-colon` // Notification background color, should have sufficient contrast with `feedback-fill-safe-color`
-- `feedback-fill-safe-color` // Notification foreground color (heading or icon), should have sufficient contrast with `feedback-fill-safe-background-color`
-
-#### Warning notification
-
-- `feedback-icon-warning` // Leading icon
-- `feedback-fill-warning-background-color` // Notification background color, should have sufficient contrast with `feedback-fill-warning-color`
-- `feedback-fill-warning-color` // Notification foreground color (heading or icon), should have sufficient contrast with `feedback-fill-warning-background-color`
-
-#### Error notification
-
-- `feedback-icon-error` // Leading icon
-- `feedback-fill-danger-background-color` // Notification background color, should have sufficient contrast with `feedback-fill-danger-color`
-- `feedback-fill-danger-color` // Notification foreground color (heading or icon), should have sufficient contrast with `feedback-fill-danger-background-color`
-
-## Interactive states
+### Interactive states
 
 Notifications don’t have interactive states.
 
-## Design properties
+### Design properties
 
-### Color
+#### Color
 
 Conventional, sematic colors are used to display the four types of information.
 
-#### Neutral
+##### Neutral
 
 Grey or light-blue.
 
-#### Succes
+##### Succes
 
 Green.
 
-#### Warning
+##### Warning
 
 Yellow or orange.
 
-#### Error
+##### Error
 
 Red.
 
-### Positioning
+#### Positioning
 
 ‘Full-width’ notifications are displayed across the entire width (100%) minus margins below the page header.
 
@@ -108,7 +74,7 @@ Try to limit the number of notifications to less than three.
 
 Prevent notifications from overlapping the page content.
 
-### Typography
+#### Typography
 
 Notifications inherit the font-size and color of the body text.
 
@@ -116,64 +82,65 @@ A heading is optional, a notification heading shares the font size of a heading 
 
 Text in a full-width notification can be left or center-aligned. When aligning the text centered, make sure that the icon and the text have a visual relationship.
 
-### Iconography
+#### Iconography
 
 In addition to a difference in icon drawing, a difference in outline (_traffic signs_) can be considered to clearly differentiate. This is especially useful for people with color blindness.
 
-#### Neutral information
+##### Neutral information
 
 ‘i’ information.
 
 To display a background process such as the saving of data an animated spinner can be used.
 
-#### Success icon
+##### Success icon
 
 Checkmark.
 
-#### Warning icon
+##### Warning icon
 
 Exclamation sign (traffic sign).
 
-#### Error icon
+##### Error icon
 
 Cross (traffic sign).
 
-## Accessibility
+### Accessibility
 
 To show the difference in notification type don’t rely on color alone. Try to offer a clearly distinctive texture for people with color blindness by adding, for example, an understandable icon to clarify the type of notification.
 
 If a notification can be closed by the user, this must also be possible using the keyboard. The close button should be a logical part of the tab-sequence.
 
-Notifications and their context should also be offered to screen reader users in an understandable manner.
+Notifications and their context should also be offered to screen reader users in an understandable manner by using the proper ARIA role. If the message is not interactive, use the ARIA `role="alert"` to inform assistive technologies of time-sensitive or important notifications. If the message is interactive, use the use the ARIA `role="alertdialog"` instead.
 
-## Content guidelines
+### Content guidelines
 
-If the notification contains an error message, explain how to correct the error and how to prevent it in the future.
+If the notification contains an error message, be polite and explain how to correct the error and how to prevent it in the future. Don’t blame the user for an error.
 
-### Full-width notification
+#### Full-width notification
 
 Try to limit the text of a full-width notification to a maximum of three lines (excluding optional header).
 
-### Inline notification
+#### Inline notification
 
 Try to make the text for an inline notification as concise and clear as possible.
 
-## Best practices
+### Best practices
 
-### Dos
+#### Do
 
 - Contextual notifications must be placed in direct proximity of the relevant element.
+- Use for system-wide notifications and notifications based on user interaction such as validation messages.
 
-### Don'ts
+#### Don't
 
 - An error message should not be dismissable without the error first being corrected.
 - Do not place multiple notifications within one notification component. In case multiple notifications have to be displayed, they will each be shown in their own notification component.
 
-## References
+### References
 
-## History
+### History
 
-### 0.1 (14-12-2020)
+#### 0.1 (14-12-2020)
 
 - First draft of documentation
 - First version of Figma component

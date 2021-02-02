@@ -1,5 +1,5 @@
-import '../style.css';
-import './exampleTheme.css';
+// import '../style.css';
+// import './exampleTheme.css';
 import README from '../README.md';
 import contentGuidelines from '../docs/content-guidelines.md';
 

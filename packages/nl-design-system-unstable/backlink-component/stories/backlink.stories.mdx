@@ -1,5 +1,5 @@
 import { Meta, Story, Canvas, ArgsTable, Description, Source } from "@storybook/addon-docs/blocks";
-import getParameters from "./getStorySetup.js";
+import { BacklinkIcons, getParameters } from "./getStorySetup.js";
 import { sanitize } from "dompurify";
 import "../element.js";
 import "../extend.js";
@@ -41,9 +41,11 @@ Without the JavaScript logic, a component is also available as a HTML-only templ
 ### HTML
 
 <Canvas>
-  <a class="nl-backlink">
-    <span class="nl-backlink__icon">←</span>
-    <span class="nl-backlink__text">HTML only backlink</span>
+  <a className="nl-backlink">
+    <svg className="nl-backlink__icon" viewBox="0 0 32 32" focusable="false">
+      <use href="/icons.svg#nl-icon-backlink" />
+    </svg>
+    <span className="nl-backlink__text">HTML only backlink</span>
   </a>
 </Canvas>
 
@@ -67,20 +69,8 @@ To use the component as a web component, make sure the component is defined by i
   </nl-backlink>
 </Canvas>
 
-## Design Tokens
-
-These are the design tokens and their default value. Our Design tokens are CSS variables and can be assigned either in the css `:root` or in a css-selector scope.
-
-<Source
-  language="css"
-  code={`
---nl-backlink-icon-size: 1.5ch;
---nl-backlink-color: var(--nl-link-color);
-`}
-/>
-
 ## Design Kit
 
 <MDXEmbedProvider>
-  <Figma title="Backlink" url="file/BBZBJdbdVnvHwhcBoKsczw/components-backlink" />
+  <Figma title="Backlink" url="file/gqQhMe3gj4YlC6JrZOWiCv/Components?node-id=102%3A183" />
 </MDXEmbedProvider>
