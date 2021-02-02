@@ -6,7 +6,7 @@ _Status: **In development**_
 
 ## Introduction
 
-A form is the moment the user enters into a dialogue with our products and organisation. It  should therefore be as clear and convenient as possible.
+A form is the moment the user enters into a dialogue with our products and organisation. It should therefore be as clear and convenient as possible.
 
 A good form invites users to complete a task successfully.
 
@@ -28,7 +28,7 @@ Indicating the length of the expected input can (sparingly) be shown visually by
 
 When structuring a form, there should be enough space between different visual elements. These elements must also be well grouped so that it is clear that, for example, a label belongs to a text input field. Takes different states of elements into account; for example, a possible error message should be in the proximity of the erroneous element and show a direct context.
 
-If the form is long or contains a lot of information and becomes difficult for users to process consider breaking it down into multiple steps or pages (‘[chuncking](https://www.nngroup.com/articles/chunking/)’).
+If the form is long or contains a lot of information and becomes difficult for users to process. Consider breaking it down into multiple steps or pages: ‘[chunking](https://www.nngroup.com/articles/chunking/)’.
 
 ## Text labels
 
@@ -98,7 +98,7 @@ If an input generates an error, make sure that the corresponding error message i
 10. [https://medium.com/simple-human/floating-labels-are-a-bad-idea-82edb64220f6](https://medium.com/simple-human/floating-labels-are-a-bad-idea-82edb64220f6)
 11. [https://www.uxmatters.com/mt/archives/2013/02/dont-put-labels-inside-text-boxes-unless-youre-luke-w.php](https://www.uxmatters.com/mt/archives/2013/02/dont-put-labels-inside-text-boxes-unless-youre-luke-w.php)
 12. [http://www.webaxe.org/floated-labels-still-suck/](http://www.webaxe.org/floated-labels-still-suck/)
-13. [https://www.w3.org/WAI/GL/wiki/Using_@placeholder_on_input](https://www.w3.org/WAI/GL/wiki/Using_@placeholder_on_input)
+13. [https://www.w3.org/WAI/GL/wiki/Using\_@placeholder_on_input](https://www.w3.org/WAI/GL/wiki/Using_@placeholder_on_input)
 14. [https://uxplanet.org/designing-more-efficient-forms-assistance-and-validation-f26a5241199d](https://uxplanet.org/designing-more-efficient-forms-assistance-and-validation-f26a5241199d)
 15. [https://www.lukew.com/ff/entry.asp?725](https://www.lukew.com/ff/entry.asp?725)
 16. [http://preibusch.de/publications/Preibusch-Krol-Beresford_voluntaryover-disclosure.pdf](http://preibusch.de/publications/Preibusch-Krol-Beresford_voluntaryover-disclosure.pdf)
@@ -118,12 +118,12 @@ If an input generates an error, make sure that the corresponding error message i
 
 0.3 (14-01-2021)
 
-* Translated from Dutch to English
+- Translated from Dutch to English
 
-0.2 (25-11-2020)
+  0.2 (25-11-2020)
 
-* First public version
+- First public version
 
-0.1 (20-11-2020)
+  0.1 (20-11-2020)
 
-* First draft
+- First draft
