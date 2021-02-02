@@ -1,0 +1,7 @@
+import { getParams, getTitle } from "./utils.js";
+import { Description, Meta } from "@storybook/addon-docs/blocks";
+import document from "../__docs__/inclusive-design.md";
+
+<Meta title={getTitle("Inclusive Design")} parameters={getParams()} />
+
+<Description>{document}</Description>
