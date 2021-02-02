@@ -97,7 +97,7 @@ If there is no available component or documentation, propose a new one. When pro
 
 #### Clarify
 
-Provide a clear description of new components or documentation or edits to existing ones. Gather requirements and identify current industry standards and best practices. If there are any usertest results that support design and documentation, provide these as well. Also investigate specific content and accessibilitry needs.
+Provide a clear description of new components or documentation or edits to existing ones. Gather requirements and identify current industry standards and best practices. If there are any usertest results that support design and documentation, provide these as well. Also investigate specific content and accessibility needs.
 
 For components answer these additional questions:
 
