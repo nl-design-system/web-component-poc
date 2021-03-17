@@ -10,7 +10,7 @@ Our naming concept is two-fold; for design properties, such as typographic speci
 
 ## Design tokens
 
-Design tokens form the basis for a shared understanding between designers and developers. They are single design properties that can be referenced in in both visual design and code. If components are reusable objects, think of design tokens as the visual attributes you can apply to those objects. On a high level, tokens can easily achieve visual consistency and be reused throughout different components. On a lower level, it is a way to quickly make variations on a component by giving a different interpretation to the configuration.
+Design tokens form the basis for a shared understanding between designers and developers. They are single design properties that can be referenced in both visual design and code. If components are reusable objects, think of design tokens as the visual attributes you can apply to those objects. On a high level, tokens can easily achieve visual consistency and be reused throughout different components. On a lower level, it is a way to quickly make variations on a component by giving a different interpretation to the configuration.
 
 In code, design tokens are represented as a key/value pair, where the key is the token name and the value its attribute/property. In design software tokens are most often available as text, color, or layer styles.
 
@@ -134,7 +134,7 @@ For example **menu-item--selected** or **menu-item--disabled**.
 
 ## Namespacing
 
-For both design tokens and components using BEM we use a consistent namespace. For NL Design System’s white-label this means that all names consist of a leading `nl-`, signifying that tokens and componets use the white-label styling. For the municipality of Den Haag this could for instance be `dh-`.
+For both design tokens and components using BEM we use a consistent namespace. For NL Design System’s white-label this means that all names consist of a leading `nl-`, signifying that tokens and components use the white-label styling. For the municipality of Den Haag this could for instance be `dh-`.
 
 ## References
 
