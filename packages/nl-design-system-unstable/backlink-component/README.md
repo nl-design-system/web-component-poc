@@ -20,15 +20,6 @@ A backlink is used to help users navigate back to a previous page. The functiona
 
 ### Design properties
 
-#### Design tokens
-
-- `backlink-icon` // Leading icon
-- `backlink-icon-margin-right` // Icon right margin
-- `backlink-foreground color` // Foreground color of icon and text
-- `backlink-text-font-family` // Text font-family
-- `backlink-text-font-size` // Text font size
-- `backlink-text-font-weight` // Text font weight
-
 #### Interactive states
 
 - Hover state

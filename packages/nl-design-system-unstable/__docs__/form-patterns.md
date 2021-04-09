@@ -248,10 +248,16 @@ Er zijn verschillende manieren om te weten te komen waar jouw gebruikers problem
 
 ## History
 
-0.4 (09-04-2021)
+0.5 (09-04-2021)
 
 * Revision based on forms session
 * Translated to Dutch
+
+## History
+
+0.4 (27-01-2021)
+
+* Added section on gender inclusivity (via Celina van Hees)
 
 0.3 (14-01-2021)
 
