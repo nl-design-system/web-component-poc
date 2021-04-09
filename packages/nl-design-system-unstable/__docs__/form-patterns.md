@@ -253,8 +253,6 @@ Er zijn verschillende manieren om te weten te komen waar jouw gebruikers problem
 * Revision based on forms session
 * Translated to Dutch
 
-## History
-
 0.4 (27-01-2021)
 
 * Added section on gender inclusivity (via Celina van Hees)
