@@ -14,5 +14,6 @@ module.exports = {
     },
     'storybook-addon-mdx-embed',
     'storybook-design-token',
+    '@geometricpanda/storybook-addon-iframe',
   ],
 }
