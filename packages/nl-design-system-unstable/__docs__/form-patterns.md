@@ -1,5 +1,8 @@
 # Forms
 
+[![hackmd-github-sync-badge](https://hackmd.io/vXazt598Sn2t358J65D8Qg/badge)](https://hackmd.io/vXazt598Sn2t358J65D8Qg)
+
+
 For individual form component guidelines please consult the documentation for that specific component.
 
 _Status: **In development**_
