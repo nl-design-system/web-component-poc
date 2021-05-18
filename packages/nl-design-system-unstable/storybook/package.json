@@ -1,0 +1,33 @@
+{
+  "version": "0.0.1",
+  "author": "Community for NL Design System",
+  "description": "Storybook for NL Design System",
+  "license": "EUPL-1.2",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@etchteam/storybook-addon-status": "^2.1.0",
+    "@nl-design-system/docs": "git://github.com/nl-design-system/documentatie#production",
+    "@storybook/addon-essentials": "^6.1.6",
+    "@storybook/addon-notes": "^5.3.21",
+    "@storybook/builder-webpack5": "^6.2.9",
+    "@storybook/html": "^6.1.6",
+    "@storybook/theming": "^6.1.6",
+    "babel-loader": "^8.2.1",
+    "dompurify": "^2.2.2",
+    "mdx-embed": "0.0.17",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "storybook-addon-mdx-embed": "0.0.17",
+    "storybook-design-token": "^0.8.1",
+    "ts-dedent": "^2.0.0",
+    "webpack": "^4.44.2"
+  },
+  "scripts": {
+    "build:storybook": "build-storybook --output-dir dist/storybook -s .storybook/static",
+    "storybook": "start-storybook -s .storybook/static -p 6006 --no-manager-cache"
+  },
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
