@@ -5,5 +5,19 @@
   "version": "0.0.1",
   "main": "index.js",
   "module": "index.js",
-  "license": "EUPL-1.2"
+  "license": "EUPL-1.2",
+  "devDependencies": {
+    "@etchteam/storybook-addon-status": "^2.1.0",
+    "@storybook/addon-essentials": "^6.1.6",
+    "@storybook/addon-notes": "^5.3.21",
+    "@storybook/html": "^6.1.6",
+    "@storybook/theming": "^6.1.6",
+    "dompurify": "^2.2.2",
+    "mdx-embed": "0.0.17",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "storybook-addon-mdx-embed": "0.0.17",
+    "storybook-design-token": "^0.8.1",
+    "ts-dedent": "^2.0.0"
+  }
 }

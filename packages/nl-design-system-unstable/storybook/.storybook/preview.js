@@ -1,12 +1,12 @@
-const cssReq = require.context('!!raw-loader!../packages/nl-design-system-unstable', true, /.\.css$/)
-const cssTokenFiles = cssReq.keys().map(filename => ({ filename, content: cssReq(filename).default }))
+// const cssReq = require.context('!!raw-loader!../..', true, /.\.css$/)
+// const cssTokenFiles = cssReq.keys().map(filename => ({ filename, content: cssReq(filename).default }))
 
 const svgIconsReq = require.context('!!raw-loader!../.storybook/static', true, /.\.svg$/)
 const svgIconTokenFiles = svgIconsReq.keys().map(filename => ({ filename, content: svgIconsReq(filename).default }))
 
 const designToken = {
   files: {
-    css: cssTokenFiles,
+    // css: cssTokenFiles,
     svgIcons: svgIconTokenFiles,
   },
   options: {

@@ -1,5 +1,5 @@
 module.exports = {
-  stories: ['../**/*.stories.@(js|mdx)'],
+  stories: ['../__stories__/**/*.stories.mdx', '../../!(storybook)/**/*.stories.mdx'],
   addons: [
     '@storybook/addon-notes/register',
     '@etchteam/storybook-addon-status/register',
@@ -15,4 +15,7 @@ module.exports = {
     'storybook-addon-mdx-embed',
     'storybook-design-token',
   ],
+  core: {
+    builder: 'webpack5',
+  }
 }

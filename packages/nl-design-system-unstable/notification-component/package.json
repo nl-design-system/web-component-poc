@@ -1,7 +1,7 @@
 {
-  "name": "@nl-design-system-unstable/backlink-component",
+  "name": "@nl-design-system-unstable/notification-component",
   "author": "Community for NL Design System",
-  "description": "NL Design System: Backlink web component",
+  "description": "nl-notification-component for NL Design System",
   "version": "0.0.1",
   "main": "index.js",
   "module": "index.js",
