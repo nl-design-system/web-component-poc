@@ -326,3 +326,30 @@ These classes can be used for automated visual regression tests and automated ac
   <li><a href="#" class="example-link example-link--visited">Example for :visited</a></li>
 </ul>
 ```
+
+## Avoid short-hand properties that override specific properties
+
+```css
+.example-card {
+  background: url("image.jpg");
+}
+```
+
+In this example you can use `background-image` instead of `background`, and avoid resetting properties that might be defined elsewhere, such as `background-repeat` or `background-color`.
+
+The same goes for `margin` in the following example:
+
+```css
+ul {
+  margin: 0;
+}
+```
+
+This example code is only used to reset the browsers' built-in stylesheet for vertical margin. You can make the reset stylesheet more specific like this, with the same effect:
+
+```css
+ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+```
