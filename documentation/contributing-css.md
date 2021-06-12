@@ -171,6 +171,18 @@ CSS properties that don't vary between themes, don't need a CSS variable. Variab
 
 Your initial version of a component does not need to provide a CSS variable for every imaginable property, it is recommended to start out with fewer properties and add new CSS variables on request.
 
+```css
+.example-icon {
+  display: inline-block;
+}
+
+.example-icon,
+.example-icon--medium {
+  height: var(--example-icon-medium-height);
+  width: var(--example-icon-medium-width);
+}
+```
+
 ## Name things after their purpose, not after the visual design
 
 Do not use the visual design in the naming of class names:
