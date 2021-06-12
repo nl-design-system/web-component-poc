@@ -228,3 +228,33 @@ For example, for colors you can use `inherit` to keep the color unchanged from t
 ```
 
 Including fallback values will make it easier to create a theme for your components, because others need to specify much fewer properties to make the initial version work well.
+
+## Use only relative font sizes
+
+Do not use `px` font sizes:
+
+```css
+:root {
+  font-size: 10px;
+}
+
+p {
+  font-size: 1.6rem;
+}
+```
+
+Use a relative font size instead.
+
+```css
+:root {
+  font-size: 62.5%;
+}
+
+p {
+  font-size: 1.6rem;
+}
+```
+
+Relative font sizes don't offer the guarantuee the website looks the same on every browser, and that is okay. Relative font sizes offer the freedom to users to choose a larger default font-size when the 16px default size is too small to read, without affecting other parts of the layout and image sizes -- which would cause even less text content to fit on the screen.
+
+Page zoom is very convenient in many cases, but it is not the best solution for users that only want larger text.
