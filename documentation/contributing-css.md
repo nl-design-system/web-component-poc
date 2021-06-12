@@ -214,3 +214,17 @@ Another aspect of keeping your component CSS side-effect free is by not specifyi
   margin-block-start: var(--example-paragraph-margin-block-start);
 }
 ```
+
+## Include fallback values for some CSS variables
+
+If you allow customization for a property with CSS variables, it can be convenient to have a fallback value so you don't have to specify _every_ custom property to make the theme work.
+
+For example, for colors you can use `inherit` to keep the color unchanged from the parent element when the CSS variable is undefined:
+
+```css
+.example-heading {
+  color: var(--example-heading-color, inherit);
+}
+```
+
+Including fallback values will make it easier to create a theme for your components, because others need to specify much fewer properties to make the initial version work well.
