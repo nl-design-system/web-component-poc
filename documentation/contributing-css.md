@@ -258,3 +258,71 @@ p {
 Relative font sizes don't offer the guarantuee the website looks the same on every browser, and that is okay. Relative font sizes offer the freedom to users to choose a larger default font-size when the 16px default size is too small to read, without affecting other parts of the layout and image sizes -- which would cause even less text content to fit on the screen.
 
 Page zoom is very convenient in many cases, but it is not the best solution for users that only want larger text.
+
+## Avoid nesting BEM class name selectors
+
+For example:
+
+```html
+<ul class="example-nav">
+  <li class="example-nav__item example-nav__item--current">
+    <a class="example-nav__link" href="/">Home</a>
+  </li>
+  <li class="example-nav__item">
+    <a class="example-nav__link" href="/contact">Home</a>
+  </li>
+</ul>
+```
+
+The nesting in this example can be avoided:
+
+```css
+.example-nav__item--current .example-nav__link {
+  font-weight: bold;
+}
+```
+
+Update the template and include the `current` modifier for both elements:
+
+```html
+<li class="example-nav__item example-nav__item--current">
+  <a class="example-nav__link example-nav__link--current" href="/">Home</a>
+</li>
+```
+
+With the modfier available for both elements, the nesting is no longer necessary.
+
+```css
+.example-nav__link--current {
+  font-weight: bold;
+}
+```
+
+## Include BEM modifier class names for pseudo-classes
+
+Include class names even for states for which CSS pseudo-classes are available, such as `focus` and `hover`:
+
+```css
+.example-link--hover {
+  text-decoration: underline;
+}
+
+.example-link--focus {
+  background-color: silver;
+}
+
+.example-link--visited {
+  color: purple;
+}
+```
+
+These classes can be used for automated visual regression tests and automated accessibility tests. Including examples with these class names in Storybook will help keep track of every variant.
+
+```html
+<ul>
+  <li><a href="#" class="example-link">Example</a></li>
+  <li><a href="#" class="example-link example-link--hover">Example for :hover</a></li>
+  <li><a href="#" class="example-link example-link--focus">Example for :focus</a></li>
+  <li><a href="#" class="example-link example-link--visited">Example for :visited</a></li>
+</ul>
+```
