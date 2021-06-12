@@ -71,6 +71,22 @@ The following article may be of interest, if you want to know more about these n
 
 ## Use BEM class names
 
+Don't use BEM syntax for CSS variables, however:
+
+```css
+.example-card__heading {
+  color: var(--example-card__heading-color);
+}
+```
+
+Only use dashes to separate segments of the CSS variable name:
+
+```css
+.example-card__heading {
+  color: var(--example-card-heading-color);
+}
+```
+
 - [BEM — Block Element Modifier](http://getbem.com)
 
 ## Separately define element and attribute selectors
