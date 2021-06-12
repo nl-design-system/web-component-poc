@@ -353,3 +353,45 @@ ul {
   margin-block-end: 0;
 }
 ```
+
+## Round values to a reasonable significance
+
+Design tools that export CSS sometimes include calculated subpixel values with a degree of detail that isn't visible on most screens and browsers, and wasn't necessarily intended by the designer.
+
+```css
+.example-paragraph {
+  font-size: 16.143px;
+}
+```
+
+Round the values to whole pixels:
+
+```css
+.example-paragraph {
+  font-size: 16px;
+}
+```
+
+## Include the open source license in every file
+
+Include the [SPDX license code](https://spdx.org/licenses/) for the open source license in a code comment at the start of the file:
+
+```css
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 NL Design System Community
+ */
+```
+
+Many open source license allow copying and modifying their code, but require the copyright notice to be included in all derived works. If you copy over open source code from a project with a EUPL-1.2 compatible license, such as the MIT license, be careful to copy over the copyright notice too.
+
+For example, if you would copy over CSS from the [Bootstrap framework](https://getbootstrap.com), the code comment could look like this:
+
+```css
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 NL Design System Community
+ * Copyright (c) 2011-2021 The Bootstrap Authors
+ * Copyright (c) 2011-2021 Twitter, Inc.
+ */
+```
