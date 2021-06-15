@@ -1,6 +1,11 @@
+<!--
+@license EUPL-1.2
+Copyright (c) 2021 Robbert Broersma
+-->
+
 # Contribution Guidelines for Design Tokens
 
-## Naming order
+## Name design tokens consistently by using a specific order
 
 1. Prefix
 2. Component name / Pattern name
@@ -56,3 +61,29 @@ For properties:
   - `font-family`
 - you can look at SVG attributes. For example:
   - `fill`
+
+## Layer design tokens in three categories: brand, common and component
+
+1. Brand identity design tokens
+2. Common design tokens
+3. Component design tokens
+
+## Choose design tokens for their meaning, not their current value
+
+...
+
+## Use brand identity design tokens to configure your theme
+
+...
+
+## Do not use brand identity design tokens in your component stylesheet
+
+...
+
+## Define design tokens in Style Dictionary JSON and publish in many languages
+
+...
+
+## Publish your design tokens as standalone package
+
+...

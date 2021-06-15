@@ -47,3 +47,11 @@ import markdown from "./readme.md";
 
 <Description>{markdown}</Description>
 ```
+
+## Share reusable documentation in Markdown files
+
+## Discuss your brands' visual design in separate files from generic UX and accessibility requirements
+
+Avoid mentioning your projects approach in reusable documentation. For example: on one page you can outline the accessibility considerations for a component, such as: "the text of the disabled button should have enough contrast to remain readable." In a separate document you could mention: "after receiving feedback, we have changed to disabled text color to gray-70 to maintain sufficient contrast".
+
+This helps you making a bigger impact with the effort you do for providing documentation, by making it easy to reuse the majority of your documentation.

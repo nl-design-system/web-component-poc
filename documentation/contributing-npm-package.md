@@ -84,3 +84,7 @@ A significant advantage is that every PR will immediately show the effect on you
 Relying on these automated PRs can help find a balance between having exact and vetted dependencies, while at the same time staying up to date without too much hassle.
 
 Staying up to date with recent version of packages, and investing time into migrating to new major releases of popular packages, will help you
+
+## Scope your npm package names with your registered organization
+
+...
