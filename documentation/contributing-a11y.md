@@ -9,8 +9,9 @@ Before the work begins:
 
 During design phase:
 
-- consider minimum font size
-- consider color contrast of design tokens
+- consider minimum font size when defining a font size scale for typography
+- do not use font sizes outside the font size scale
+- provide a color pallete where every background color has a contrasting foreround color (for text and icons)
 - provide designs for the various states of components, ensure the states can be distinguished from each other with varying levels of eyesight and color perception.
 
 During refinement and planning of development work:
@@ -28,13 +29,19 @@ During testing:
 - test while using a screen reader (with captions instead of voice synthesizer)
 - test using visual perception simulation tools for blurry vision and color blindness
 
+During test automation:
+
+- ...tips welcome!
+
 When your project is in beta:
 
 - consider testing your product with users with diverse abilities
 
 For release candidates:
 
-- when you request an accessibility audit, report back any issues related to design system components and patterns to the backlog, fix reported bugs before going to production
+- request an accessibility audit
+- report back any issues related to design system components and patterns to the backlog
+- fix reported bugs before going to production
 
 For production:
 
