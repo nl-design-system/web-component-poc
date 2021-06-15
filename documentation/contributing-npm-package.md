@@ -1,3 +1,8 @@
+<!--
+@license EUPL-1.2
+Copyright (c) 2021 Robbert Broersma
+-->
+
 # Contribution Guidelines for npm packages
 
 ## Store proprietary assets in separate (private) packages
