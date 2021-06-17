@@ -5,11 +5,13 @@ Copyright (c) 2021 Robbert Broersma
 
 # Contribution Guidelines for CSS
 
-## Install plugins for color coding of CSS and SCSS
+## Configure your code editor to catch mistakes early
+
+Install plugins for color coding of CSS and SCSS:
 
 - Sublime: [`SCSS`](https://github.com/MarioRicalde/SCSS.tmbundle)
 
-## Use Stylelint for checking formatting rules
+## Use Stylelint to maintain consistency and high quality
 
 Stylelint can run in your code editor while working on CSS code, by installing an extension:
 
@@ -20,7 +22,7 @@ Stylelint will run as Git pre-commit hook, so it will warn you if you commit cod
 
 Stylelint will run in GitHub as PR check, so it will prevent your code from merging.
 
-## Import order
+## Order imports alphabetically to avoid merge conflicts
 
 Order imports alphabetically.
 
@@ -74,7 +76,7 @@ The following article may be of interest, if you want to know more about these n
 
 - [Digging Into CSS Logical Properties, by Ahmad Shadeed](https://ishadeed.com/article/css-logical-properties/)
 
-## Use BEM class names
+## Use BEM class names to structure your component
 
 Don't use BEM syntax for CSS variables, however:
 
@@ -94,7 +96,7 @@ Only use dashes to separate segments of the CSS variable name:
 
 - [BEM — Block Element Modifier](http://getbem.com)
 
-## Separately define element and attribute selectors
+## Separately define vanilla HTML element selectors
 
 If you need to style HTML elements without class names, define those selectors in a separate file. For example:
 
@@ -148,7 +150,7 @@ Do not include the custom properties that define your theme in the same file tha
 
 This way, others that don't use the same theme as you, can only include the `component.css` and configure their own theme.
 
-## Use a prefix for your project
+## Use a prefix for your project in class names and CSS variables
 
 Start all the names in your code with the same prefix that identifies your project. When others want to reuse your code, they will not have any issues with their and your code using identical names -- they will never clash because of the prefix.
 
@@ -172,7 +174,7 @@ a:link {
 
 Prefixes can be long or short, but you should be careful to pick something that is likely to be unique amongst the project which you want to collaborate.
 
-## Safely reuse prefixed CSS from others
+## Use prefixed CSS variables from other projects, share and enjoy the work of others
 
 When another project already has component or a CSS variable that does exactly what you need, you don't have to create one yourself with your own prefix. You can simply reuse the CSS variable with the prefix from the original author. **It is okay to have many prefixes in one file!**
 
@@ -222,7 +224,7 @@ Name the class name after the purpose instead:
 }
 ```
 
-## Don't affect the layout outside your component: margin is optional
+## Don't affect the layout outside your component: margins are opt-in
 
 Another aspect of keeping your component CSS side-effect free is by not specifying `margin` by default.
 
@@ -236,7 +238,7 @@ Another aspect of keeping your component CSS side-effect free is by not specifyi
 }
 ```
 
-## Include fallback values for some CSS variables
+## Include fallback values for CSS variables so making a theme is less time consuming
 
 If you allow customization for a property with CSS variables, it can be convenient to have a fallback value so you don't have to specify _every_ custom property to make the theme work.
 
@@ -319,7 +321,7 @@ With the modfier available for both elements, the nesting is no longer necessary
 }
 ```
 
-## Include BEM modifier class names for pseudo-classes
+## Include BEM modifier class names for pseudo-classes, even if you don't use them yourself
 
 Include class names even for states for which CSS pseudo-classes are available, such as `focus` and `hover`:
 
@@ -348,7 +350,7 @@ These classes can be used for automated visual regression tests and automated ac
 </ul>
 ```
 
-## Avoid short-hand properties that override specific properties
+## Avoid short-hand properties that unintentionally override properties
 
 ```css
 .example-card {
