@@ -22,7 +22,7 @@ During design phase:
 
 During refinement and planning of development work:
 
-- Consider the guidelines from the [WAI-ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices/#aria_ex), and see if documentation regarding ARIA-attributes and keyboard shortcuts exist for your type of widget. Add those to your development checklist.
+- Consider the guidelines from the [WAI-ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices/#aria_ex), and see if documentation regarding ARIA-attributes and keyboard shortcuts exist for your type of widget. Add those to your development checklist. Warning: not every example widget implementation works great with screen readers, so test this yourself before deciding to use it as reference.
 - When estimating Story Points for a component, make sure you have a clear understanding of the accessibility requirements. This helps you to avoid overcommitting to work in a sprint and feel forced to rush the accessibility aspects.
 
 During development:
@@ -34,6 +34,7 @@ During development:
 During testing:
 
 - Test using just a keyboard, and no mouse or touch.
+- Test in Windows with [High Contrast Mode](https://support.microsoft.com/en-us/windows/turn-high-contrast-mode-on-or-off-in-windows-909e9d89-a0f9-a3a9-b993-7a6dcee85025). The algorithm to display your website in highly contrasting colors isn't without flaws: sometimes important details such as icons and the focus outline are no longer perceivable.
 - Test using a screen reader, consider using captions instead of the voice synthesizer.
 - Test using visual perception simulation tools for blurry vision and color blindness.
 
