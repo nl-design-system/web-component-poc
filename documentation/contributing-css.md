@@ -75,6 +75,7 @@ Do not use the the following new shorthands yet, since they don't have great bro
 The following article may be of interest, if you want to know more about these new CSS properties:
 
 - [Digging Into CSS Logical Properties, by Ahmad Shadeed](https://ishadeed.com/article/css-logical-properties/)
+- [CSS Logical Properties](https://adrianroselli.com/2019/11/css-logical-properties.html)
 
 ## Use BEM class names to structure your component
 
