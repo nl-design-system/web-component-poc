@@ -85,3 +85,28 @@ Tools like [Dependabot](https://dependabot.com) and [Snyk](http://snyk.io) can h
 A significant advantage is that every PR will immediately show the effect on your automated tests, and indicate which updates may be safe to install. GitHub Actions can show a red X-mark (❌) for changes that would cause your project to break, and require additional work to migrate your code and work with the new version.
 
 Relying on these automated PRs can help find a balance between having exact and vetted dependencies, while at the same time staying up to date without too much hassle.
+
+## Define the Node.js version for which you test
+
+Install the new version locally and thoroughly test for any regressions.
+
+Store the Node.js version in `.nvmrc`, for example using:
+
+```shell
+node -v > .nvmrc
+```
+
+This helps folks that use [Node Version Manager (`nvm`)](https://github.com/nvm-sh/nvm#readme) to easily switch to the correct Node.js version for each project they work on simultaneously. Some cloud services ([Netlify](https://docs.netlify.com/configure-builds/manage-dependencies/#node-js-and-javascript)) also base their choice for the Node.js version on this file.
+
+Store the Node.js version in `package.json` in the `engines` section:
+
+```json
+{
+  "engines": {
+    "node": "^16.4.0",
+    "npm": "^7.0.0"
+  }
+}
+```
+
+This will cause a warning to show during `npm install` when an incompatible Node.js version is used.
